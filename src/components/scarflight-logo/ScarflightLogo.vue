@@ -100,7 +100,7 @@ export default {
 
 @media all and (min-width: 1125px) {
   .logo {
-    width: 340px;
+    width: 350px;
   }
 
   .logo_text {
