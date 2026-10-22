@@ -736,7 +736,7 @@
         "description": "Message that pops up to describe the BST arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipMSP": {
-        "message": "MSP konexioa aktiboa da, seguruenik Scarflight Configurator honekin",
+        "message": "MSP konexioa aktiboa da, seguruenik Scarflight honekin",
         "description": "Message that pops up to describe the MSP arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipPARALYZE": {

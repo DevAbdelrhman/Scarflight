@@ -1,6 +1,6 @@
 {
   "name": "Scarflight-configurator",
-  "productName": "Scarflight Configurator",
+  "productName": "Scarflight",
   "description": "Crossplatform configuration tool for Scarflight flight control system.",
   "version": "10.10.0",
   "main": "main.html",
@@ -28,7 +28,7 @@
     "id": "main-window",
     "min_width": 1024,
     "min_height": 550,
-    "title": "Scarflight Configurator"
+    "title": "Scarflight"
   },
   "repository": {
     "type": "git",

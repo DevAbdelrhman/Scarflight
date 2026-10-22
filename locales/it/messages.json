@@ -184,10 +184,10 @@
         "message": "Mostra notifiche per versioni beta del configuratore"
     },
     "configuratorUpdateNotice": {
-        "message": "Stai utilizzando una versione obsoleta del <b>Scarflight Configurator<\/b>.<br>$t(configuratorUpdateHelp.message)"
+        "message": "Stai utilizzando una versione obsoleta del <b>Scarflight<\/b>.<br>$t(configuratorUpdateHelp.message)"
     },
     "configuratorUpdateHelp": {
-        "message": "Utilizzando una versione più recente del firmware con una versione obsoleta del Configuratore significa che la modifica di alcune impostazioni porterà a una <strong>configurazione corrotta del firmware e a un modello non funzionante<\/strong><br\/> Inoltre, alcune caratteristiche del firmware saranno configurabili solo via CLI..<br g\/><br \/><strong>La versione <b>$1<\/b> del Scarflight Configurator è disponibile per il download<\/strong>, visita <a href=\"$2\" target=\"_blank\" rel=\"noopener noreferrer\">questa pagina<\/a> per scaricare e installare l'ultima versione con correzioni e miglioramenti.<br>Chiudere la finestra del configuratore prima dell'aggiornamento."
+        "message": "Utilizzando una versione più recente del firmware con una versione obsoleta del Configuratore significa che la modifica di alcune impostazioni porterà a una <strong>configurazione corrotta del firmware e a un modello non funzionante<\/strong><br\/> Inoltre, alcune caratteristiche del firmware saranno configurabili solo via CLI..<br g\/><br \/><strong>La versione <b>$1<\/b> del Scarflight è disponibile per il download<\/strong>, visita <a href=\"$2\" target=\"_blank\" rel=\"noopener noreferrer\">questa pagina<\/a> per scaricare e installare l'ultima versione con correzioni e miglioramenti.<br>Chiudere la finestra del configuratore prima dell'aggiornamento."
     },
     "configuratorUpdateWebsite": {
         "message": "Pagina web degli aggiornamenti"
@@ -592,7 +592,7 @@
         "message": "EEPROM <span class=\"message-positive\">salvata<\/span>"
     },
     "defaultWelcomeIntro": {
-        "message": "Benvenuto in<strong> Scarflight Configurator<\/strong>, utility disegnata per aggiornare, configurare e regolare il tuo controllore di volo in maniera semplice."
+        "message": "Benvenuto in<strong> Scarflight<\/strong>, utility disegnata per aggiornare, configurare e regolare il tuo controllore di volo in maniera semplice."
     },
     "defaultWelcomeHead": {
         "message": "Hardware"
@@ -604,7 +604,7 @@
         "message": "Contribuisci"
     },
     "defaultContributingText": {
-        "message": "Se vuoi aiutare a migliorare Scarflight puoi aiutare in diversi modi, tra cui:<br \/><ul><li>Utilizzare la tua conoscenza di Scarflight per creare o aggiornare contenuti sulla <a href=\"https:\/\/Scarflight.com\/docs\/wiki\" target=\"_blank\" rel=\"noopener noreferrer\">nostra Wiki<\/a>, o rispondere alle domande degli altri utenti nei forum online;<\/li><li><a href=\"https:\/\/Scarflight.com\/docs\/development\" target=\"_blank\" rel=\"noopener noreferrer\">Contribuire al codice<\/a> del firmware e del Configuratore - nuove funzionalità, correzioni, miglioramenti;<\/li><li>Testare <a href=\"https:\/\/github.com\/Scarflight\/Scarflight\/pulls\" target=\"_blank\" rel=\"noopener noreferrer\">nuove funzioni e correzioni<\/a> e fornire feedback;<\/li><li>Aiutando altri utenti a risolvere i problemi segnalati nei <a href=\"https:\/\/github.com\/Scarflight\/Scarflight\/issues\" target=\"_blank\" rel=\"noopener noreferrer\">nostri issue tracker<\/a>, e partecipare alle discussioni sulle richieste di funzioni;<\/li><li><a href=\"https:\/\/github.com\/Scarflight\/Scarflight\/tree\/master\/README.md#Translators\" target=\"_blank\" rel=\"noopener noreferrer\">Traducendo<\/a> il Scarflight Configurator in una nuova lingua o aggiornando le traduzioni esistenti.<\/li><\/ul>"
+        "message": "Se vuoi aiutare a migliorare Scarflight puoi aiutare in diversi modi, tra cui:<br \/><ul><li>Utilizzare la tua conoscenza di Scarflight per creare o aggiornare contenuti sulla <a href=\"https:\/\/Scarflight.com\/docs\/wiki\" target=\"_blank\" rel=\"noopener noreferrer\">nostra Wiki<\/a>, o rispondere alle domande degli altri utenti nei forum online;<\/li><li><a href=\"https:\/\/Scarflight.com\/docs\/development\" target=\"_blank\" rel=\"noopener noreferrer\">Contribuire al codice<\/a> del firmware e del Configuratore - nuove funzionalità, correzioni, miglioramenti;<\/li><li>Testare <a href=\"https:\/\/github.com\/Scarflight\/Scarflight\/pulls\" target=\"_blank\" rel=\"noopener noreferrer\">nuove funzioni e correzioni<\/a> e fornire feedback;<\/li><li>Aiutando altri utenti a risolvere i problemi segnalati nei <a href=\"https:\/\/github.com\/Scarflight\/Scarflight\/issues\" target=\"_blank\" rel=\"noopener noreferrer\">nostri issue tracker<\/a>, e partecipare alle discussioni sulle richieste di funzioni;<\/li><li><a href=\"https:\/\/github.com\/Scarflight\/Scarflight\/tree\/master\/README.md#Translators\" target=\"_blank\" rel=\"noopener noreferrer\">Traducendo<\/a> il Scarflight in una nuova lingua o aggiornando le traduzioni esistenti.<\/li><\/ul>"
     },
     "defaultFacebookText": {
         "message": "Abbiamo anche un <a href=\"https:\/\/www.facebook.com\/groups\/Scarflightgroup\/\" target=\"_blank\" rel=\"noopener noreferrer\">gruppo Facebook<\/a>.<br \/> Unisciti a noi per discutere di Scarflight, fare domande riguardo la configurazione, o semplicemente ritrovarti con altri piloti."
@@ -613,7 +613,7 @@
         "message": "<a href=\"https:\/\/discord.Scarflight.com\/invite\" target=\"_blank\" rel=\"noopener noreferrer\">Server Discord<\/a> di Scarflight.<br \/>Condividi la tua esperienza di volo, parla di Scarflight, aiuta altre persone o ottieni aiuto dalla community."
     },
     "statisticsDisclaimer": {
-        "message": "Scarflight Configurator raccoglie statistiche anonime sull'utilizzo. Ad esempio, questi dati includono (ma non si limitano a) il numero di lanci, la regione geografica degli utenti, tipi di controllori di volo, versioni del firmware, utilizzo di elementi e schede dell'interfaccia utente, ecc. Il riassunto di questi dati è condiviso <a href=\"https:\/\/datastudio.google.com\/u\/0\/reporting\/1pK1PFw0eWmsgl2npvuzwAqscVzlhJvuF\" target=\"_blank\" rel=\"noopener noreferrer\">qui<\/a>. La raccolta viene fatta per capire meglio come viene utilizzato Scarflight Configurator, per comprendere le tendenze della comunità e per possibili miglioramenti dell'interfaccia utente. Gli utenti possono disabilitare la raccolta dati nella scheda Opzioni."
+        "message": "Scarflight raccoglie statistiche anonime sull'utilizzo. Ad esempio, questi dati includono (ma non si limitano a) il numero di lanci, la regione geografica degli utenti, tipi di controllori di volo, versioni del firmware, utilizzo di elementi e schede dell'interfaccia utente, ecc. Il riassunto di questi dati è condiviso <a href=\"https:\/\/datastudio.google.com\/u\/0\/reporting\/1pK1PFw0eWmsgl2npvuzwAqscVzlhJvuF\" target=\"_blank\" rel=\"noopener noreferrer\">qui<\/a>. La raccolta viene fatta per capire meglio come viene utilizzato Scarflight, per comprendere le tendenze della comunità e per possibili miglioramenti dell'interfaccia utente. Gli utenti possono disabilitare la raccolta dati nella scheda Opzioni."
     },
     "defaultButtonFirmwareFlasher": {
         "message": "Firmware Flasher"
@@ -622,7 +622,7 @@
         "message": "Open Source \/ Donazione"
     },
     "defaultDonateText": {
-        "message": "<p><strong>Scarflight<\/strong> è un software <strong>open source<\/strong> per controllori di volo ed è disponibile gratuitamente <strong>senza garanzie<\/strong> a tutti gli utenti.<\/p><p>Se hai trovato Scarflight o Scarflight Configurator utili, ti invitiamo a valutare di <strong>supportare<\/strong> lo sviluppo con una donazione.<\/p>"
+        "message": "<p><strong>Scarflight<\/strong> è un software <strong>open source<\/strong> per controllori di volo ed è disponibile gratuitamente <strong>senza garanzie<\/strong> a tutti gli utenti.<\/p><p>Se hai trovato Scarflight o Scarflight utili, ti invitiamo a valutare di <strong>supportare<\/strong> lo sviluppo con una donazione.<\/p>"
     },
     "defaultDonateBottom": {
         "message": "<p>Se vuoi contribuire finanziariamente su base continua, dovresti considerare di diventare un benefattore per noi su $t(patreonLink.message).<\/p>"
@@ -934,7 +934,7 @@
         "description": "Message that pops up to describe the BST arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipMSP": {
-        "message": "Connessione MSP attiva, probabilmente con questo Scarflight Configurator",
+        "message": "Connessione MSP attiva, probabilmente con questo Scarflight",
         "description": "Message that pops up to describe the MSP arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipPARALYZE": {

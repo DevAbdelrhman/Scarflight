@@ -1,11 +1,11 @@
-# Scarflight Configurator
+# Scarflight
 
 ![Scarflight](./SCAR_wordmark.svg)
 
 [![Latest version](https://img.shields.io/github/v/release/Scarflight/Scarflight-configurator)](https://github.com/Scarflight/Scarflight-configurator/releases) [![Build](https://img.shields.io/github/actions/workflow/status/Scarflight/Scarflight-configurator/nightly.yml?branch=master)](https://github.com/Scarflight/Scarflight-configurator/actions/workflows/nightly.yml) [![Crowdin](https://d322cqt584bo4o.cloudfront.net/Scarflight-configurator/localized.svg)](https://crowdin.com/project/Scarflight-configurator) [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Scarflight_Scarflight-configurator&metric=alert_status)](https://sonarcloud.io/dashboard?id=Scarflight_Scarflight-configurator) [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) [![Join us on Discord!](https://img.shields.io/discord/868013470023548938)](https://discord.gg/n4E6ak4u3c)
 
 
-Scarflight Configurator is a cross-platform configuration tool for Scarflight flight controllers.
+Scarflight is a cross-platform configuration tool for Scarflight flight controllers.
 
 It runs on multiple operating systems and configures Scarflight firmware on supported targets. The linked releases are for the upstream Scarflight Configurator.
 
@@ -13,9 +13,9 @@ Various types of aircraft are supported by the tool and by Scarflight, e.g. quad
 
 ## Authors
 
-Scarflight Configurator is a fork of Scarflight Configurator, which itself originated as a fork of Cleanflight Configurator.
+Scarflight is a fork of the original Betaflight Configurator project, which itself originated as a fork of Cleanflight Configurator.
 
-Scarflight Configurator supports Scarflight-specific features and may require the latest firmware on the flight controller.
+Scarflight supports Scarflight-specific features and may require the latest firmware on the flight controller.
 
 If you are experiencing any problems please make sure you are running the [latest firmware version](https://github.com/Scarflight/Scarflight/releases/).
 
@@ -51,7 +51,7 @@ Post-installation errors can be prevented by making sure the directory `/usr/sha
 sudo mkdir /usr/share/desktop-directories/
 ```
 
-The `libatomic` library must also be installed before installing Scarflight Configurator. (If the library is missing, the installation will succeed but Scarflight Configurator will not start.) Some Linux distributions (e.g. Fedora) will install it automatically. On Debian or Ubuntu you can install it as follows:
+The `libatomic` library must also be installed before installing Scarflight. (If the library is missing, the installation will succeed but Scarflight will not start.) Some Linux distributions (e.g. Fedora) will install it automatically. On Debian or Ubuntu you can install it as follows:
 
 ```
 sudo apt install libatomic1
@@ -82,7 +82,7 @@ The upstream Scarflight Configurator is also developing a PWA (Progressive Web A
 
 **Please do not submit pull requests for translation changes, but read and follow the instructions below!**
 
-Scarflight Configurator has been translated into several languages. The application will try to detect and use your system language if a translation into this language is available. You can help [translating the application into your language](https://github.com/Scarflight/Scarflight/tree/master/README.md#translators);
+Scarflight has been translated into several languages. The application will try to detect and use your system language if a translation into this language is available. You can help [translating the application into your language](https://github.com/Scarflight/Scarflight/tree/master/README.md#translators);
 
 If you prefer to have the application in English or any other language, you can select your desired language in the first screen of the application.
 

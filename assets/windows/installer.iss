@@ -1,5 +1,5 @@
 ; ------------------------------------------
-; Installer for Scarflight Configurator
+; Installer for Scarflight
 ; ------------------------------------------
 ; It receives from the command line with /D the parameters: 
 ; version
@@ -9,7 +9,7 @@
 ; sourceFolder
 ; targetFolder
 
-#define ApplicationName "Scarflight Configurator"
+#define ApplicationName "Scarflight"
 #define CompanyName "The Scarflight open source project"
 #define CompanyUrl "https://Scarflight.com/"
 #define ExecutableFileName "Scarflight-configurator.exe"

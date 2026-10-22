@@ -173,7 +173,7 @@
         "message": "Update meldingen voor onstabiele versies van de configurator weergeven"
     },
     "configuratorUpdateNotice": {
-        "message": "U gebruikt een verouderde versie van de <b>Scarflight Configurator<\/b>.<br>$t(configuratorUpdateHelp.message)"
+        "message": "U gebruikt een verouderde versie van de <b>Scarflight<\/b>.<br>$t(configuratorUpdateHelp.message)"
     },
     "configuratorUpdateWebsite": {
         "message": "Ga naar de Release Pagina"
@@ -548,7 +548,7 @@
         "message": "EEPROM <span class=\"message-positive\">opgeslagen<\/span>"
     },
     "defaultWelcomeIntro": {
-        "message": "Welkom bij <strong>Scarflight Configurator<\/strong>, een hulpmiddel dat ontworpen is om het bijwerken, configureren en tunen van uw vlucht controller te vereenvoudigen."
+        "message": "Welkom bij <strong>Scarflight<\/strong>, een hulpmiddel dat ontworpen is om het bijwerken, configureren en tunen van uw vlucht controller te vereenvoudigen."
     },
     "defaultWelcomeHead": {
         "message": "Hardware"
@@ -566,7 +566,7 @@
         "message": "Open Source \/ Donatie Mededeling"
     },
     "defaultDonateText": {
-        "message": "<p><strong>Scarflight<\/strong> is een vluchtcontroller software die <strong>open source<\/strong> is en gratis beschikbaar is <strong>zonder garantie<\/strong> voor alle gebruikers.<\/p><p>Als u Scarflight of Scarflight Configurator nuttig vindt, overweeg dan <strong>om zijn ontwikkeling te ondersteunen<\/strong> door te doneren.<\/p>"
+        "message": "<p><strong>Scarflight<\/strong> is een vluchtcontroller software die <strong>open source<\/strong> is en gratis beschikbaar is <strong>zonder garantie<\/strong> voor alle gebruikers.<\/p><p>Als u Scarflight of Scarflight nuttig vindt, overweeg dan <strong>om zijn ontwikkeling te ondersteunen<\/strong> door te doneren.<\/p>"
     },
     "defaultDonateBottom": {
         "message": "<p>Als u regelmatig wilt doneren kunt u overwegen om zich aan te sluiten bij ons Patreon account. $t(patreonLink.message)<\/p>"
@@ -771,7 +771,7 @@
         "description": "Message that pops up to describe the BST arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipMSP": {
-        "message": "MSP-verbinding is actief, waarschijnlijk met deze Scarflight Configurator",
+        "message": "MSP-verbinding is actief, waarschijnlijk met deze Scarflight",
         "description": "Message that pops up to describe the MSP arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipPARALYZE": {

@@ -1,4 +1,4 @@
-# Builds Scarflight Configurator on Windows, Android, Linux and macOS platforms.
+# Builds Scarflight on Windows, Android, Linux and macOS platforms.
 #
 # After building, artifacts are released to a separate repository.
 

@@ -184,10 +184,10 @@
         "message": "Exibir notificações de atualizações para versões instáveis do configurador"
     },
     "configuratorUpdateNotice": {
-        "message": "Você está utilizando uma versão antiga do <b>Scarflight Configurator<\/b>.<br>$t(configuratorUpdateHelp.message)"
+        "message": "Você está utilizando uma versão antiga do <b>Scarflight<\/b>.<br>$t(configuratorUpdateHelp.message)"
     },
     "configuratorUpdateHelp": {
-        "message": "Utilizando uma versão do firmware recente com uma versão antiga do configurador fará com que, ao alterar algumas configurações, a <strong>configuração do firmware ficará corrompida e sua aeronave não irá funcionar<\/strong>.<br \/>Além disso, só será possível configurar alguns recursos do firmware através da Linha de Comandos.<br><strong>O Scarflight Configurator versão <b>$1<\/b> está disponível para download online<\/strong>, visite <a href=\"$2\" target=\"_blank\" rel=\"noopener noreferrer\">esta página<\/a> para fazer o download e instalar a nova versão do configurador com correções e melhorias.<br>Por favor feche a janela do configurador antes de atualizar."
+        "message": "Utilizando uma versão do firmware recente com uma versão antiga do configurador fará com que, ao alterar algumas configurações, a <strong>configuração do firmware ficará corrompida e sua aeronave não irá funcionar<\/strong>.<br \/>Além disso, só será possível configurar alguns recursos do firmware através da Linha de Comandos.<br><strong>O Scarflight versão <b>$1<\/b> está disponível para download online<\/strong>, visite <a href=\"$2\" target=\"_blank\" rel=\"noopener noreferrer\">esta página<\/a> para fazer o download e instalar a nova versão do configurador com correções e melhorias.<br>Por favor feche a janela do configurador antes de atualizar."
     },
     "configuratorUpdateWebsite": {
         "message": "Ir para a Página Web do lançamento"
@@ -604,7 +604,7 @@
         "message": "Contribuir"
     },
     "defaultContributingText": {
-        "message": "Se deseja ajudar o Scarflight a ser ainda melhor, você pode ajudar de diversas formas:<br \/><ul><li>Use seu conhecimento sobre o Scarflight para criar ou atualizar o conteúdo do <a href=\"https:\/\/github.com\/Scarflight\/Scarflight\/wiki\" target=\"_blank\" rel=\"noopener noreferrer\">nosso Wiki<\/a>, ou respondendo as dúvidas de outros usuários nos fóruns online.<\/li><li><a href=\"https:\/\/github.com\/Scarflight\/Scarflight\/blob\/master\/docs\/development\/Development.md\" target=\"_blank\" rel=\"noopener noreferrer\">Contribua com o código<\/a> do Scarflight Firmware e Configurator - Novas funções, correções e melhorias.<\/li><li>Testando <a href=\"https:\/\/github.com\/Scarflight\/Scarflight\/pulls\" target=\"_blank\" rel=\"noopener noreferrer\">novas funções e correções<\/a> e reportando de volta aos desenvolvedores.<\/li><li>Ajudando a resolver os problemas que outros usuários relatam em nosso <a href=\"https:\/\/github.com\/Scarflight\/Scarflight\/issues\" target=\"_blank\" rel=\"noopener noreferrer\">Issue Tracker<\/a> e participando em discussões de novas funcionalidades.<\/li><li><a href=\"https:\/\/github.com\/Scarflight\/Scarflight\/tree\/master\/README.md#Translators\" target=\"_blank\" rel=\"noopener noreferrer\">Traduzindo<\/a> o Scarflight Configurator para um novo idioma ou ajudando a manter as traduções atuais.<\/li><\/ul>"
+        "message": "Se deseja ajudar o Scarflight a ser ainda melhor, você pode ajudar de diversas formas:<br \/><ul><li>Use seu conhecimento sobre o Scarflight para criar ou atualizar o conteúdo do <a href=\"https:\/\/github.com\/Scarflight\/Scarflight\/wiki\" target=\"_blank\" rel=\"noopener noreferrer\">nosso Wiki<\/a>, ou respondendo as dúvidas de outros usuários nos fóruns online.<\/li><li><a href=\"https:\/\/github.com\/Scarflight\/Scarflight\/blob\/master\/docs\/development\/Development.md\" target=\"_blank\" rel=\"noopener noreferrer\">Contribua com o código<\/a> do Scarflight Firmware e Configurator - Novas funções, correções e melhorias.<\/li><li>Testando <a href=\"https:\/\/github.com\/Scarflight\/Scarflight\/pulls\" target=\"_blank\" rel=\"noopener noreferrer\">novas funções e correções<\/a> e reportando de volta aos desenvolvedores.<\/li><li>Ajudando a resolver os problemas que outros usuários relatam em nosso <a href=\"https:\/\/github.com\/Scarflight\/Scarflight\/issues\" target=\"_blank\" rel=\"noopener noreferrer\">Issue Tracker<\/a> e participando em discussões de novas funcionalidades.<\/li><li><a href=\"https:\/\/github.com\/Scarflight\/Scarflight\/tree\/master\/README.md#Translators\" target=\"_blank\" rel=\"noopener noreferrer\">Traduzindo<\/a> o Scarflight para um novo idioma ou ajudando a manter as traduções atuais.<\/li><\/ul>"
     },
     "defaultFacebookText": {
         "message": "Nós também temos um <a href=\"https:\/\/www.facebook.com\/groups\/Scarflightgroup\/\" target=\"_blank\" rel=\"noopener noreferrer\">grupo no Facebook<\/a>.<br \/> Participe dele para ter um lugar para falar sobre o Scarflight, fazer perguntas sobre configurações ou encontrar outros pilotos."
@@ -622,7 +622,7 @@
         "message": "Código Fonte \/ Nota de Doação"
     },
     "defaultDonateText": {
-        "message": "<p><strong>Scarflight<\/strong> é um software para controladores de voo feito com <strong>código aberto<\/strong> e disponível gratuitamente <strong>sem nenhuma garantia<\/strong> para todos os usuários.<\/p><p> Se você achou o Scarflight ou o Scarflight Configurator útil, considere <strong>ajudar<\/strong> seu desenvolvimento com uma doação.<\/p>"
+        "message": "<p><strong>Scarflight<\/strong> é um software para controladores de voo feito com <strong>código aberto<\/strong> e disponível gratuitamente <strong>sem nenhuma garantia<\/strong> para todos os usuários.<\/p><p> Se você achou o Scarflight ou o Scarflight útil, considere <strong>ajudar<\/strong> seu desenvolvimento com uma doação.<\/p>"
     },
     "defaultDonateBottom": {
         "message": "<p>Se deseja ajudar este projeto financeiramente de forma continua, considere tornar-se nosso benfeitor através do site $t(patreonLink.message).<\/p>"

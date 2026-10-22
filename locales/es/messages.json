@@ -184,10 +184,10 @@
         "message": "Mostrar notificación de actualización para versiones no estables del configurador"
     },
     "configuratorUpdateNotice": {
-        "message": "Estás utilizando una versión desactualizada de <b>Scarflight Configurator<\/b>.<br>$t(configuratorUpdateHelp.message)"
+        "message": "Estás utilizando una versión desactualizada de <b>Scarflight<\/b>.<br>$t(configuratorUpdateHelp.message)"
     },
     "configuratorUpdateHelp": {
-        "message": "Utilizar una versión más reciente del firmware con una versión desactualizada del Configurator implica que al cambiar algunos ajustes puede dar como resultado una <strong>configuración corrupta del firmware y una aeronave no funcional<\/strong>. <br \/>Además, algunas características del firmware sólo serán configurables a través del CLI.<br \/><br \/><strong>Scarflight Configurator versión <b>$1<\/b> está disponible para descargar en línea<\/strong>, por favor visita <a href=\"$2\" target=\"_blank\" rel=\"noopener noreferrer\">esta página<\/a> para descargar e instalar la última versión del Configurator con correcciones y mejoras.<br>Por favor, cierra la ventana del configurador antes de actualizar."
+        "message": "Utilizar una versión más reciente del firmware con una versión desactualizada del Configurator implica que al cambiar algunos ajustes puede dar como resultado una <strong>configuración corrupta del firmware y una aeronave no funcional<\/strong>. <br \/>Además, algunas características del firmware sólo serán configurables a través del CLI.<br \/><br \/><strong>Scarflight versión <b>$1<\/b> está disponible para descargar en línea<\/strong>, por favor visita <a href=\"$2\" target=\"_blank\" rel=\"noopener noreferrer\">esta página<\/a> para descargar e instalar la última versión del Configurator con correcciones y mejoras.<br>Por favor, cierra la ventana del configurador antes de actualizar."
     },
     "configuratorUpdateWebsite": {
         "message": "Ir a la Web de Versiones"
@@ -592,7 +592,7 @@
         "message": "EEPROM  <span class=\"message-positive\">guardada<\/span>"
     },
     "defaultWelcomeIntro": {
-        "message": "Bienvenido a <strong>Scarflight Configurator<\/strong>, una utilidad diseñada para simplificar el actualizar, configurar y ajustar tu controlador de vuelo."
+        "message": "Bienvenido a <strong>Scarflight<\/strong>, una utilidad diseñada para simplificar el actualizar, configurar y ajustar tu controlador de vuelo."
     },
     "defaultWelcomeHead": {
         "message": "Hardware"
@@ -604,7 +604,7 @@
         "message": "Contribuir"
     },
     "defaultContributingText": {
-        "message": "Si quieres ayudar a hacer Scarflight incluso mejor puedes hacerlo de diferentes maneras, incluyendo:<br \/><ul><li>usando tu conocimiento de Scarflight para crear o actualizar contenido en <a href=\"https:\/\/Scarflight.com\/docs\/wiki\" target=\"_blank\" rel=\"noopener noreferrer\">nuestra wiki<\/a>, o respondiendo preguntas de otros usuarios en foros online;<\/li><li><a href=\"https:\/\/Scarflight.com\/docs\/development\" target=\"_blank\" rel=\"noopener noreferrer\">>contribuyendo con código<\/a> al firmware y al configurador - nuevas funcionalidades, correcciones, mejoras;<\/li><li>probando <a href=\"https:\/\/github.com\/Scarflight\/Scarflight\/pulls\" target=\"_blank\" rel=\"noopener noreferrer\">nuevas funcionalidades y correcciones<\/a> y comentando resultados;<\/li><li>ayudando a otros usuario con los problemas que reportan en <a href=\"https:\/\/github.com\/Scarflight\/Scarflight\/issues\" target=\"_blank\" rel=\"noopener noreferrer\">nuestro registro de incidencias<\/a>, y participando en las discusiones sobre peticiones de nuevas funcionalidades;<\/li><li><a href=\"https:\/\/github.com\/Scarflight\/Scarflight\/tree\/master\/README.md#Translators\" target=\"_blank\" rel=\"noopener noreferrer\">traduciendo<\/a> Scarflight Configurator a un nuevo idioma, o ayudando a mantener las traducciones existentes.<\/li><\/ul>"
+        "message": "Si quieres ayudar a hacer Scarflight incluso mejor puedes hacerlo de diferentes maneras, incluyendo:<br \/><ul><li>usando tu conocimiento de Scarflight para crear o actualizar contenido en <a href=\"https:\/\/Scarflight.com\/docs\/wiki\" target=\"_blank\" rel=\"noopener noreferrer\">nuestra wiki<\/a>, o respondiendo preguntas de otros usuarios en foros online;<\/li><li><a href=\"https:\/\/Scarflight.com\/docs\/development\" target=\"_blank\" rel=\"noopener noreferrer\">>contribuyendo con código<\/a> al firmware y al configurador - nuevas funcionalidades, correcciones, mejoras;<\/li><li>probando <a href=\"https:\/\/github.com\/Scarflight\/Scarflight\/pulls\" target=\"_blank\" rel=\"noopener noreferrer\">nuevas funcionalidades y correcciones<\/a> y comentando resultados;<\/li><li>ayudando a otros usuario con los problemas que reportan en <a href=\"https:\/\/github.com\/Scarflight\/Scarflight\/issues\" target=\"_blank\" rel=\"noopener noreferrer\">nuestro registro de incidencias<\/a>, y participando en las discusiones sobre peticiones de nuevas funcionalidades;<\/li><li><a href=\"https:\/\/github.com\/Scarflight\/Scarflight\/tree\/master\/README.md#Translators\" target=\"_blank\" rel=\"noopener noreferrer\">traduciendo<\/a> Scarflight a un nuevo idioma, o ayudando a mantener las traducciones existentes.<\/li><\/ul>"
     },
     "defaultFacebookText": {
         "message": "También tenemos un <a href=\"https:\/\/www.facebook.com\/groups\/Scarflightgroup\/\" target=\"_blank\" rel=\"noopener noreferrer\">Grupo de Facebook<\/a>.<br \/>Únete a nosotros para tener un lugar donde hablar sobre Scarflight, preguntar sobre configuraciones, o simplemente charlar con otros pilotos."
@@ -613,7 +613,7 @@
         "message": "<a href=\"https:\/\/discord.Scarflight.com\/invite\" target=\"_blank\" rel=\"noopener noreferrer\">Servidor Discord<\/a> de Scarflight.<br \/>Comparte tu experiencia de vuelo, habla sobre Scarflight, ayuda a otras personas o recibe ayuda de la comunidad."
     },
     "statisticsDisclaimer": {
-        "message": "Scarflight Configurator recopila estadísticas de uso anónimas. Por ejemplo, estos datos incluyen (pero no se limitan a) el número de ejecuciones, la región geográfica de los usuarios, tipos de controladores de vuelo, versiones de firmware, uso de elementos y pestañas, etc. El resumen de estos datos se comparte <a href=\"https:\/\/datastudio.google.com\/u\/0\/reporting\/1pK1PFw0eWmsgl2npvuzwAqscVzlhJvuF\" target=\"_blank\" rel=\"noopener noreferrer\">aquí<\/a>. La recolección se hace para entender mejor cómo se utiliza el Configurador Scarflight, para entender las tendencias de la comunidad, y para posibles mejoras en la interfaz de usuario. Los usuarios pueden dejar de recolectar datos en la pestaña Opciones."
+        "message": "Scarflight recopila estadísticas de uso anónimas. Por ejemplo, estos datos incluyen (pero no se limitan a) el número de ejecuciones, la región geográfica de los usuarios, tipos de controladores de vuelo, versiones de firmware, uso de elementos y pestañas, etc. El resumen de estos datos se comparte <a href=\"https:\/\/datastudio.google.com\/u\/0\/reporting\/1pK1PFw0eWmsgl2npvuzwAqscVzlhJvuF\" target=\"_blank\" rel=\"noopener noreferrer\">aquí<\/a>. La recolección se hace para entender mejor cómo se utiliza el Configurador Scarflight, para entender las tendencias de la comunidad, y para posibles mejoras en la interfaz de usuario. Los usuarios pueden dejar de recolectar datos en la pestaña Opciones."
     },
     "defaultButtonFirmwareFlasher": {
         "message": "Instalar Firmware"
@@ -622,7 +622,7 @@
         "message": "Software Libre \/ Aviso de Donación"
     },
     "defaultDonateText": {
-        "message": "<p><strong>Scarflight<\/strong> es un software controlador de vuelo que es <strong>software libre<\/strong> y está disponible gratuitamente <strong>sin garantía<\/strong> para todos los usuarios.<\/p><p>Si encuentras Scarflight o Scarflight Configurator útil, por favor considera <strong>ayudar<\/strong> al desarrollo donando.<\/p>"
+        "message": "<p><strong>Scarflight<\/strong> es un software controlador de vuelo que es <strong>software libre<\/strong> y está disponible gratuitamente <strong>sin garantía<\/strong> para todos los usuarios.<\/p><p>Si encuentras Scarflight o Scarflight útil, por favor considera <strong>ayudar<\/strong> al desarrollo donando.<\/p>"
     },
     "defaultDonateBottom": {
         "message": "<p>Si deseas contribuir financieramente de manera regular, deberías considerar convertirte en patrocinador nuestro en $t(patreonLink.message). <\/p >"
@@ -934,7 +934,7 @@
         "description": "Message that pops up to describe the BST arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipMSP": {
-        "message": "La conexión MSP está activada, probablemente con este Scarflight Configurator",
+        "message": "La conexión MSP está activada, probablemente con este Scarflight",
         "description": "Message that pops up to describe the MSP arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipPARALYZE": {
@@ -3382,7 +3382,7 @@
         "message": "Selecciona o auto-detecta tu placa para ver las versiones de firmware disponibles - Elige el firmware adecuado para tu placa."
     },
     "firmwareFlasherOnlineSelectBoardHint": {
-        "message": "Scarflight Configurator soporta la instalación de Placas Unificadas con sus respectivas configuraciones de placa en un sólo paso.<br><br>El concepto de Placas Unificadas significa que el mismo archivo .hex puede ser usado por todas las placas con la misma MCU.<br><br>Scarflight 4.4 introduce <strong>Compilación en la Nube<\/strong>.<br><br>Con <strong>Compilación en la Nube<\/strong> necesitamos indicar las opciones de hardware presentes en tu aeronave.<br><br>Para hacer que diferentes placas funcionen con el mismo hardware, un archivo de configuración específico se despliegue junto al firmware cuando una Placa Unificada se instala.<br><br>Con archivos de firmware en local puedes cargar un archivo de configuración de placa o elegir la placa antes de cargar de cargar el archivo .hex del firmware.<br><br>Si encuentras un problema instalando el firmware, por favor unete a nuestro <a href=\"https:\/\/discord.gg\/n4E6ak4u3c\" target=\"_blank\" rel=\"noopener noreferrer\">Discord<\/a> o abre una <a href=\"https:\/\/github.com\/Scarflight\/Scarflight\/issues\" target=\"_blank\" rel=\"noopener noreferrer\">incidencia<\/a>."
+        "message": "Scarflight soporta la instalación de Placas Unificadas con sus respectivas configuraciones de placa en un sólo paso.<br><br>El concepto de Placas Unificadas significa que el mismo archivo .hex puede ser usado por todas las placas con la misma MCU.<br><br>Scarflight 4.4 introduce <strong>Compilación en la Nube<\/strong>.<br><br>Con <strong>Compilación en la Nube<\/strong> necesitamos indicar las opciones de hardware presentes en tu aeronave.<br><br>Para hacer que diferentes placas funcionen con el mismo hardware, un archivo de configuración específico se despliegue junto al firmware cuando una Placa Unificada se instala.<br><br>Con archivos de firmware en local puedes cargar un archivo de configuración de placa o elegir la placa antes de cargar de cargar el archivo .hex del firmware.<br><br>Si encuentras un problema instalando el firmware, por favor unete a nuestro <a href=\"https:\/\/discord.gg\/n4E6ak4u3c\" target=\"_blank\" rel=\"noopener noreferrer\">Discord<\/a> o abre una <a href=\"https:\/\/github.com\/Scarflight\/Scarflight\/issues\" target=\"_blank\" rel=\"noopener noreferrer\">incidencia<\/a>."
     },
     "firmwareFlasherOnlineSelectFirmwareVersionDescription": {
         "message": "Elige la versión de firmware para tu placa."

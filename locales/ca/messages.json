@@ -600,7 +600,7 @@
         "message": "EEPROM <span class=\"message-positive\">desada<\/span>"
     },
     "defaultWelcomeIntro": {
-        "message": "Benvingut a <strong>Scarflight Configurator<\/strong>, una aplicació dissenyada per a simplificar l'actualització, configuració i posada a punt de la teva controladora de vol."
+        "message": "Benvingut a <strong>Scarflight<\/strong>, una aplicació dissenyada per a simplificar l'actualització, configuració i posada a punt de la teva controladora de vol."
     },
     "defaultWelcomeHead": {
         "message": "Maquinari"
@@ -621,7 +621,7 @@
         "message": "Scarflight <a href=\"https:\/\/discord.Scarflight.com\/invite\" target=\"_blank\" rel=\"noopener noreferrer\">Servidor de Discord<\/a>.<br \/>Comparteix la teva experiència de vol, parla sobre Scarflight, ajudar a altres persones o obtenir ajuda per a tu mateix de la comunitat."
     },
     "statisticsDisclaimer": {
-        "message": "Scarflight Configurator recopila estadístiques d'ús anònimes. Per exemple, aquestes dades inclouen (però no es limiten a) el nombre de llançaments, la regió geogràfica dels usuaris, els tipus de controladors de vol, les versions del microprogramari, l'ús d'elements i pestanyes de la IU, etc. El resum d'aquestes dades es comparteix <a href=\"https:\/\/datastudio.google.com\/u\/0\/reporting\/1pK1PFw0eWmsgl2npvuzwAqscVzlhJvuF\" target=\"_blank\" rel=\"noopener noreferrer\">aquí<\/a>. La recollida es fa per entendre millor com s'utilitza Scarflight Configurator, per entendre les tendències de la comunitat i per a possibles millores de la interfície d'usuari. Els usuaris poden desactivar la recollida de dades a la pestanya Opcions."
+        "message": "Scarflight recopila estadístiques d'ús anònimes. Per exemple, aquestes dades inclouen (però no es limiten a) el nombre de llançaments, la regió geogràfica dels usuaris, els tipus de controladors de vol, les versions del microprogramari, l'ús d'elements i pestanyes de la IU, etc. El resum d'aquestes dades es comparteix <a href=\"https:\/\/datastudio.google.com\/u\/0\/reporting\/1pK1PFw0eWmsgl2npvuzwAqscVzlhJvuF\" target=\"_blank\" rel=\"noopener noreferrer\">aquí<\/a>. La recollida es fa per entendre millor com s'utilitza Scarflight, per entendre les tendències de la comunitat i per a possibles millores de la interfície d'usuari. Els usuaris poden desactivar la recollida de dades a la pestanya Opcions."
     },
     "defaultButtonFirmwareFlasher": {
         "message": "Flashejador de Firmware"
@@ -630,7 +630,7 @@
         "message": "Codi Lliure \/ Avís de Donació"
     },
     "defaultDonateText": {
-        "message": "<p><strong>Scarflight<\/strong> és un programari de control de vols que és <strong>de codi obert<\/strong> i està disponible de forma gratuïta <strong>sense garantia<\/strong> per a tots els usuaris.<\/p><p>Si heu pensat que Scarflight o Scarflight Configurator són útils, considereu <strong> donar suport<\/strong> al seu desenvolupament donant.<\/p>"
+        "message": "<p><strong>Scarflight<\/strong> és un programari de control de vols que és <strong>de codi obert<\/strong> i està disponible de forma gratuïta <strong>sense garantia<\/strong> per a tots els usuaris.<\/p><p>Si heu pensat que Scarflight o Scarflight són útils, considereu <strong> donar suport<\/strong> al seu desenvolupament donant.<\/p>"
     },
     "defaultDonateBottom": {
         "message": "<p>Si voleu contribuir econòmicament de forma continuada, haureu de plantejar-vos ser un mecenes per a nosaltres en $t(patreonLink.message).<\/p>"

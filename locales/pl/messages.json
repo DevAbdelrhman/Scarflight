@@ -596,7 +596,7 @@
         "message": "<span class=\"message-positive\">Zapisano<\/span> zmiany w EEPROM"
     },
     "defaultWelcomeIntro": {
-        "message": "Witaj w <strong>Scarflight Configurator<\/strong>, narzędziu stworzonym by uprościć aktualizację i konfigurację Twojego kontrolera lotu."
+        "message": "Witaj w <strong>Scarflight<\/strong>, narzędziu stworzonym by uprościć aktualizację i konfigurację Twojego kontrolera lotu."
     },
     "defaultWelcomeHead": {
         "message": "Sprzęt"
