@@ -1,0 +1,41 @@
+
+# Dependencies
+node_modules/
+
+# Build and debug output
+debug/
+cache/
+apps/
+dist/
+dist_cordova/
+release/
+testresults/
+test-results-junit/
+.eslintcache
+/src/package.json
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log
+
+# Configurator Build process
+cordova/bundle.keystore
+
+# macOS
+.DS_Store
+
+# Visual Studio Code
+.vscode/*
+!.vscode/launch.json
+
+# NetBeans
+nbproject/
+
+# IntelliJ
+.idea/
+
+# Eclipse
+.project
+.settings/
