@@ -10,7 +10,7 @@ staticTab.initialize = function (staticTabName, callback) {
     }
     const tabFile = `./tabs/${staticTabName}.html`;
 
-    $('#content').html('<div id="tab-static"><div id="tab-static-contents"></div>');
+    $('#content').html(`<div id="tab-static" class="static-tab-${staticTabName}"><div id="tab-static-contents"></div>`);
     $('#tab-static-contents').load(tabFile, function () {
         // translate to user-selected language
         i18n.localizePage();
