@@ -85,7 +85,7 @@ SYM.loadSymbols = function() {
     SYM.KM = 0x7d;
     SYM.MILES = 0x7e;
 
-    /* Versions before Betaflight 4.1 use font V1
+    /* Versions before Scarflight 4.1 use font V1
      * To maintain this list at minimum, we only add here:
      * - Symbols used in this versions
      * - That were moved or didn't exist in the font file
@@ -1834,7 +1834,7 @@ OSD.constants = {
         { file: "bold", name: "osdSetupFontTypeBold" },
         { file: "large", name: "osdSetupFontTypeLarge" },
         { file: "extra_large", name: "osdSetupFontTypeLargeExtra" },
-        { file: "betaflight", name: "osdSetupFontTypeBetaflight" },
+        { file: "Scarflight", name: "osdSetupFontTypeScarflight" },
         { file: "digital", name: "osdSetupFontTypeDigital" },
         { file: "clarity", name: "osdSetupFontTypeClarity" },
         { file: "vision", name: "osdSetupFontTypeVision" },
@@ -1994,7 +1994,7 @@ OSD.chooseFields = function() {
 
     // ** IMPORTANT **
     //
-    // Starting with 1.39.0 (Betaflight 3.4) the OSD stats selection options
+    // Starting with 1.39.0 (Scarflight 3.4) the OSD stats selection options
     // are ordered in the same sequence as displayed on-screen in the OSD.
     // If future versions of the firmware implement changes to the on-screen ordering,
     // that needs to be implemented here as well. Simply appending new stats does not

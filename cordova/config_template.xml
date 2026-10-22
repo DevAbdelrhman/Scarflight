@@ -2,7 +2,7 @@
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:android="http://schemas.android.com/apk/res/android" id="[INJECTED_BY_GULPFILE]" version="[INJECTED_BY_GULPFILE]">
     <name>[INJECTED_BY_GULPFILE]</name>
     <description>[INJECTED_BY_GULPFILE]</description>
-    <author href="https://betaflight.com">[INJECTED_BY_GULPFILE]</author>
+    <author href="https://Scarflight.com">[INJECTED_BY_GULPFILE]</author>
     <content src="main_cordova.html"/>
     <access origin="*"/>
     <allow-intent href="http://*/*"/>

@@ -1,6 +1,6 @@
 # 14 — Master Audit Checklist, Coverage Metrics & Open Items
 
-This document provides the mathematical coverage metrics, verified checklist items, and remaining operational boundaries for the Betaflight Configurator technical audit.
+This document provides the mathematical coverage metrics, verified checklist items, and remaining operational boundaries for the Scarflight Configurator technical audit.
 
 ---
 

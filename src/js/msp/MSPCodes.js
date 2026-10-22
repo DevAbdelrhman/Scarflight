@@ -187,8 +187,8 @@ const MSPCodes = {
     MSP2_COMMON_SERIAL_CONFIG:          0x1009,
     MSP2_COMMON_SET_SERIAL_CONFIG:      0x100A,
 
-    // MSPv2 Betaflight specific
-    MSP2_BETAFLIGHT_BIND:               0x3000,
+    // MSPv2 Scarflight specific
+    MSP2_Scarflight_BIND:               0x3000,
     MSP2_MOTOR_OUTPUT_REORDERING:       0x3001,
     MSP2_SET_MOTOR_OUTPUT_REORDERING:   0x3002,
     MSP2_SEND_DSHOT_COMMAND:            0x3003,

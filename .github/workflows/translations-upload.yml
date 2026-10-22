@@ -11,7 +11,7 @@ on:
       - 'locales/en/**'
 
 jobs:
-  betaflight-messages-to-crowdin:
+  Scarflight-messages-to-crowdin:
     name: Messages file to Crowdin
     runs-on: ubuntu-22.04
     steps:

@@ -2,7 +2,7 @@
 
 ## 1. Navigation Architecture Overview
 
-Betaflight Configurator does not use a traditional URL hash or HTML5 pushState router (such as `vue-router`). Instead, it employs an **event-driven tab switching state machine** implemented in [`src/js/main.js:257–464`](file:///c:/Users/DELL/Drone/src/js/main.js#L257-L464) and controlled by the `GuiControl` singleton in [`src/js/gui.js`](file:///c:/Users/DELL/Drone/src/js/gui.js).
+Scarflight Configurator does not use a traditional URL hash or HTML5 pushState router (such as `vue-router`). Instead, it employs an **event-driven tab switching state machine** implemented in [`src/js/main.js:257–464`](file:///c:/Users/DELL/Drone/src/js/main.js#L257-L464) and controlled by the `GuiControl` singleton in [`src/js/gui.js`](file:///c:/Users/DELL/Drone/src/js/gui.js).
 
 ### Navigation State Rules
 1. **Disconnected Mode (`mode-disconnected`)**:
@@ -165,6 +165,6 @@ When a user clicks any navigation link `$('#tabs > ul a')`, the execution follow
    - Calls `GUI.content_ready()` ([`gui.js:309–355`](file:///c:/Users/DELL/Drone/src/js/gui.js#L309-L355)):
      - Reinitializes `Switchery` toggles (`.toggle`, `.togglesmall`).
      - Binds `jBox` tooltips (`.cf_tip`, `.cf_tip_wide`).
-     - Updates header documentation button link to `https://betaflight.com/docs/wiki/configurator/<tab-name>-tab`.
+     - Updates header documentation button link to `https://Scarflight.com/docs/wiki/configurator/<tab-name>-tab`.
 5. **Release Lock**:
    - Calls `content_ready()`, resetting `GUI.tab_switch_in_progress = false`.

@@ -1,4 +1,4 @@
-# Builds Betaflight Configurator for Web Deployment.
+# Builds Scarflight Configurator for Web Deployment.
 
 name: App Build (Web)
 
@@ -71,7 +71,7 @@ jobs:
       - run: yarn build
 
       - name: Push to AWS
-        if: github.repository_owner == 'betaflight'
+        if: github.repository_owner == 'Scarflight'
         uses: jakejarvis/s3-sync-action@master
         with:
           args: --delete

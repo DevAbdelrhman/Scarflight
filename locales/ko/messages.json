@@ -602,19 +602,19 @@
         "message": "하드웨어"
     },
     "defaultWelcomeText": {
-        "message": "어플리케이션은 베타플라이트를 실행할 수 있는 모든 하드웨어를 지원합니다. 하드웨어 전체 목록의 플래시 탭을 확인하세요.<br \/><br \/><a href=\"https:\/\/github.com\/betaflight\/blackbox-log-viewer\/releases\" target=\"_blank\" rel=\"noopener noreferrer\">베타플라이트 블랙박스 로그 뷰어 다운로드<\/a><br \/><br \/><a href=\"https:\/\/github.com\/betaflight\/betaflight-tx-lua-scripts\/releases\" target=\"_blank\" rel=\"noopener noreferrer\">베타플라이트 TX Lua 스크립트 다운로드<\/a><br \/><br \/>펌웨어 소스 코드는 <a href=\"https:\/\/github.com\/betaflight\/betaflight\" target=\"_blank\" rel=\"noopener noreferrer\">여기서<\/a> 다운받을 수 있습니다.<br \/><br \/>CP210x USB를 시리얼 칩으로 사용하는 레거시 하드웨어:<br \/>최신 <b>CP210x 드라이버<\/b>는 <a href=\"https:\/\/www.silabs.com\/products\/development-tools\/software\/usb-to-uart-bridge-vcp-drivers\" target=\"_blank\" rel=\"noopener noreferrer\">여기서<\/a> 다운받을 수 있습니다.<br \/>최신 윈도우 USB 드라이버 설치를 위한 <b>Zadig<\/b>는 <a href=\"http:\/\/zadig.akeo.ie\/\" target=\"_blank\" rel=\"noopener noreferrer\">여기서<\/a> 다운받을 수 있습니다.<br \/><b>ImpulseRC 드라이버 픽서<\/b>는 <a href=\"https:\/\/impulserc.com\/pages\/downloads\" target=\"blank\" rel=\"noopener noreferrer\">여기서<\/a> 다운받을 수 있습니다."
+        "message": "어플리케이션은 베타플라이트를 실행할 수 있는 모든 하드웨어를 지원합니다. 하드웨어 전체 목록의 플래시 탭을 확인하세요.<br \/><br \/><a href=\"https:\/\/github.com\/Scarflight\/blackbox-log-viewer\/releases\" target=\"_blank\" rel=\"noopener noreferrer\">베타플라이트 블랙박스 로그 뷰어 다운로드<\/a><br \/><br \/><a href=\"https:\/\/github.com\/Scarflight\/Scarflight-tx-lua-scripts\/releases\" target=\"_blank\" rel=\"noopener noreferrer\">베타플라이트 TX Lua 스크립트 다운로드<\/a><br \/><br \/>펌웨어 소스 코드는 <a href=\"https:\/\/github.com\/Scarflight\/Scarflight\" target=\"_blank\" rel=\"noopener noreferrer\">여기서<\/a> 다운받을 수 있습니다.<br \/><br \/>CP210x USB를 시리얼 칩으로 사용하는 레거시 하드웨어:<br \/>최신 <b>CP210x 드라이버<\/b>는 <a href=\"https:\/\/www.silabs.com\/products\/development-tools\/software\/usb-to-uart-bridge-vcp-drivers\" target=\"_blank\" rel=\"noopener noreferrer\">여기서<\/a> 다운받을 수 있습니다.<br \/>최신 윈도우 USB 드라이버 설치를 위한 <b>Zadig<\/b>는 <a href=\"http:\/\/zadig.akeo.ie\/\" target=\"_blank\" rel=\"noopener noreferrer\">여기서<\/a> 다운받을 수 있습니다.<br \/><b>ImpulseRC 드라이버 픽서<\/b>는 <a href=\"https:\/\/impulserc.com\/pages\/downloads\" target=\"blank\" rel=\"noopener noreferrer\">여기서<\/a> 다운받을 수 있습니다."
     },
     "defaultContributingHead": {
         "message": "기여하기"
     },
     "defaultContributingText": {
-        "message": "베타플라이트를 훨씬 더 좋게 만들고 싶다면, 다음과 같은 여러 가지 방법으로 도울 수 있습니다:<br \/><ul><li>베타플라이트에 대한 지식을 활용하여 <a href=\"https:\/\/betaflight.com\/docs\/wiki\" target=\"_blank\" rel=\"noopener noreferrer\">위키<\/a>에 대한 내용을 만들거나, 온라인 포럼에서 다른 사용자의 질문에 답변할 수 있습니다;<\/li><li>펌웨어와 컨피규레이터에 대한 코드 - 새로운 기능, 수정, 개선 사항에 <a href=\"https:\/\/betaflight.com\/docs\/development\" target=\"_blank\" rel=\"noopener noreferrer\">코드를 공헌<\/a>할 수 있습니다;<\/li><li><a href=\"https:\/\/github.com\/Betaflight\/betaflight\/pulls\" target=\"_blank\" rel=\"noopener noreferrer\">새로운 기능과 수정<\/a>을 테스트하고, 피드백을 제공할 수 있습니다;<\/li><li>다른 사용자들이 <a href=\"https:\/\/github.com\/betaflight\/betaflight\/issues\" target=\"_blank\" rel=\"noopener noreferrer\">이슈 트랙커<\/a>에 보고한 문제를 해결하여 도움을 줄 수 있으며, 기능 요청에 대한 논의에 참여할 수 있습니다;<\/li><li>베타플라이트 컨피규레이터를 새로운 언어로 <a href=\"https:\/\/github.com\/betaflight\/betaflight\/tree\/master\/README.md#Translators\" target=\"_blank\" rel=\"noopener noreferrer\">번역<\/a>하거나, 기존 번역을 유지하도록 도울 수 있습니다.<br \/>한글번역(교정) 문의: 짱아부지JJangPapa(oto4futur@gmail.com)<\/li><\/ul><br \/><ul>베타플라이트 설정이 처음이시거나 새로운 기능을 배우시려면, <a href=\"https:\/\/www.youtube.com\/playlist?list=PLp92gAniAd2r2tY1b2xGnIKLQAbPiskQI\" target=\"_blank\" rel=\"noopener noreferrer\">베타플라이트 설정 가이드(한글판)<\/a>을 참고하세요.<\/ul>"
+        "message": "베타플라이트를 훨씬 더 좋게 만들고 싶다면, 다음과 같은 여러 가지 방법으로 도울 수 있습니다:<br \/><ul><li>베타플라이트에 대한 지식을 활용하여 <a href=\"https:\/\/Scarflight.com\/docs\/wiki\" target=\"_blank\" rel=\"noopener noreferrer\">위키<\/a>에 대한 내용을 만들거나, 온라인 포럼에서 다른 사용자의 질문에 답변할 수 있습니다;<\/li><li>펌웨어와 컨피규레이터에 대한 코드 - 새로운 기능, 수정, 개선 사항에 <a href=\"https:\/\/Scarflight.com\/docs\/development\" target=\"_blank\" rel=\"noopener noreferrer\">코드를 공헌<\/a>할 수 있습니다;<\/li><li><a href=\"https:\/\/github.com\/Scarflight\/Scarflight\/pulls\" target=\"_blank\" rel=\"noopener noreferrer\">새로운 기능과 수정<\/a>을 테스트하고, 피드백을 제공할 수 있습니다;<\/li><li>다른 사용자들이 <a href=\"https:\/\/github.com\/Scarflight\/Scarflight\/issues\" target=\"_blank\" rel=\"noopener noreferrer\">이슈 트랙커<\/a>에 보고한 문제를 해결하여 도움을 줄 수 있으며, 기능 요청에 대한 논의에 참여할 수 있습니다;<\/li><li>베타플라이트 컨피규레이터를 새로운 언어로 <a href=\"https:\/\/github.com\/Scarflight\/Scarflight\/tree\/master\/README.md#Translators\" target=\"_blank\" rel=\"noopener noreferrer\">번역<\/a>하거나, 기존 번역을 유지하도록 도울 수 있습니다.<br \/>한글번역(교정) 문의: 짱아부지JJangPapa(oto4futur@gmail.com)<\/li><\/ul><br \/><ul>베타플라이트 설정이 처음이시거나 새로운 기능을 배우시려면, <a href=\"https:\/\/www.youtube.com\/playlist?list=PLp92gAniAd2r2tY1b2xGnIKLQAbPiskQI\" target=\"_blank\" rel=\"noopener noreferrer\">베타플라이트 설정 가이드(한글판)<\/a>을 참고하세요.<\/ul>"
     },
     "defaultFacebookText": {
-        "message": "우리는 또한 <a href=\"https:\/\/www.facebook.com\/groups\/betaflightgroup\/\" target=\"_blank\" rel=\"noopener noreferrer\">페이스북 그룹<\/a>이 있습니다.<br \/>우리와 함께 베타플라이트에 대해 이야기하고, 환경설정 질문을 하거나, 동료 파일럿과 어울릴 수 있습니다."
+        "message": "우리는 또한 <a href=\"https:\/\/www.facebook.com\/groups\/Scarflightgroup\/\" target=\"_blank\" rel=\"noopener noreferrer\">페이스북 그룹<\/a>이 있습니다.<br \/>우리와 함께 베타플라이트에 대해 이야기하고, 환경설정 질문을 하거나, 동료 파일럿과 어울릴 수 있습니다."
     },
     "defaultDiscordText": {
-        "message": "베타플라이트 <a href=\"https:\/\/discord.betaflight.com\/invite\" target=\"_blank\" rel=\"noopener noreferrer\">디스코드 서버<\/a>.<br \/>당신의 비행 경험을 공유하고, 베타플라이트에 대해 얘기하고, 다른 사람들을 돕거나 커뮤니티로부터 스스로 도움을 얻으세요."
+        "message": "베타플라이트 <a href=\"https:\/\/discord.Scarflight.com\/invite\" target=\"_blank\" rel=\"noopener noreferrer\">디스코드 서버<\/a>.<br \/>당신의 비행 경험을 공유하고, 베타플라이트에 대해 얘기하고, 다른 사람들을 돕거나 커뮤니티로부터 스스로 도움을 얻으세요."
     },
     "statisticsDisclaimer": {
         "message": "베타플라이트 컨피규레이터는 익명의 사용 통계를 수집합니다. 예를 들어, 이 데이터에는 실행 횟수, 사용자의 지리적 지역, 비행 컨트롤러 유형, 펌웨어 버전, UI 요소 및 탭 사용 등이 포함됩니다(이것들로 제한되지는 않습니다). 이 데이터의 요약은 <a href=\"https:\/\/datastudio.google.com\/u\/0\/reporting\/1pK1PFw0eWmsgl2npvuzwAqscVzlhJvuF\" target=\"_blank\" rel=\"noopener noreferrer\">여기<\/a>에 공유됩니다. 베타플라이트 컨피규레이터가 어떻게 사용되고 있는지를 더 잘 이해하고 커뮤니티 추세를 이해하며 가능한 UI 개선을 위해 수집이 수행됩니다. 사용자는 옵션 탭에서 데이터 수집을 거부할 수 있습니다."
@@ -632,7 +632,7 @@
         "message": "<p>지속적으로 재정적으로 기여 하려는 경우 $t(patreonLink.message)에서 우리의 수호자가 되는 것을 고려하세요.<\/p>"
     },
     "patreonLink": {
-        "message": "<a href=\"https:\/\/www.patreon.com\/betaflight\" target=\"_blank\" rel=\"noopener noreferrer\">Patreon<\/a>",
+        "message": "<a href=\"https:\/\/www.patreon.com\/Scarflight\" target=\"_blank\" rel=\"noopener noreferrer\">Patreon<\/a>",
         "description": "Patreon is name, and should not require translation"
     },
     "defaultDonate": {
@@ -648,10 +648,10 @@
         "message": "베타플라이트 문서는 릴리즈 노트와 위키에 적용됩니다.<br \/><br \/>"
     },
     "defaultDocumentation1": {
-        "message": "베타플라이트 위키는 정보를 얻을 수 있는 훌륭한 자료입니다, 그것은 <a href=\"https:\/\/betaflight.com\/docs\/wiki\" target=\"_blank\" rel=\"noopener noreferrer\">여기서<\/a> 찾으실 수 있습니다."
+        "message": "베타플라이트 위키는 정보를 얻을 수 있는 훌륭한 자료입니다, 그것은 <a href=\"https:\/\/Scarflight.com\/docs\/wiki\" target=\"_blank\" rel=\"noopener noreferrer\">여기서<\/a> 찾으실 수 있습니다."
     },
     "defaultDocumentation2": {
-        "message": "펌웨어에 대한 릴리즈 노트는 <a href=\"https:\/\/github.com\/Betaflight\/Betaflight\/releases\" target=\"_blank\" rel=\"noopener noreferrer\">GitHub 릴리즈 페이지<\/a>에서 구독하실 수 있습니다."
+        "message": "펌웨어에 대한 릴리즈 노트는 <a href=\"https:\/\/github.com\/Scarflight\/Scarflight\/releases\" target=\"_blank\" rel=\"noopener noreferrer\">GitHub 릴리즈 페이지<\/a>에서 구독하실 수 있습니다."
     },
     "defaultSupportHead": {
         "message": "지원"
@@ -669,16 +669,16 @@
         "message": "<a href=\"http:\/\/www.rcgroups.com\/forums\/showthread.php?t=2464844&page=1\" target=\"_blank\" rel=\"noopener noreferrer\">RC 그룹 쓰레드<\/a>"
     },
     "defaultSupport2": {
-        "message": "<a href=\"https:\/\/betaflight.com\/docs\/wiki\" target=\"_blank\" rel=\"noopener noreferrer\">베타플라이트 위키<\/a>"
+        "message": "<a href=\"https:\/\/Scarflight.com\/docs\/wiki\" target=\"_blank\" rel=\"noopener noreferrer\">베타플라이트 위키<\/a>"
     },
     "defaultSupport3": {
         "message": "<a href=\"https:\/\/www.youtube.com\/playlist?list=PLwoDb7WF6c8nT4jjsE4VENEmwu9x8zDiE\" target=\"_blank\" rel=\"noopener noreferrer\">Joshua Bardwell 베타플라이트 4.3 동영상<\/a><br \/><a href=\"https:\/\/www.youtube.com\/playlist?list=PLp92gAniAd2r2tY1b2xGnIKLQAbPiskQI\" target=\"_blank\" rel=\"noopener noreferrer\">JJangPapa 베타플라이트 동영상(한글판)<\/a>"
     },
     "defaultSupport4": {
-        "message": "<a href=\"https:\/\/github.com\/Betaflight\" target=\"_blank\" rel=\"noopener noreferrer\">GitHub<\/a>"
+        "message": "<a href=\"https:\/\/github.com\/Scarflight\" target=\"_blank\" rel=\"noopener noreferrer\">GitHub<\/a>"
     },
     "defaultSupport5": {
-        "message": "<a href=\"https:\/\/discord.betaflight.com\/invite\" target=\"_blank\" rel=\"noopener noreferrer\">디스코드 베타플라이트 개발<\/a>"
+        "message": "<a href=\"https:\/\/discord.Scarflight.com\/invite\" target=\"_blank\" rel=\"noopener noreferrer\">디스코드 베타플라이트 개발<\/a>"
     },
     "initialSetupButtonCalibrateAccel": {
         "message": "가속도계 교정"
@@ -2106,7 +2106,7 @@
         "message": "<strong>PID 튜닝 슬라이더 모드<\/strong><br><br>PID 튜닝 슬라이더 모드는 다음과 같습니다:<br><br>&bull; 끄기 - 슬라이더 없음, 값을 수동으로 입력<br>&bull; RP - 슬라이더는 롤과 피치만 제어하며, 요 값은 수동으로 입력<br>&bull; RPY - 슬라이더가 모든 PID 값을 제어<br><br><span class=\"message-negative\"><b>경고:<\/b><\/span>RP에서 RPY 모드로 전환하면, Yaw 설정을 펌웨어 설정으로 덮어씁니다."
     },
     "receiverHelp": {
-        "message": "&#8226; <b><strong><a href=\"https:\/\/betaflight.com\/docs\/wiki\/guides\/current\/Failsafe#testing-failsafe\" target=\"_blank\" rel=\"noopener noreferrer\">항상 페일세이프가 올바르게 작동하는지 확인하세요!<\/a><\/strong><\/b> 페일세이프 탭에서 설정할 수 있으며, 전문가 모드가 요구됩니다.<br> &#8226; <b>최신 Tx 펌웨어를 사용하세요!<\/b><br> &#8226; OpenTx나 EdgeTx를 사용하고 있다면, 조종기에서 <strong><a href=\"https:\/\/betaflight.com\/docs\/development\/Rx#disabling-the-opentxedgetx-adc-filter\" target=\"_blank\" rel=\"noopener noreferrer\">하드웨어 ADC 필터를 비활성화하세요<\/a><\/strong>.<br>기본 설정: '수신기' 설정을 제대로 하세요. 당신의 조종기에 맞는 '채널 맵'을 선택하세요. 롤, 피치와 다른 막대 그래프가 제대로 움직이는지 확인하세요. 조종기에서 채널 엔드포인트 또는 범위 값을 ~1000과 ~2000으로 조정하고, 중심값을 1500으로 설정하세요. 더 많은 정보는 <strong><a href=\"https:\/\/betaflight.com\/docs\/development\/Rx\" target=\"_blank\" rel=\"noopener noreferrer\">문서<\/a><\/strong>를 읽으세요."
+        "message": "&#8226; <b><strong><a href=\"https:\/\/Scarflight.com\/docs\/wiki\/guides\/current\/Failsafe#testing-failsafe\" target=\"_blank\" rel=\"noopener noreferrer\">항상 페일세이프가 올바르게 작동하는지 확인하세요!<\/a><\/strong><\/b> 페일세이프 탭에서 설정할 수 있으며, 전문가 모드가 요구됩니다.<br> &#8226; <b>최신 Tx 펌웨어를 사용하세요!<\/b><br> &#8226; OpenTx나 EdgeTx를 사용하고 있다면, 조종기에서 <strong><a href=\"https:\/\/Scarflight.com\/docs\/development\/Rx#disabling-the-opentxedgetx-adc-filter\" target=\"_blank\" rel=\"noopener noreferrer\">하드웨어 ADC 필터를 비활성화하세요<\/a><\/strong>.<br>기본 설정: '수신기' 설정을 제대로 하세요. 당신의 조종기에 맞는 '채널 맵'을 선택하세요. 롤, 피치와 다른 막대 그래프가 제대로 움직이는지 확인하세요. 조종기에서 채널 엔드포인트 또는 범위 값을 ~1000과 ~2000으로 조정하고, 중심값을 1500으로 설정하세요. 더 많은 정보는 <strong><a href=\"https:\/\/Scarflight.com\/docs\/development\/Rx\" target=\"_blank\" rel=\"noopener noreferrer\">문서<\/a><\/strong>를 읽으세요."
     },
     "receiverThrottleMid": {
         "message": "스로틀 중간값"
@@ -2959,7 +2959,7 @@
         "message": "<strong>안전 공지<\/strong><br \/><strong class=\"message-negative\">부상을 피하기 위해 모든 프로펠러를 제거하세요!<\/strong><br \/>모터가 <strong>회전합니다!<\/strong>"
     },
     "motorsRemapDialogExplanations": {
-        "message": "<strong>정보 공지<\/strong><br \/>모터는 한번에 하나씩 회전하며 어떤 모터가 회전하는지 선택할 수 있습니다. 배터리를 연결해야 하며, 올바른 ESC 프로토콜을 선택해야 합니다. 이 유틸리티는 현재 활성화된 모터만 재조정할 수 있습니다. 더 복잡한 재매핑에는 CLI 리소스 명령이 필요합니다. 이 <a href=\"https:\/\/betaflight.com\/docs\/wiki\/guides\/current\/Remapping-Motors-with-Resource-Command\" target=\"_blank\" rel=\"noopener noreferrer\">위키 페이지<\/a>를 참고하세요."
+        "message": "<strong>정보 공지<\/strong><br \/>모터는 한번에 하나씩 회전하며 어떤 모터가 회전하는지 선택할 수 있습니다. 배터리를 연결해야 하며, 올바른 ESC 프로토콜을 선택해야 합니다. 이 유틸리티는 현재 활성화된 모터만 재조정할 수 있습니다. 더 복잡한 재매핑에는 CLI 리소스 명령이 필요합니다. 이 <a href=\"https:\/\/Scarflight.com\/docs\/wiki\/guides\/current\/Remapping-Motors-with-Resource-Command\" target=\"_blank\" rel=\"noopener noreferrer\">위키 페이지<\/a>를 참고하세요."
     },
     "motorsRemapDialogSave": {
         "message": "저장"
@@ -3031,7 +3031,7 @@
         "message": "기능은 DSHOT ESC에서만 작동합니다.<br \/> ESC(전기 속도 제어기)가 DSHOT 프로토콜을 지원하는지 확인하고 $t(tabMotorTesting.message) 탭에서 변경하세요."
     },
     "escDshotDirectionDialog-WrongMixerText": {
-        "message": "모터의 수가 0입니다.<br \/>$t(tabMotorTesting.message) 탭에서 현재의 믹서를 확인하거나 CLI를 통해 사용자 지정 믹서를 설정하세요. 이 <a href=\"https:\/\/betaflight.com\/docs\/development\/Mixer\" target=\"_blank\" rel=\"noopener noreferrer\">위키 페이지<\/a>를 참고하세요."
+        "message": "모터의 수가 0입니다.<br \/>$t(tabMotorTesting.message) 탭에서 현재의 믹서를 확인하거나 CLI를 통해 사용자 지정 믹서를 설정하세요. 이 <a href=\"https:\/\/Scarflight.com\/docs\/development\/Mixer\" target=\"_blank\" rel=\"noopener noreferrer\">위키 페이지<\/a>를 참고하세요."
     },
     "escDshotDirectionDialog-WrongFirmwareText": {
         "message": "펌웨어를 업데이트하세요.<br \/>최신 펌웨어를 사용하고 있는지 확인합니다: 베타플라이트 4.3 이상."
@@ -3314,7 +3314,7 @@
     },
     "firmwareFlasherTargetWikiUrlInfo": {
         "message": "베타플라이트 위키에서 타겟에 관한 더 많은 정보를 얻으세요",
-        "description": "Link to Betaflight support for target"
+        "description": "Link to Scarflight support for target"
     },
     "firmwareFlasherReleaseMCU": {
         "message": "MCU:"
@@ -3386,7 +3386,7 @@
         "message": "보드를 선택하거나 자동-감지로 사용 가능한 온라인 펌웨어 릴리즈를 확인하십시오 - 보드에 적합한 올바른 펌웨어를 선택하십시오."
     },
     "firmwareFlasherOnlineSelectBoardHint": {
-        "message": "베타플라이트 컨피규레이터는 각 보드별 환경설정으로 통합 타겟의 플래시를 한 번에 지원합니다.<br><br>통합 타겟의 개념은 동일한 펌웨어 .hex 파일을 동일한 MCU를 사용하는 모든 보드에 사용할 수 있다는 것을 의미합니다.<br><br>Betaflight 4.4는 <strong>클라우드 빌드<\/strong>를 포함합니다<br><br><strong>클라우드 빌드<\/strong>를 사용하려면 빌드에 존재하는 하드웨어 옵션을 정의해야 합니다.<br><br>다른 보드가 동일한 펌웨어에서 작동하도록 하기 위해 통합 타겟이 플래시될 때 특정 환경설정 파일이 펌웨어와 함께 배포됩니다.<br><br>로컬 빌드를 사용하면 통합 대상 환경설정 파일을 로드하거나 펌웨어 .hex 파일을 로드하기 전에 보드를 선택할 수 있습니다.<br><br>펌웨어를 사용하는 데 문제가 발생하는 경우 Discord에 가입하거나 <a href=\"https:\/\/github.com\/betaflight\/betaflight\/issues\" target=\"_blank\" rel=\"noopener noreferrer\">이슈<\/a>를 여는 것을 고려하십시오."
+        "message": "베타플라이트 컨피규레이터는 각 보드별 환경설정으로 통합 타겟의 플래시를 한 번에 지원합니다.<br><br>통합 타겟의 개념은 동일한 펌웨어 .hex 파일을 동일한 MCU를 사용하는 모든 보드에 사용할 수 있다는 것을 의미합니다.<br><br>Scarflight 4.4는 <strong>클라우드 빌드<\/strong>를 포함합니다<br><br><strong>클라우드 빌드<\/strong>를 사용하려면 빌드에 존재하는 하드웨어 옵션을 정의해야 합니다.<br><br>다른 보드가 동일한 펌웨어에서 작동하도록 하기 위해 통합 타겟이 플래시될 때 특정 환경설정 파일이 펌웨어와 함께 배포됩니다.<br><br>로컬 빌드를 사용하면 통합 대상 환경설정 파일을 로드하거나 펌웨어 .hex 파일을 로드하기 전에 보드를 선택할 수 있습니다.<br><br>펌웨어를 사용하는 데 문제가 발생하는 경우 Discord에 가입하거나 <a href=\"https:\/\/github.com\/Scarflight\/Scarflight\/issues\" target=\"_blank\" rel=\"noopener noreferrer\">이슈<\/a>를 여는 것을 고려하십시오."
     },
     "firmwareFlasherOnlineSelectFirmwareVersionDescription": {
         "message": "당신의 보드에 대한 펌웨어 버전을 선택하십시오."
@@ -3500,7 +3500,7 @@
         "message": "<strong>통신 복구 \/ 손실<\/strong>"
     },
     "firmwareFlasherRecoveryText": {
-        "message": "보드와의 통신이 끊어진 경우 다음 단계에 따라 통신을 복구하십시오: <ul><li>전원을 끄십시오.<\/li><li>'재부팅 절차 없음', '칩 전부 삭제'를 활성화 하십시오.<\/li><li>부트 핀을 점프하거나 부트 버튼을 누르고 계십시오.<\/li><li>전원을 켜십시오.(제대로 완료되면 작동 중인 LED가 깜박거리지 않습니다)<\/li><li>필요한 경우 STM32 드라이버와 Zadig를 설치하십시오. (베타플라이트 매뉴얼의 <a href=\"https:\/\/betaflight.com\/docs\/wiki\/archive\/Installing-Betaflight\" target=\"_blank\" rel=\"noopener noreferrer\">USB 플래싱<\/a> 섹션을 보십시오.)<\/li><li>컨피규레이터를 닫고, 컨피규레이터를 다시 시작하십시오.<\/li><li>FC에 BOOT 버튼이 있으면 해제하십시오.<\/li><li>올바른 펌웨어로 플래시 하십시오. (당신의 FC 매뉴얼에 명시된 경우 수동 전송 속도를 사용하여).<\/li><li>전원을 끄십시오.<\/li><li>BOOT 점퍼를 제거하십시오.<\/li><li>전원을 켜십시오. (작동 중인 LED가 깜박입니다.).<\/li><li>정상적으로 연결하십시오.<\/li><\/ul>"
+        "message": "보드와의 통신이 끊어진 경우 다음 단계에 따라 통신을 복구하십시오: <ul><li>전원을 끄십시오.<\/li><li>'재부팅 절차 없음', '칩 전부 삭제'를 활성화 하십시오.<\/li><li>부트 핀을 점프하거나 부트 버튼을 누르고 계십시오.<\/li><li>전원을 켜십시오.(제대로 완료되면 작동 중인 LED가 깜박거리지 않습니다)<\/li><li>필요한 경우 STM32 드라이버와 Zadig를 설치하십시오. (베타플라이트 매뉴얼의 <a href=\"https:\/\/Scarflight.com\/docs\/wiki\/archive\/Installing-Scarflight\" target=\"_blank\" rel=\"noopener noreferrer\">USB 플래싱<\/a> 섹션을 보십시오.)<\/li><li>컨피규레이터를 닫고, 컨피규레이터를 다시 시작하십시오.<\/li><li>FC에 BOOT 버튼이 있으면 해제하십시오.<\/li><li>올바른 펌웨어로 플래시 하십시오. (당신의 FC 매뉴얼에 명시된 경우 수동 전송 속도를 사용하여).<\/li><li>전원을 끄십시오.<\/li><li>BOOT 점퍼를 제거하십시오.<\/li><li>전원을 켜십시오. (작동 중인 LED가 깜박입니다.).<\/li><li>정상적으로 연결하십시오.<\/li><\/ul>"
     },
     "firmwareFlasherButtonLeave": {
         "message": "펌웨어 플래시 도구 나가기"
@@ -3560,7 +3560,7 @@
     },
     "firmwareFlasherBoardVerficationTargetNotAvailable": {
         "message": "컨피규레이터가 보드를 감지했습니다: <strong>{{boardName}}<\/strong> 그러나 공식 베타라이트 타겟을 찾을 수 없습니다.",
-        "description": "Board verification has succeeded, but the target is not available as offical Betaflight target."
+        "description": "Board verification has succeeded, but the target is not available as offical Scarflight target."
     },
     "firmwareFlasherBoardVerificationFail": {
         "message": "컨피규레이터가 보드를 검증하는 데 <span class=\"message-negative\">실패하였습니다<\/span>, 만약 이 기능이 작동하지 않으면 탭을 천천히 전환하여 다시 시도하거나, 새 usb 연결을 만들거나, 사용자 지정 기본값을 적용하는 것을 잊은 경우 먼저 연결하십시오.",
@@ -4436,7 +4436,7 @@
         "message": "Vbat 처짐 보상"
     },
     "pidTuningVbatSagCompensationHelp": {
-        "message": "배터리 전압 강하시 모터 출력을 증가시켜 사용 가능한 배터리 전압 범위에 걸쳐 스로틀 및 PID 성능을 일관되게 제공합니다.<br \/><br \/>보상은 0~100% 사이에서 변동될 수 있습니다. 전체 보상(100%)을 권장합니다.<br \/><br \/>더 많은 정보는 <a href=\"https:\/\/betaflight.com\/docs\/wiki\/tuning\/4-2-Tuning-Notes#dynamic-battery-sag-compensation\" target=\"_blank\" rel=\"noopener noreferrer\">이 위키 엔트리<\/a>를 방문하십시오."
+        "message": "배터리 전압 강하시 모터 출력을 증가시켜 사용 가능한 배터리 전압 범위에 걸쳐 스로틀 및 PID 성능을 일관되게 제공합니다.<br \/><br \/>보상은 0~100% 사이에서 변동될 수 있습니다. 전체 보상(100%)을 권장합니다.<br \/><br \/>더 많은 정보는 <a href=\"https:\/\/Scarflight.com\/docs\/wiki\/tuning\/4-2-Tuning-Notes#dynamic-battery-sag-compensation\" target=\"_blank\" rel=\"noopener noreferrer\">이 위키 엔트리<\/a>를 방문하십시오."
     },
     "pidTuningVbatSagValue": {
         "message": "%"
@@ -4517,7 +4517,7 @@
         "message": "다이나믹 아이들 값 [× 100 RPM]"
     },
     "pidTuningIdleMinRpmHelp": {
-        "message": "다이나믹 아이들은 낮은 rpm에서 제어력을 향상시키고 모터 디싱크의 위험을 줄여줍니다. <br \/><br \/> PID 권한, 제로 스로틀 안정성, 인버티드 행 타임, 모터 제동 등을 개선합니다.<br \/><br \/>다이나믹 아이들 최소 rpm은 약 3000 - 3500 rpm으로 설정해야 합니다. <br \/><br \/>자세한 내용은 <a href=\"https:\/\/betaflight.com\/docs\/wiki\/guides\/current\/Dynamic-Idle\" target=\"_blank\" rel=\"noopener noreferrer\">이 위키 항목<\/a>을 방문하십시오."
+        "message": "다이나믹 아이들은 낮은 rpm에서 제어력을 향상시키고 모터 디싱크의 위험을 줄여줍니다. <br \/><br \/> PID 권한, 제로 스로틀 안정성, 인버티드 행 타임, 모터 제동 등을 개선합니다.<br \/><br \/>다이나믹 아이들 최소 rpm은 약 3000 - 3500 rpm으로 설정해야 합니다. <br \/><br \/>자세한 내용은 <a href=\"https:\/\/Scarflight.com\/docs\/wiki\/guides\/current\/Dynamic-Idle\" target=\"_blank\" rel=\"noopener noreferrer\">이 위키 항목<\/a>을 방문하십시오."
     },
     "pidTuningIdleMinRpmDisabled": {
         "message": "D샷 텔레메트리가 꺼져있어서 다이나믹 아이들이 비활성화됩니다."
@@ -4532,7 +4532,7 @@
         "message": "통합 요(Yaw)"
     },
     "pidTuningIntegratedYawCaution": {
-        "message": "<span class=\"message-negative\">주의<\/span>: 이 기능을 사용하는 경우 그에 따라 요 PID를 조정해야 합니다. 더 자세한 정보는 <a href=\"https:\/\/betaflight.com\/docs\/wiki\/guides\/current\/Integrated-Yaw\" target=\"_blank\" rel=\"noopener noreferrer\">여기<\/a>에서 확인하세요."
+        "message": "<span class=\"message-negative\">주의<\/span>: 이 기능을 사용하는 경우 그에 따라 요 PID를 조정해야 합니다. 더 자세한 정보는 <a href=\"https:\/\/Scarflight.com\/docs\/wiki\/guides\/current\/Integrated-Yaw\" target=\"_blank\" rel=\"noopener noreferrer\">여기<\/a>에서 확인하세요."
     },
     "pidTuningIntegratedYawHelp": {
         "message": "통합된 요는 요 P, I, D 값을 통합하여 요 P, I, D가 피치와 롤을 튜닝하는 것처럼 튜닝됩니다.<br><br>적분 P는 I처럼 작용하고, 적분 D는 P처럼 작용하기 때문에 I는 거의 필요하지 않습니다.<br><br>참고: 통합 요의 경우 I가 필요하지 않으므로, 통합 요의 경우 절대 제어를 사용해야 합니다."
@@ -5013,7 +5013,7 @@
         "message": "<strong>참고:<\/strong> OSD 미리보기는 비행 컨트롤러에 설치된 실제 폰트로 보여지지 않을 수도 있습니다. 또한 개별적인 항목의 레이아웃은 오래된 버전의 펌웨어를 사용할 때 다르게 보여질 수 있습니다 - 비행하기 전 당신의 고글로 화면을 점검하세요."
     },
     "osdSetupUnsupportedNote1": {
-        "message": "비행 컨트롤러가 OSD 명령에 응답하지 않습니다. 이는 통합된 BetaFlight OSD가 없다는 것을 의미합니다."
+        "message": "비행 컨트롤러가 OSD 명령에 응답하지 않습니다. 이는 통합된 Scarflight OSD가 없다는 것을 의미합니다."
     },
     "osdSetupUnsupportedNote2": {
         "message": "일부 비행 컨트롤러는 온보드 <a href=\"https:\/\/www.youtube.com\/watch?v=ikKH_6SQ-Tk\" target=\"_blank\" rel=\"noopener noreferrer\">MinimOSD<\/a>를 가지고 있습니다. 이는 <a href=\"https:\/\/github.com\/ShikOfTheRa\/scarab-osd\/releases\/latest\" target='_blank'>scarab-osd<\/a>를 통해 플래시하고 설정할 수 있습니다. 그러나 MinimOSD는 이 인터페이스를 통해서 설정할수 없습니다."
@@ -5069,9 +5069,9 @@
         "message": "라지 엑스트라",
         "description": "Font Large Extra"
     },
-    "osdSetupFontTypeBetaflight": {
+    "osdSetupFontTypeScarflight": {
         "message": "베타플라이트",
-        "description": "Font Betaflight"
+        "description": "Font Scarflight"
     },
     "osdSetupFontTypeDigital": {
         "message": "디지털",
@@ -6373,7 +6373,7 @@
         "message": "저장됨"
     },
     "vtxHelp": {
-        "message": "여기에서 영상 송신기(VTX)에 대한 값을 구성할 수 있습니다. 비행 컨트롤러와 VTX가 지원하는 경우 VTX 테이블을 포함한 전송 값을 보고 변경할 수 있습니다.<br>VTX를 설정하려면 다음의 단계를 사용하십시오:<br>1. <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https:\/\/betaflight.com\/docs\/wiki\/archive\/VTX-tables\">이 페이지<\/a>로 가십시오;<br>2. 당신의 국가와 VTX 모델에 적합한 VTX 구성 파일을 찾아 다운로드하십시오;<br>3. 아래에서 '$t(vtxButtonLoadFile.message)'를 클릭하고 VTX 구성 파일을 선택하고 로드하십시오;<br>4. 설정이 올바른지 확인하십시오;<br>5. VTX 설정을 비행 컨트롤러에 저장하려면 '$t(vtxButtonSave.message)'를 클릭하십시오.<br>6. 옵션으로 베타플라이트 루아 스크립트로 사용 가능한 루아 환경설정 파일로 저장하려면 '$t(vtxButtonSaveLua.message)'을 클릭하세요. (더 자세한 정보는 <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https:\/\/github.com\/betaflight\/betaflight-tx-lua-scripts\/\">여기<\/a>를 보세요.)",
+        "message": "여기에서 영상 송신기(VTX)에 대한 값을 구성할 수 있습니다. 비행 컨트롤러와 VTX가 지원하는 경우 VTX 테이블을 포함한 전송 값을 보고 변경할 수 있습니다.<br>VTX를 설정하려면 다음의 단계를 사용하십시오:<br>1. <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https:\/\/Scarflight.com\/docs\/wiki\/archive\/VTX-tables\">이 페이지<\/a>로 가십시오;<br>2. 당신의 국가와 VTX 모델에 적합한 VTX 구성 파일을 찾아 다운로드하십시오;<br>3. 아래에서 '$t(vtxButtonLoadFile.message)'를 클릭하고 VTX 구성 파일을 선택하고 로드하십시오;<br>4. 설정이 올바른지 확인하십시오;<br>5. VTX 설정을 비행 컨트롤러에 저장하려면 '$t(vtxButtonSave.message)'를 클릭하십시오.<br>6. 옵션으로 베타플라이트 루아 스크립트로 사용 가능한 루아 환경설정 파일로 저장하려면 '$t(vtxButtonSaveLua.message)'을 클릭하세요. (더 자세한 정보는 <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https:\/\/github.com\/Scarflight\/Scarflight-tx-lua-scripts\/\">여기<\/a>를 보세요.)",
         "description": "Introduction message in the VTX tab"
     },
     "vtxMessageNotSupported": {
@@ -6633,7 +6633,7 @@
         "description": "Save Lua script button in the VTX tab"
     },
     "vtxLuaFileHelp": {
-        "message": "'$t(vtxButtonSaveLua.message)' 버튼을 사용하면 <a href=\"https:\/\/github.com\/betaflight\/betaflight-tx-lua-scripts\/\" target=\"_blank\" rel=\"noopener noreferrer\">베타플라이트 TX 루아 스크립트<\/a>와 함께 사용할 수 있는 VTX 테이블 구성이 들어 있는 <i>mcuid<\/i>.lua 파일을 저장할 수 있습니다.<br><br>버전 1.6.0 이상에서는 파일을 그대로 사용할 수 있지만 이전 버전의 스크립트의 경우 TX의 모델 이름과 일치하도록 이름을 변경해야 합니다.",
+        "message": "'$t(vtxButtonSaveLua.message)' 버튼을 사용하면 <a href=\"https:\/\/github.com\/Scarflight\/Scarflight-tx-lua-scripts\/\" target=\"_blank\" rel=\"noopener noreferrer\">베타플라이트 TX 루아 스크립트<\/a>와 함께 사용할 수 있는 VTX 테이블 구성이 들어 있는 <i>mcuid<\/i>.lua 파일을 저장할 수 있습니다.<br><br>버전 1.6.0 이상에서는 파일을 그대로 사용할 수 있지만 이전 버전의 스크립트의 경우 TX의 모델 이름과 일치하도록 이름을 변경해야 합니다.",
         "description": "Tooltip message for the Save Lua script button in the VTX tab"
     },
     "vtxButtonLoadFile": {
@@ -6949,7 +6949,7 @@
         "message": "파일 이름"
     },
     "dialogFileNameDescription": {
-        "message": "파일이 내부 스토리지의 'Android\/data\/betaflight-configator\/{{folder}}' 폴더에 저장됩니다."
+        "message": "파일이 내부 스토리지의 'Android\/data\/Scarflight-configator\/{{folder}}' 폴더에 저장됩니다."
     },
     "dialogFileAlreadyExistsTitle": {
         "message": "이 파일이 이미 존재 합니다!"
@@ -7294,7 +7294,7 @@
         "message": "개발 모드에서 DevTool 자동 열기",
         "description": "Text for the option to enable automatic opening of DevTools in debug mode"
     },
-    "betaflightSupportButton": {
+    "ScarflightSupportButton": {
         "message": "위키",
         "description": "Text for the button to open the support URL"
     }

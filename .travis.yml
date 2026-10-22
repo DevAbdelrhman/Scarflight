@@ -46,8 +46,8 @@ cache:
   directories:
   - node_modules
 
-# Notifications are encrypted to betaflight/betaflight to avoid spam from forks
-# Command: `travis encrypt "<secret>" --com -r betaflight/betaflight-configurator`
+# Notifications are encrypted to Scarflight/Scarflight to avoid spam from forks
+# Command: `travis encrypt "<secret>" --com -r Scarflight/Scarflight-configurator`
 notifications:
   slack:
     rooms:

@@ -31,8 +31,8 @@
             class="switchery switchery-small"
             :style="{
               backgroundColor: isAutoConnect
-                ? '#ffbb00'
-                : '#858585',
+                ? '#22C55E'
+                : '#69736C',
             }"
           >
             <small

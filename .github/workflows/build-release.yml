@@ -25,13 +25,13 @@ jobs:
         uses: actions/download-artifact@v4
 
       - name: List assets
-        run: ls -al Betaflight-*/*
+        run: ls -al Scarflight-*/*
 
       - name: Attach assets to release
         run: |
           set -x
           ASSETS=()
-          for asset in Betaflight-*/*; do
+          for asset in Scarflight-*/*; do
             ASSETS+=("$asset")
             echo "$asset"
           done

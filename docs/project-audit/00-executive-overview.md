@@ -2,10 +2,10 @@
 
 ## 1. Project Purpose & Summary
 
-**Betaflight Configurator** is the official cross-platform ground station and configuration utility for the [Betaflight](https://github.com/betaflight/betaflight) open-source flight controller firmware. The application serves drone pilots, developers, and hardware manufacturers worldwide, providing end-to-end tooling for:
+**Scarflight Configurator** is a cross-platform ground station and configuration utility for the [Scarflight](https://github.com/Scarflight/Scarflight) open-source flight controller firmware. It is a renamed fork of Scarflight Configurator and serves drone pilots, developers, and hardware manufacturers with:
 
 1. **Hardware Setup & Orientation**: Live 3D gyro/attitude visualization (using Three.js), accelerometer calibration, board alignment, and peripheral management.
-2. **Firmware Flashing & Cloud Builds**: In-system flashing of flight controller boards via USB DFU (STM32, GD32, AT32, APM32) and serial bootloaders, including cloud-customized firmware builds from `https://build.betaflight.com`.
+2. **Firmware Flashing & Cloud Builds**: In-system flashing of flight controller boards via USB DFU (STM32, GD32, AT32, APM32) and serial bootloaders, including cloud-customized firmware builds from `https://build.Scarflight.com`.
 3. **Flight Control & Tuning**: Comprehensive PID loops, Feedforward, D-term filters, dynamic gyro notch filtering, RC rates curves, and in-flight adjustment profiles.
 4. **Peripherals & Communication**: Multi-UART serial port mapping (MSP, Serial RX, Telemetry, GPS, Blackbox), OSD (On-Screen Display) canvas layout editor, VTX (Video Transmitter) frequency/power management, and LED strip programming.
 5. **Community Presets**: One-click configuration presets fetched from community repositories for tuning, RC links (ExpressLRS, Crossfire), filters, and OS/hardware profiles.
@@ -17,10 +17,10 @@
 
 | Attribute | Inspected Value | Source Reference |
 | :--- | :--- | :--- |
-| **Package Name** | `betaflight-configurator` | [`package.json:2`](file:///c:/Users/DELL/Drone/package.json#L2) |
-| **Product Name** | `Betaflight Configurator` | [`package.json:3`](file:///c:/Users/DELL/Drone/package.json#L3) |
+| **Package Name** | `Scarflight-configurator` | [`package.json:2`](file:///c:/Users/DELL/Drone/package.json#L2) |
+| **Product Name** | `Scarflight Configurator` | [`package.json:3`](file:///c:/Users/DELL/Drone/package.json#L3) |
 | **Application Version** | `10.10.0` | [`package.json:5`](file:///c:/Users/DELL/Drone/package.json#L5) |
-| **Repository URL** | `github.com/betaflight/betaflight-configurator` | [`package.json:35`](file:///c:/Users/DELL/Drone/package.json#L35) |
+| **Repository URL** | `github.com/Scarflight/Scarflight-configurator` | [`package.json:35`](file:///c:/Users/DELL/Drone/package.json#L35) |
 | **License** | GPL-3.0 | [`package.json:38`](file:///c:/Users/DELL/Drone/package.json#L38) |
 | **Target Engine** | Node.js `20.x` | [`package.json:40`](file:///c:/Users/DELL/Drone/package.json#L40) |
 | **Current Git Branch** | `main` | Verified via Git metadata |
@@ -32,7 +32,7 @@
 
 ## 3. High-Level Architecture & Runtime Environments
 
-Betaflight Configurator employs a **hybrid architecture** that bridges legacy Google Chrome App origins, modern Vite/Vue 2 componentization, native desktop packaging (NW.js), and mobile runtime support (Apache Cordova).
+Scarflight Configurator employs a **hybrid architecture** that bridges legacy Google Chrome App origins, modern Vite/Vue 2 componentization, native desktop packaging (NW.js), and mobile runtime support (Apache Cordova).
 
 ```mermaid
 graph TD

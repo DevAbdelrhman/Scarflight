@@ -1,6 +1,6 @@
 # 10 — Styling, Design Tokens, Assets & Localization
 
-This document details the visual design architecture, stylesheet hierarchy, responsive layout rules, media assets, and internationalization system of Betaflight Configurator.
+This document details the visual design architecture, stylesheet hierarchy, responsive layout rules, media assets, and internationalization system of Scarflight Configurator.
 
 ---
 

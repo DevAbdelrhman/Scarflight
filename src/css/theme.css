@@ -4,14 +4,14 @@
  * the need to compile the less files and still can be use in storybook
  */
 :root {
-    --accent: #ffbb00;
+    --accent: #22C55E;
     --error: red;
     --subtleAccent: silver;
     --quietText: #ffffff;
     --quietHeader: #828885;
     --defaultText: #000000;
-    --subtleText: #c0c0c0;
-    --mutedText: #616161;
+    --subtleText: #B8C4BC;
+    --mutedText: #15803D;
     --linkText: #2e2ebb;
     --boxBackground: #ffffff;
     --alternativeBackground: #f9f9f9;
@@ -23,7 +23,7 @@
     --switcherysecond: #c4c4c4;
     --pushedButton-background: #c4c4c4;
     --pushedButton-fontColor: #000000;
-    --hoverButton-background: #ffcc3e;
+    --hoverButton-background: #16A34A;
     --superSubtleAccent: #cccccc;
-    --accentBorder: #ffbb00;
+    --accentBorder: #22C55E;
 }

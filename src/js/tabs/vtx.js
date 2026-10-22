@@ -980,7 +980,7 @@ vtx.initialize = function (callback) {
     function createVtxConfigInfo() {
 
         const vtxConfig = {
-            description: "Betaflight VTX Config file",
+            description: "Scarflight VTX Config file",
             version: "1.0",
         };
 

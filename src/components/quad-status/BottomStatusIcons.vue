@@ -72,7 +72,7 @@ button {
 }
 button.active {
     background-color: var(--accent);
-    border: 1px solid #dba718;
+    border: 1px solid #22C55E;
     color: #000;
 }
 .armedicon {

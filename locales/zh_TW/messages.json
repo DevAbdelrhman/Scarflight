@@ -371,13 +371,13 @@
         "message": "<span class=\"message-negative\">10秒<\/span>內沒有接受到配置訊息，飛控通訊 <span class=\"message-negative\">失敗<\/span>"
     },
     "firmwareVersionNotSupported": {
-        "message": "Betaflight 配置程式<span class=\"message-negative\">不支援<\/span>該固件版本。請更新固件以確保其API版本為<strong>$1<\/strong> 或更高。更新固件之前，使用 CLI 來備份設置。使用 CLI 進行備份\/恢復的詳細操作流程請參考Betaflight文檔。<br \/>如果不想將固件更新到最新版本，可以下載使用支援該固件的舊版配置程式。"
+        "message": "Scarflight 配置程式<span class=\"message-negative\">不支援<\/span>該固件版本。請更新固件以確保其API版本為<strong>$1<\/strong> 或更高。更新固件之前，使用 CLI 來備份設置。使用 CLI 進行備份\/恢復的詳細操作流程請參考Scarflight文檔。<br \/>如果不想將固件更新到最新版本，可以下載使用支援該固件的舊版配置程式。"
     },
     "firmwareTypeNotSupported": {
-        "message": "<span class=\"message-negative\">不支持<\/span>非 Betaflight 固件，只能使用 CLI 模式"
+        "message": "<span class=\"message-negative\">不支持<\/span>非 Scarflight 固件，只能使用 CLI 模式"
     },
     "firmwareUpgradeRequired": {
-        "message": "需要將此設備上的固件更新到新版本。更新固件之前，使用 CLI 來備份設置。使用 CLI 進行備份\/恢復的詳細操作流程請參考Betaflight文檔。<br \/>如果不想將固件更新到最新版本，可以下載使用支援該固件的舊版配置程式。"
+        "message": "需要將此設備上的固件更新到新版本。更新固件之前，使用 CLI 來備份設置。使用 CLI 進行備份\/恢復的詳細操作流程請參考Scarflight文檔。<br \/>如果不想將固件更新到最新版本，可以下載使用支援該固件的舊版配置程式。"
     },
     "resetToCustomDefaultsDialog": {
         "message": "有適用于次飛控板的自定義默認設置，通常來說，還有在應用了自定義默認設置之後飛控板才能正常工作。<br \/>您是否要為此飛控板應用自定義默認設置？"
@@ -413,7 +413,7 @@
         "message": "<span class=\"message-negative\">不能<\/span>執行當前操作，請等待上一個操作完成…"
     },
     "tabSwitchUpgradeRequired": {
-        "message": "需要<strong>更新<\/strong>到最新版本的 Betaflight 固件才能使用 $1 頁面"
+        "message": "需要<strong>更新<\/strong>到最新版本的 Scarflight 固件才能使用 $1 頁面"
     },
     "firmwareVersion": {
         "message": "固件版本：<strong>$1<\/strong>"
@@ -495,7 +495,7 @@
         "message": "EEPROM <span class=\"message-positive\">已保存<\/span>"
     },
     "defaultWelcomeIntro": {
-        "message": "歡迎使用<strong> Betaflight - 配置程式<\/strong>，為簡化固件升級，設置和調校飛控而生的工具。"
+        "message": "歡迎使用<strong> Scarflight - 配置程式<\/strong>，為簡化固件升級，設置和調校飛控而生的工具。"
     },
     "defaultWelcomeHead": {
         "message": "硬體"
@@ -504,7 +504,7 @@
         "message": "參與開發"
     },
     "defaultFacebookText": {
-        "message": "我們還有一個<a href=\"https:\/\/www.facebook.com\/groups\/betaflightgroup\/\" target=\"_blank\" rel=\"noopener noreferrer\"> Facebook 小組<\/a>。<br \/>加入我們來一起討論 Betaflight，咨詢配置問題，或者只是和小夥伴們閒聊。"
+        "message": "我們還有一個<a href=\"https:\/\/www.facebook.com\/groups\/Scarflightgroup\/\" target=\"_blank\" rel=\"noopener noreferrer\"> Facebook 小組<\/a>。<br \/>加入我們來一起討論 Scarflight，咨詢配置問題，或者只是和小夥伴們閒聊。"
     },
     "defaultButtonFirmwareFlasher": {
         "message": "固件燒寫器"
@@ -513,13 +513,13 @@
         "message": "開源\/捐贈說明"
     },
     "defaultDonateText": {
-        "message": "<p><strong>Betaflight<\/strong>是一個<strong>開放源碼<\/strong>的飛行控制軟體，它可供所有用戶免費使用，但 <strong>不提供擔保<\/strong>。 <\/p><p>如果你覺得 Betaflight 或 Betaflight 配置程式對你有用，請考慮捐贈以 <strong>支援<\/strong> 它的開發工作<\/p>"
+        "message": "<p><strong>Scarflight<\/strong>是一個<strong>開放源碼<\/strong>的飛行控制軟體，它可供所有用戶免費使用，但 <strong>不提供擔保<\/strong>。 <\/p><p>如果你覺得 Scarflight 或 Scarflight 配置程式對你有用，請考慮捐贈以 <strong>支援<\/strong> 它的開發工作<\/p>"
     },
     "defaultDonateBottom": {
         "message": "<p>如果你想持續捐助資金，請考慮在$t(patreonLink.message)上贊助我們。<\/p>"
     },
     "patreonLink": {
-        "message": "<a href=\"https:\/\/www.patreon.com\/betaflight\" target=\"_blank\" rel=\"noopener noreferrer\">Patreon<\/a>",
+        "message": "<a href=\"https:\/\/www.patreon.com\/Scarflight\" target=\"_blank\" rel=\"noopener noreferrer\">Patreon<\/a>",
         "description": "Patreon is name, and should not require translation"
     },
     "defaultDonate": {
@@ -532,10 +532,10 @@
         "message": "文檔\/手冊"
     },
     "defaultDocumentation": {
-        "message": "Betaflight 的文檔和發佈說明可以在 wiki 裡面找到。<br \/><br \/>"
+        "message": "Scarflight 的文檔和發佈說明可以在 wiki 裡面找到。<br \/><br \/>"
     },
     "defaultDocumentation2": {
-        "message": "最新的固件發佈訊息可以在<a href=\"https:\/\/github.com\/Betaflight\/Betaflight\/releases\" target=\"_blank\" rel=\"noopener noreferrer\">這裡<\/a>找到。"
+        "message": "最新的固件發佈訊息可以在<a href=\"https:\/\/github.com\/Scarflight\/Scarflight\/releases\" target=\"_blank\" rel=\"noopener noreferrer\">這裡<\/a>找到。"
     },
     "defaultSupportHead": {
         "message": "支援"
@@ -553,7 +553,7 @@
         "message": "<a href=\"http:\/\/www.rcgroups.com\/forums\/showthread.php?t=2464844&page=1\" target=\"_blank\" rel=\"noopener noreferrer\">RC Groups thread<\/a>"
     },
     "defaultSupport4": {
-        "message": "<a href=\"https:\/\/github.com\/Betaflight\" target=\"_blank\" rel=\"noopener noreferrer\">GitHub<\/a>"
+        "message": "<a href=\"https:\/\/github.com\/Scarflight\" target=\"_blank\" rel=\"noopener noreferrer\">GitHub<\/a>"
     },
     "initialSetupButtonCalibrateAccel": {
         "message": "校準加速度計"
@@ -1003,7 +1003,7 @@
         "message": "信標音調"
     },
     "configurationDshotBeaconHelp": {
-        "message": "Dshot 信標使用電調和電機產生聲音。這意味著當電機旋轉時，Dshot 信標無法工作。在 Betaflight 3.4 和以後的版本中，若在 Dshot 信標激活時嘗試解鎖，飛控會在發出最後一聲信標音後延遲2秒再解鎖。這是為了防止 Dshot 信標功能干擾在解鎖時發送的 Dshot 命令。<br\/><strong>警告：<\/strong> 由於 Dshot 信標會有電流流過，如果信標鳴叫強度設置得太高，可能會噪聲電機\/電調過熱甚至孫奎。建議使用 BLHeli 配置程式或 BLHeliSuite 來調整和測試信標的鳴叫強度。"
+        "message": "Dshot 信標使用電調和電機產生聲音。這意味著當電機旋轉時，Dshot 信標無法工作。在 Scarflight 3.4 和以後的版本中，若在 Dshot 信標激活時嘗試解鎖，飛控會在發出最後一聲信標音後延遲2秒再解鎖。這是為了防止 Dshot 信標功能干擾在解鎖時發送的 Dshot 命令。<br\/><strong>警告：<\/strong> 由於 Dshot 信標會有電流流過，如果信標鳴叫強度設置得太高，可能會噪聲電機\/電調過熱甚至孫奎。建議使用 BLHeli 配置程式或 BLHeliSuite 來調整和測試信標的鳴叫強度。"
     },
     "configurationBeeper": {
         "message": "蜂鳴器配置"
@@ -2721,7 +2721,7 @@
         "message": "RC Expo 權重"
     },
     "pidTuningRcExpoPowerHelp": {
-        "message": "該指數用以計算RC Expo。在 Betaflight 3.0版本之前，該值固定為3。"
+        "message": "該指數用以計算RC Expo。在 Scarflight 3.0版本之前，該值固定為3。"
     },
     "pidTuningLevel": {
         "message": "自穩\/半自穩"
@@ -2957,7 +2957,7 @@
         "message": "任意角度（直立，反轉，旋轉等）安裝飛控板。當使用外部傳感器時，請使用傳感器校正設置(陀螺，加速度計，磁場計)來決定獨立於飛控板的傳感器位置。"
     },
     "failsafeFeaturesHelpOld": {
-        "message": "失控保護功能被大量重做。請使用Betaflight <strong>v1.12.0+<\/strong> 來啟用增強的失控保護設置頁。"
+        "message": "失控保護功能被大量重做。請使用Scarflight <strong>v1.12.0+<\/strong> 來啟用增強的失控保護設置頁。"
     },
     "failsafePaneTitleOld": {
         "message": "接收器失控保護"
@@ -3080,7 +3080,7 @@
         "message": "保存"
     },
     "powerFirmwareUpgradeRequired": {
-        "message": "固件更新 <span class=\"message-negative\">要求<\/span>。電池\/電流\/電壓通過API &lt; 1.33.0 設置。（Betaflight 版本&lt;=3.17）不支援。"
+        "message": "固件更新 <span class=\"message-negative\">要求<\/span>。電池\/電流\/電壓通過API &lt; 1.33.0 設置。（Scarflight 版本&lt;=3.17）不支援。"
     },
     "powerBatteryVoltageMeterSource": {
         "message": "電壓計選擇"
@@ -4154,10 +4154,10 @@
         "message": "未知統計 (會在將來的版本中添加詳細訊息)"
     },
     "osdDescribeFontVersion1": {
-        "message": "字體版本: 1 (Betaflight 4.0或更舊版本)"
+        "message": "字體版本: 1 (Scarflight 4.0或更舊版本)"
     },
     "osdDescribeFontVersion2": {
-        "message": "字體版本: 2 (Betaflight 4.1或更新版本)"
+        "message": "字體版本: 2 (Scarflight 4.1或更新版本)"
     },
     "osdDescribeFontVersionCUSTOM": {
         "message": "字庫版本: 用戶提供"
@@ -4738,7 +4738,7 @@
         "message": "測量模式"
     },
     "pidTuningPidControllerTip": {
-        "message": "<b>傳統 vs Betaflight (浮點數):<\/b> PID 比例和 PID 邏輯是完全一樣的。理論上，在兩者之間進行切換不需要重新調參。傳統的也是betaflight參與的重寫算法，使用整數進行計算。 Betaflight PID 控制器使用浮點數進行計算，並專門為多軸飛行器設計了許多新功能<br> <b>浮點vs 整數:<\/b> PID 比例和PID邏輯完全一樣的. 理論上，在兩者之間進行切換不需要重新調參。 F1晶片缺乏FPU，使用浮點運算將會增加CPU負荷，使用整數運算會得到更加好的運行效果。但是浮點運算會獲得稍高的精準度。"
+        "message": "<b>傳統 vs Scarflight (浮點數):<\/b> PID 比例和 PID 邏輯是完全一樣的。理論上，在兩者之間進行切換不需要重新調參。傳統的也是Scarflight參與的重寫算法，使用整數進行計算。 Scarflight PID 控制器使用浮點數進行計算，並專門為多軸飛行器設計了許多新功能<br> <b>浮點vs 整數:<\/b> PID 比例和PID邏輯完全一樣的. 理論上，在兩者之間進行切換不需要重新調參。 F1晶片缺乏FPU，使用浮點運算將會增加CPU負荷，使用整數運算會得到更加好的運行效果。但是浮點運算會獲得稍高的精準度。"
     },
     "pidTuningFilterTip": {
         "message": "<b>陀螺儀軟件濾波器：<\/b> 陀螺儀的低通濾波。更低的數字會提供更多的過濾效果。 <br><b>D Term 濾波器：<\/b>Dterm 低通濾波器。會影響D值的調參，更低的數字會提供更多的過濾效果。 <br><b>方向濾波器：<\/b> 對偏航輸出進行濾波。對偏航軸震動或者噪聲很嚴重的情況會有幫助。"

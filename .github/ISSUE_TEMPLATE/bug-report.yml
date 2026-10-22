@@ -1,5 +1,5 @@
 name: Bug Report
-description: Create a report to help us fix bugs in Betaflight Configurator.
+description: Create a report to help us fix bugs in Scarflight Configurator.
 labels: ["Template: Bug"]
 body:
 
@@ -46,7 +46,7 @@ body:
       label: Flight controller configuration
       description: |
         If this bug is related to a specific flight controller and/or configuration please specify it here.
-        Create a `diff` and post it here. Instructions on how to do a diff: https://oscarliang.com/use-diff-not-dump-betaflight/
+        Create a `diff` and post it here. Instructions on how to do a diff: https://oscarliang.com/use-diff-not-dump-Scarflight/
         Don't add three backticks or any other format symbol at the start or end of the block, they will be added automatically.
       placeholder: |
           # PASTE HERE THE OUTPUT OF `diff` COMMAND IN THE CLI TAB

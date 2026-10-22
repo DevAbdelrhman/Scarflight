@@ -6,8 +6,8 @@
     <script type="module" src="/src/js/utils/common.js"></script>
     <script type="module" src="/src/js/browserMain.js"></script>
 
-    <title>Betaflight</title>
-    <meta name="description" content="Configurator for betaflight firmware">
+    <title>Scarflight</title>
+    <meta name="description" content="Scarflight Configurator for Scarflight firmware">
     <link rel="icon" href="/images/pwa/favicon.ico">
     <link rel="apple-touch-icon" href="/images/pwa/apple-touch-icon.png" sizes="128x128">
     <meta name="theme-color" content="#eea600">
@@ -20,12 +20,12 @@
         <div id="menu_btn">
             <em class="fas fa-bars"></em>
         </div>
-        <betaflight-logo
+        <Scarflight-logo
             :configurator-version="CONFIGURATOR.getDisplayVersion()"
             :firmware-version="FC.CONFIG.flightControllerVersion"
             :firmware-id="FC.CONFIG.flightControllerIdentifier"
             :hardware-id="FC.CONFIG.hardwareName"
-        ></betaflight-logo>
+        ></Scarflight-logo>
         <div id="port-picker">
             <div id="port-override-option">
                 <label for="port-override">
@@ -158,12 +158,12 @@
     </div>
     <div id="tab-content-container">
         <div class="tab_container">
-            <betaflight-logo
+            <Scarflight-logo
                 :configurator-version="CONFIGURATOR.getDisplayVersion()"
                 :firmware-version="FC.CONFIG.flightControllerVersion"
                 :firmware-id="FC.CONFIG.flightControllerIdentifier"
                 :hardware-id="FC.CONFIG.hardwareName"
-            ></betaflight-logo>
+            ></Scarflight-logo>
             <div id="tabs">
                 <ul class="mode-disconnected">
                     <li class="tab_landing" id="tab_landing"><a href="#" i18n="tabLanding" class="tabicon ic_welcome" i18n_title="tabLanding"></a></li>

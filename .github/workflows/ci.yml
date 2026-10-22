@@ -1,4 +1,4 @@
-# Builds Betaflight Configurator on Windows, Android, Linux and macOS platforms.
+# Builds Scarflight Configurator on Windows, Android, Linux and macOS platforms.
 #
 # After building, artifacts are released to a separate repository.
 
@@ -106,6 +106,6 @@ jobs:
       - name: Publish build artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: Betaflight-Configurator${{ inputs.debug_build == 'true' && '-Debug' || '' }}-${{ matrix.name }}
+          name: Scarflight-Configurator${{ inputs.debug_build == 'true' && '-Debug' || '' }}-${{ matrix.name }}
           path: release/
           retention-days: 90

@@ -313,8 +313,8 @@ class GuiControl {
         const tRex = GUI.active_tab.replaceAll('_', '-').toLowerCase();
 
         $('div#content #button-documentation')
-        .html(i18n.getMessage('betaflightSupportButton'))
-        .attr("href", `https://betaflight.com/docs/wiki/configurator/${tRex}-tab`);
+        .html(i18n.getMessage('ScarflightSupportButton'))
+        .attr("href", `https://Scarflight.com/docs/wiki/configurator/${tRex}-tab`);
 
         // loading tooltip
         $(function () {

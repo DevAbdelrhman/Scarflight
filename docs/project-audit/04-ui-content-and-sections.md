@@ -1,6 +1,6 @@
 # 04 — UI Content, Elements & Layout Inventory
 
-This document details the pixel-level layout structure, UI components, displayed text, and conditional visual elements across the entire Betaflight Configurator interface.
+This document details the pixel-level layout structure, UI components, displayed text, and conditional visual elements across the entire Scarflight Configurator interface.
 
 ---
 
@@ -19,7 +19,7 @@ The top navigation headerbar (`div.headerbar`) remains visible across all applic
 | DOM Element ID / Selector | Type | Visual Content / Text | Source Component | Behavior & Conditions |
 | :--- | :--- | :--- | :--- | :--- |
 | `#menu_btn` | Icon Button | FontAwesome `fa-bars` | [`src/index.html:20`](file:///c:/Users/DELL/Drone/src/index.html#L20) | Mobile drawer toggle. Expands or collapses sidebar tabs in mobile / narrow viewports. |
-| `<betaflight-logo>` | Vue Component | Betaflight Bee SVG, "Configurator: 10.10.0", Target & Firmware ID | [`src/components/betaflight-logo/`](file:///c:/Users/DELL/Drone/src/components/betaflight-logo) | Shows Configurator version; upon FC connection, dynamically displays firmware version (e.g. `4.5.0`) and hardware target. |
+| `<Scarflight-logo>` | Vue Component | Scarflight branding, "Configurator: 10.10.0", Target & Firmware ID | [`src/components/Scarflight-logo/`](file:///c:/Users/DELL/Drone/src/components/Scarflight-logo) | Shows Configurator version; upon FC connection, dynamically displays firmware version (e.g. `4.5.0`) and hardware target. |
 | `#port-override-option` | Text Input Container | Label "Port:", `<input id="port-override" value="/dev/rfcomm0">` | [`src/index.html:30`](file:///c:/Users/DELL/Drone/src/index.html#L30) | Hidden by default; visible only when "Manual" is selected in the port dropdown ([`serial_backend.js:55`](file:///c:/Users/DELL/Drone/src/js/serial_backend.js#L55)). |
 | `#firmware-virtual-option` | Select Dropdown | `#firmware-version-dropdown` listing API versions (e.g. `1.46.0`, `1.45.0`, `1.44.0`) | [`src/index.html:36`](file:///c:/Users/DELL/Drone/src/index.html#L36) | Visible when "Virtual" port is selected. Configures simulated API version for `VirtualFC.js`. |
 | `#port` | Select Dropdown | Options: Detected COM ports, `tcp://...` (mDNS), "Virtual", "Manual" | [`src/index.html:43`](file:///c:/Users/DELL/Drone/src/index.html#L43) | Populated dynamically by `PortHandler` or `PortsInput.vue`. Locked/disabled during active connection. |
@@ -58,7 +58,7 @@ The top navigation headerbar (`div.headerbar`) remains visible across all applic
 ## 3. Pixel-Level Layout of Key Tabs
 
 ### 3.1. Landing Tab (`src/tabs/landing.html`)
-- **Header Section**: "Welcome to Betaflight - Configurator" introductory message.
+- **Header Section**: "Welcome to Scarflight - Configurator" introductory message.
 - **Sponsor Bar**: Official sponsors logo grid (NewBeeDrone, SpeedyBee, RadioLink, Holybro).
 - **Documentation & Tools Grid**:
   - Links to download Blackbox Log Viewer and TX Lua Scripts.

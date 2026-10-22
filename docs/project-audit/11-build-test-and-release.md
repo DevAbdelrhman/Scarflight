@@ -1,6 +1,6 @@
 # 11 — Build, Development, Testing & Release Workflows
 
-This document details the operational scripts, build tooling, packaging workflows, and testing infrastructure of Betaflight Configurator.
+This document details the operational scripts, build tooling, packaging workflows, and testing infrastructure of Scarflight Configurator.
 
 ---
 
@@ -46,7 +46,7 @@ graph TD
 ```
 
 ### 2.1. Supported Release Platforms
-- **Windows**: `win32` (32-bit x86), `win64` (64-bit x64). Packaged as standalone `.zip` and InnoSetup installer executable (`Betaflight-Configurator-Installer_10.10.0_win64.exe`).
+- **Windows**: `win32` (32-bit x86), `win64` (64-bit x64). Packaged as standalone `.zip` and InnoSetup installer executable (`Scarflight-Configurator-Installer_10.10.0_win64.exe`).
 - **macOS**: `osx64` (Intel & Apple Silicon via Rosetta). Packaged as `.dmg` with custom drag-to-Applications background.
 - **Linux**: `linux64` (x86_64), `linux32` (i386), `armv8` (Raspberry Pi / ARM64). Packaged as `.deb`, `.rpm`, and `.tar.gz`.
 - **Android**: `android` via Apache Cordova (`dist_cordova/`). Outputs debug and release `.apk` files signed via `cordova/debug.keystore`.

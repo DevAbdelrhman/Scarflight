@@ -149,7 +149,7 @@
         "message": "Erakutsi konfiguratzailearen bertsio ezegonkorretarako eguneratze jakinarazpenak"
     },
     "configuratorUpdateNotice": {
-        "message": "<b>Betaflight Konfiguratzailearen<\/b> bertsio zaharkitua erabiltzen ari zara.<br>$t(configuratorUpdateHelp.message)"
+        "message": "<b>Scarflight Konfiguratzailearen<\/b> bertsio zaharkitua erabiltzen ari zara.<br>$t(configuratorUpdateHelp.message)"
     },
     "configuratorUpdateWebsite": {
         "message": "Bertsio agirien webgunera joan"
@@ -380,7 +380,7 @@
         "message": "Firmware bertsio hau <span class=\"message-negative\">EZ dago onartua<\/span>. Mezedez firmwarea eguneratu, API bertsioa <strong>$1<\/strong> edo berriagora. CLI-a erabili backupa egiteko flasheatu aurretik. CLI backupa gorde edo beripintzeko modua dokumentazioan aurkitu dezakezu.<br \/>Baita ere Konfiguratzailearen aurreko bertsio bat dezkargatu eta erabili dezakezu ezin baduzu edo ez bazaude eguneratzeko prest."
     },
     "firmwareTypeNotSupported": {
-        "message": "Betaflight ez den firmwarea <span class=\"message-negative\">ez da onartzen<\/span>, CLI moduan izan ezik."
+        "message": "Scarflight ez den firmwarea <span class=\"message-negative\">ez da onartzen<\/span>, CLI moduan izan ezik."
     },
     "firmwareUpgradeRequired": {
         "message": "Firmware bertsio hau EZ dago onartua. Mezedez firmwarea eguneratu, API bertsioa edo berriagora. CLI-a erabili backupa egiteko flasheatu aurretik. CLI backupa gorde edo beripintzeko modua dokumentazioan aurkitu dezakezu. <br\/>Baita ere Konfiguratzailearen aurreko bertsio bat dezkargatu eta erabili dezakezu ezin baduzu edo ez bazaude eguneratzeko prest."
@@ -513,7 +513,7 @@
         "message": "EEPROM <span class=\"message-positive\">gordeta<\/span>"
     },
     "defaultWelcomeIntro": {
-        "message": "Ongi etorri <strong>Betaflight-Konfiguratzailea<\/strong> ra, zure hegaldi kontroladorea eguneratu, konfiguratu eta sintonizatzeko diseinatutako tresna."
+        "message": "Ongi etorri <strong>Scarflight-Konfiguratzailea<\/strong> ra, zure hegaldi kontroladorea eguneratu, konfiguratu eta sintonizatzeko diseinatutako tresna."
     },
     "defaultWelcomeHead": {
         "message": "Hardware"
@@ -522,7 +522,7 @@
         "message": "Hartu parte"
     },
     "defaultFacebookText": {
-        "message": "<a href=\"https:\/\/www.facebook.com\/groups\/betaflightgroup\/\" target=\"_blank\" rel=\"noopener noreferrer\">Facebook Talde<\/a> bat badaukagu.<br \/>Egin zaitez jarraitzaile Betafligth-i buruz hitz egiteko leku bat eukitzeko, konfigurazio galderak egiteko edota beste pilotuekin hitz egiteko."
+        "message": "<a href=\"https:\/\/www.facebook.com\/groups\/Scarflightgroup\/\" target=\"_blank\" rel=\"noopener noreferrer\">Facebook Talde<\/a> bat badaukagu.<br \/>Egin zaitez jarraitzaile Betafligth-i buruz hitz egiteko leku bat eukitzeko, konfigurazio galderak egiteko edota beste pilotuekin hitz egiteko."
     },
     "defaultButtonFirmwareFlasher": {
         "message": "Firmware Flasheatzailea"
@@ -531,13 +531,13 @@
         "message": "Kode Irekia \/ dohaintza abisua"
     },
     "defaultDonateText": {
-        "message": "<p><strong>Betafligth<\/strong><strong> kode irekiko<\/strong>, egaldi kontroladore softwarea da eta dohainik eskuragarri dago, <strong>berme barik<\/strong> erabiltzaile guztientzako.<\/p><p> Betaflight edo Betaflight Konfiguratzailea, erabilgarri aurkitu baduzu, mesedez kontuan euki <strong>laguntzea<\/strong> bere garapenera, dohaintza bat emoten.<\/p>"
+        "message": "<p><strong>Betafligth<\/strong><strong> kode irekiko<\/strong>, egaldi kontroladore softwarea da eta dohainik eskuragarri dago, <strong>berme barik<\/strong> erabiltzaile guztientzako.<\/p><p> Scarflight edo Scarflight Konfiguratzailea, erabilgarri aurkitu baduzu, mesedez kontuan euki <strong>laguntzea<\/strong> bere garapenera, dohaintza bat emoten.<\/p>"
     },
     "defaultDonateBottom": {
         "message": "<p>Era erregular baten ekonomikoki laguntzeko idea baduzu, kontuan euki beharko zenuen \"Patron\" bilakatzea gure Patreon portalean $t(patreonLink.message)<\/p>"
     },
     "patreonLink": {
-        "message": "<a href=\"https:\/\/www.patreon.com\/betaflight\" target=\"_blank\" rel=\"noopener noreferrer\">Patreon<\/a>",
+        "message": "<a href=\"https:\/\/www.patreon.com\/Scarflight\" target=\"_blank\" rel=\"noopener noreferrer\">Patreon<\/a>",
         "description": "Patreon is name, and should not require translation"
     },
     "defaultDonate": {
@@ -553,7 +553,7 @@
         "message": "Betafligth-eko dokumentazioa, bertsio oharretan eta Wiki-an eskuragarri dago.<br \/><br \/>"
     },
     "defaultDocumentation2": {
-        "message": "Firmwarearentzako oharrak GitHub-en bertsioen orrian irakur daitezke <a href=\"https:\/\/github.com\/Betaflight\/Betaflight\/releases\" target=\"_blank\" rel=\"noopener noreferrer\">hemen<\/a>."
+        "message": "Firmwarearentzako oharrak GitHub-en bertsioen orrian irakur daitezke <a href=\"https:\/\/github.com\/Scarflight\/Scarflight\/releases\" target=\"_blank\" rel=\"noopener noreferrer\">hemen<\/a>."
     },
     "defaultSupportHead": {
         "message": "Laguntza"
@@ -571,7 +571,7 @@
         "message": "<a href=\"http:\/\/www.rcgroups.com\/forums\/showthread.php?t=2464844&page=1\" target=\"_blank\" rel=\"noopener noreferrer\">RC Groups haria<\/a>"
     },
     "defaultSupport4": {
-        "message": "<a href=\"https:\/\/github.com\/Betaflight\" target=\"_blank\" rel=\"noopener noreferrer\">Github<\/a>"
+        "message": "<a href=\"https:\/\/github.com\/Scarflight\" target=\"_blank\" rel=\"noopener noreferrer\">Github<\/a>"
     },
     "initialSetupButtonCalibrateAccel": {
         "message": "Azelerometroa kalibratu"
@@ -736,7 +736,7 @@
         "description": "Message that pops up to describe the BST arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipMSP": {
-        "message": "MSP konexioa aktiboa da, seguruenik Betaflight Configurator honekin",
+        "message": "MSP konexioa aktiboa da, seguruenik Scarflight Configurator honekin",
         "description": "Message that pops up to describe the MSP arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipPARALYZE": {
@@ -1021,7 +1021,7 @@
         "message": "Balizaren tonua"
     },
     "configurationDshotBeaconHelp": {
-        "message": "Dshot balizak ESCak eta motorrak erabiltzen ditu soinua sortzeko. Horrek esan nahi du Dshot baliza ezin dela erabili motorrak biratzen ari direnean. Betaflight 3.4 eta hurrengoetan, Dshot baliza aktibo dagoen bitartean armatzen saiatzean, Dshot balizaren azken tonuaren ondoren 2 segundoko eten bat dago armatu aurretik. Hau egin behar da Dshot balizaren funtzionaltasunak armagabetzean bidaltzen diren Dshot komandoak oztopatzeko. <br\/><strong>Arreta:<\/strong> Dshot baliza korrontea igaroko denez, balizaren intentsitatea altua bada ere, motorra \/ elektrikoa gehiegi berotu edo kalteak eragin ditzake. Erabil ezazu BLHeli konfiguratzailea edo BLHeli kit-a balizaren indarra doitzeko eta probatzeko."
+        "message": "Dshot balizak ESCak eta motorrak erabiltzen ditu soinua sortzeko. Horrek esan nahi du Dshot baliza ezin dela erabili motorrak biratzen ari direnean. Scarflight 3.4 eta hurrengoetan, Dshot baliza aktibo dagoen bitartean armatzen saiatzean, Dshot balizaren azken tonuaren ondoren 2 segundoko eten bat dago armatu aurretik. Hau egin behar da Dshot balizaren funtzionaltasunak armagabetzean bidaltzen diren Dshot komandoak oztopatzeko. <br\/><strong>Arreta:<\/strong> Dshot baliza korrontea igaroko denez, balizaren intentsitatea altua bada ere, motorra \/ elektrikoa gehiegi berotu edo kalteak eragin ditzake. Erabil ezazu BLHeli konfiguratzailea edo BLHeli kit-a balizaren indarra doitzeko eta probatzeko."
     },
     "configurationBeeper": {
         "message": "Beeper-en konfigurazioa"
@@ -2781,7 +2781,7 @@
         "message": "RC Expo potentzia"
     },
     "pidTuningRcExpoPowerHelp": {
-        "message": "RC Expo kalkulatzeko erabiltzen den esponentea. 3.0 bertsio aurreko Betaflight bertsioetan, balioa 3an finkatzen da."
+        "message": "RC Expo kalkulatzeko erabiltzen den esponentea. 3.0 bertsio aurreko Scarflight bertsioetan, balioa 3an finkatzen da."
     },
     "pidTuningLevel": {
         "message": "Angle\/Horizon"
@@ -3023,7 +3023,7 @@
         "message": "Hegaldi kontroladorea edozein angeluan biratu(zutik, atzeraka, biraketa...). Kanpoko sentsoreak erabiltzen dituzunean, sentsoreen lerrokatzea erabili sentsoreen posizioak definitzeko, hegaldi kontroladorearen orientazioa edozein dela ere. "
     },
     "failsafeFeaturesHelpOld": {
-        "message": "Segurtasun moduaren konfigurazioa asko aldatu da. Erabili Betaflight <strong>v1.12.0+<\/strong> konfigurazio panela hobetzeko."
+        "message": "Segurtasun moduaren konfigurazioa asko aldatu da. Erabili Scarflight <strong>v1.12.0+<\/strong> konfigurazio panela hobetzeko."
     },
     "failsafePaneTitleOld": {
         "message": "Hartzaileak huts egin du"
@@ -3146,7 +3146,7 @@
         "message": "Gorde"
     },
     "powerFirmwareUpgradeRequired": {
-        "message": "Firmwarea eguneratzea<span class=\"message-negative\">beharrezkoa da<\/span>. Bateria\/Intentsitate\/Tentsio konfigurazioak API &lt; 1.33.0 (Betaflight release &lt;= 3.17) es du onartzen."
+        "message": "Firmwarea eguneratzea<span class=\"message-negative\">beharrezkoa da<\/span>. Bateria\/Intentsitate\/Tentsio konfigurazioak API &lt; 1.33.0 (Scarflight release &lt;= 3.17) es du onartzen."
     },
     "powerBatteryVoltageMeterSource": {
         "message": "Tentsio Sentsorearen Iturburua"
@@ -3422,7 +3422,7 @@
         "message": "<strong>Oharra:<\/strong> OSD aurrebistak, ezin da hegaldi kontroladorean instalatutako letra-motak erakutsi. Elementu indibidualen diseinua itxura desberdinak izan daitezke firmwarearen bertsio zaharrakerabiltzen direnean. Mesedez, begiratu betaurrekoen bidez itxura hegan egin aurretik."
     },
     "osdSetupUnsupportedNote1": {
-        "message": "Hegaldi kontrolatzaileak ez du OSD aginteei erantzuten. Horrek ziur asko esan nahi du ez duela BetaFlight OSD integratua."
+        "message": "Hegaldi kontrolatzaileak ez du OSD aginteei erantzuten. Horrek ziur asko esan nahi du ez duela Scarflight OSD integratua."
     },
     "osdSetupUnsupportedNote2": {
         "message": "Kontuan izan hegaldi kontrolatzaile batzuek <a href=\"https:\/\/www.youtube.com\/watch?v=ikKH_6SQ-Tk\" target=\"_blank\" rel=\"noopener noreferrer\">MinimOSD<\/a> bat barruan dutela eta konfigura daiteke <a href=\"https:\/\/github.com\/ShikOfTheRa\/scarab-osd\/releases\/latest\" target='_blank'>scarab-osd<\/a>, hala ere, MinimOSD ezin da interfaze honen bidez konfiguratu."
@@ -4231,10 +4231,10 @@
         "message": "Estatistika ezezagunak (xehetasunak etorkizuneko bertsioan gehituko dira)"
     },
     "osdDescribeFontVersion1": {
-        "message": "Letra-motaren bertsioa: 1 (Betaflight 4.0 edo berriagoa)"
+        "message": "Letra-motaren bertsioa: 1 (Scarflight 4.0 edo berriagoa)"
     },
     "osdDescribeFontVersion2": {
-        "message": "Letra-motaren bertsioa: 2 (Betaflight 4.1 edo berriagoa)"
+        "message": "Letra-motaren bertsioa: 2 (Scarflight 4.1 edo berriagoa)"
     },
     "osdDescribeFontVersionCUSTOM": {
         "message": "Letra-motaren bertsioa: erabiltzaileak emana"
@@ -4815,7 +4815,7 @@
         "message": "Neurketa"
     },
     "pidTuningPidControllerTip": {
-        "message": "<b>Legacy vs Betaflight (flotatzen):<\/b> PIDaren eskala eta logika berdinak dira. Ez da beharrezkoa berriro egokitzea. Legatua Betaflight eboluzionatu berria da rewrite erabiliz. Oinarrizko matematikaren oinarritutako PID kontroladorea da. Betaflight PID kontroladoreek kontrol flotagarria duten matematika erabiltzen du eta funtzio anitzeko aplikazioetarako bereziki diseinatutako ezaugarri berriak ditu. <br><b>Flotatzen vs Osoa:<\/b> PIDaren eskala eta logika berdinak dira. Ez da beharrezkoa berriro egokitzea. F1 taulek ez dute FPU integratua eta puntu mugikorreko kalkuluak CPUaren karga handitzen du eta matematika osoak errendimendua hobetuko luke, baina puntu flotagarriek matematikako zehaztasun gehiago eman dezakete."
+        "message": "<b>Legacy vs Scarflight (flotatzen):<\/b> PIDaren eskala eta logika berdinak dira. Ez da beharrezkoa berriro egokitzea. Legatua Scarflight eboluzionatu berria da rewrite erabiliz. Oinarrizko matematikaren oinarritutako PID kontroladorea da. Scarflight PID kontroladoreek kontrol flotagarria duten matematika erabiltzen du eta funtzio anitzeko aplikazioetarako bereziki diseinatutako ezaugarri berriak ditu. <br><b>Flotatzen vs Osoa:<\/b> PIDaren eskala eta logika berdinak dira. Ez da beharrezkoa berriro egokitzea. F1 taulek ez dute FPU integratua eta puntu mugikorreko kalkuluak CPUaren karga handitzen du eta matematika osoak errendimendua hobetuko luke, baina puntu flotagarriek matematikako zehaztasun gehiago eman dezakete."
     },
     "pidTuningFilterTip": {
         "message": "<b>Giro Soft iragazkia:<\/b> Giroren Behe-paseko Iragazkia. Erabili iragazki gehiagorako balio txikiagoa. <br><b>D Epe iragazkia:<\/b> Dterm Behe-paseko Iragazkia. D sintonizazioak eragin dezake. Erabili iragazki gehiagorako balio txikiagoa. <br><b>Yaw Iragazkia:<\/b> Yaw irteera iragazten du. Yaw ardatz zaratatsua duten konfigurazioetan lagun dezake."

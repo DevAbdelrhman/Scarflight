@@ -1,6 +1,6 @@
 # 06 — Feature Workflows & End-to-End Execution Sequences
 
-This document provides step-by-step, source-backed execution flows for the core features and subsystems of Betaflight Configurator.
+This document provides step-by-step, source-backed execution flows for the core features and subsystems of Scarflight Configurator.
 
 ---
 
@@ -24,7 +24,7 @@ sequenceDiagram
     I18n-->>Main: i18n initialized (selected language resolved)
     Main->>Browser: i18n.localizePage() (translate static i18n attributes)
     I18n->>VueApp: i18next 'initialized' event fires
-    VueApp->>VueApp: new Vue({ el: '#main-wrapper', components, data: betaflightModel })
+    VueApp->>VueApp: new Vue({ el: '#main-wrapper', components, data: ScarflightModel })
     Main->>SerialBackend: initializeSerialBackend()
     SerialBackend->>SerialBackend: PortHandler.initialize() / attach connect listeners
     Main->>Main: Click default disconnected tab ($('#tabs ul.mode-disconnected li a:first').click())
@@ -74,7 +74,7 @@ sequenceDiagram
 
 ## Workflow 3: Virtual Flight Controller Simulation
 
-When no physical drone hardware is connected, Betaflight Configurator provides a complete hardware simulator in [`src/js/VirtualFC.js`](file:///c:/Users/DELL/Drone/src/js/VirtualFC.js):
+When no physical drone hardware is connected, Scarflight Configurator provides a complete hardware simulator in [`src/js/VirtualFC.js`](file:///c:/Users/DELL/Drone/src/js/VirtualFC.js):
 
 1. **Selection**: User selects `"Virtual"` in the port picker dropdown.
 2. **Version Selection**: User selects the desired API version in `#firmware-version-dropdown` (e.g. `1.46.0`).
@@ -148,7 +148,7 @@ When no physical drone hardware is connected, Betaflight Configurator provides a
 2. **Board Identification**:
    - Board target is selected manually or auto-detected via `MSP_BOARD_INFO`.
 3. **Manifest Fetching**:
-   - [`BuildApi.js`](file:///c:/Users/DELL/Drone/src/js/BuildApi.js) requests available firmware versions from `https://build.betaflight.com/api/targets/<target>`.
+   - [`BuildApi.js`](file:///c:/Users/DELL/Drone/src/js/BuildApi.js) requests available firmware versions from `https://build.Scarflight.com/api/targets/<target>`.
    - User selects firmware release (e.g. `4.5.0`) and optional build flags (Cloud Build).
 4. **Download**: Configurator downloads the compiled `.hex` file.
 5. **DFU Device Detection**:
@@ -164,7 +164,7 @@ When no physical drone hardware is connected, Betaflight Configurator provides a
 
 ## Workflow 8: Community Presets Application
 
-1. **Index Fetching**: [`presets.js`](file:///c:/Users/DELL/Drone/src/tabs/presets/presets.js) queries preset manifests from GitHub (`betaflight/firmware-presets`).
+1. **Index Fetching**: [`presets.js`](file:///c:/Users/DELL/Drone/src/tabs/presets/presets.js) queries preset manifests from GitHub (`Scarflight/firmware-presets`).
 2. **Filter & Search**: Pilot filters presets by category (Tuning, Rates, OSD, RC Link, VTX) or search string.
 3. **Inspection**: Clicking a preset opens `DetailedDialog`, showing author notes, markdown instructions, and selectable configuration options.
 4. **Execution**:

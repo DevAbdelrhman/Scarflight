@@ -2,15 +2,15 @@
     "android": {
         "debug": {
             "keystore": "debug.keystore",
-            "storePassword": "betaflight_debug",
-            "alias": "betaflight_debug",
+            "storePassword": "Scarflight_debug",
+            "alias": "Scarflight_debug",
             "password": "password",
             "packageType": "apk"
         },
         "release": {
             "keystore": "bundle.keystore",
             "storePassword": "[INJECTED_BY_GULPFILE]",
-            "alias": "betaflight",
+            "alias": "Scarflight",
             "password": "password",
             "packageType": "bundle"
         }

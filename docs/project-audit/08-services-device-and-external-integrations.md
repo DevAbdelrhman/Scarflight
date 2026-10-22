@@ -1,6 +1,6 @@
 # 08 — Services, Device Communication & External Integrations
 
-This document details all communication layers, protocol encoders/decoders, native device interfaces, and external HTTP APIs integrated into Betaflight Configurator.
+This document details all communication layers, protocol encoders/decoders, native device interfaces, and external HTTP APIs integrated into Scarflight Configurator.
 
 ---
 
@@ -123,8 +123,8 @@ Used for legacy STM32 chips or dedicated hardware programmers via COM port:
 
 ## 4. External HTTP Services & APIs
 
-### 4.1. Betaflight Build Server (`BuildApi.js`)
-- **Base Endpoint**: `https://build.betaflight.com`
+### 4.1. Scarflight Build Server (`BuildApi.js`)
+- **Base Endpoint**: `https://build.Scarflight.com`
 - **Endpoints**:
   - `GET /api/targets`: Returns JSON array of all supported hardware target names.
   - `GET /api/targets/{target}`: Returns releases and cloud build manifests for target.
@@ -134,7 +134,7 @@ Used for legacy STM32 chips or dedicated hardware programmers via COM port:
 - **Caching Policy**: In [`BuildApi.js:10`](file:///c:/Users/DELL/Drone/src/js/BuildApi.js#L10), responses are cached in `sessionStorage` with a 1-hour expiration timestamp.
 
 ### 4.2. Community Presets Repository
-- **Base Endpoint**: `https://raw.githubusercontent.com/betaflight/firmware-presets/master`
+- **Base Endpoint**: `https://raw.githubusercontent.com/Scarflight/firmware-presets/master`
 - Fetches `index.json` containing metadata, categories, authors, and script links for community tuning presets.
 
 ### 4.3. Google Analytics Integration (`Analytics.js`)

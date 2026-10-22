@@ -1,15 +1,15 @@
 # 07 — State Management, Storage & Data Flow
 
-This document details the state-management architecture, reactive data bridges, in-memory models, and persistence mechanisms across Betaflight Configurator.
+This document details the state-management architecture, reactive data bridges, in-memory models, and persistence mechanisms across Scarflight Configurator.
 
 ---
 
 ## 1. State Management Architecture Overview
 
-Betaflight Configurator manages state through **four primary tiers**:
+Scarflight Configurator manages state through **four primary tiers**:
 1. **Hardware / Device State (`FC`)**: The ground truth representation of the connected Flight Controller in [`src/js/fc.js`](file:///c:/Users/DELL/Drone/src/js/fc.js).
 2. **Application Runtime State (`CONFIGURATOR` & `GUI`)**: Execution flags, active connection references, and tab router state.
-3. **Reactive UI State (`betaflightModel` & Vue)**: Two-way binding between the global data models and Vue components.
+3. **Reactive UI State (`ScarflightModel` & Vue)**: Two-way binding between the global data models and Vue components.
 4. **Persistent Client Storage (`ConfigStorage` & `SessionStorage`)**: Browser `localStorage` and `sessionStorage` key-value engines.
 
 ```mermaid
@@ -26,7 +26,7 @@ graph TD
     end
 
     subgraph Reactive_Bridge ["Reactive Vue Bridge (src/components/init.js)"]
-        VM["window.vm = betaflightModel"]
+        VM["window.vm = ScarflightModel"]
         VueViews["Vue Shell: Logo, BatteryIcon, StatusBar"]
     end
 
@@ -76,7 +76,7 @@ The `FC` object contains complete operational state divided into structured sub-
 | `FC.RC` | Object | `MSP_RC` | Real-time radio channel inputs (Aileron, Elevator, Throttle, Rudder, Aux 1–12). | Reset on disconnect. |
 
 ### 2.2. Application Session Model (`CONFIGURATOR` in `src/js/data_storage.js`)
-- `connectionValid` (Boolean): True once handshake sequence successfully validates an active Betaflight board.
+- `connectionValid` (Boolean): True once handshake sequence successfully validates an active Scarflight board.
 - `virtualMode` (Boolean): True when running against `VirtualFC.js` simulated hardware.
 - `virtualApiVersion` (String): Simulated MSP API version selected by user (e.g. `1.46.0`).
 - `cliActive` / `cliValid` (Boolean): Indicates whether the serial port is engaged in raw CLI terminal mode.
@@ -104,8 +104,8 @@ Stores persistent user preferences in browser `localStorage`. Values are JSON-se
 
 ### 3.2. Session Storage Engine (`SessionStorage.js`)
 Uses browser `sessionStorage` for ephemeral network caching:
-- `https://build.betaflight.com/api/targets_Data`: Cached target manifests.
-- `https://build.betaflight.com/api/targets_LastUpdate`: Timestamp ensuring cached manifests expire after 1 hour (`3600 * 1000 ms`).
+- `https://build.Scarflight.com/api/targets_Data`: Cached target manifests.
+- `https://build.Scarflight.com/api/targets_LastUpdate`: Timestamp ensuring cached manifests expire after 1 hour (`3600 * 1000 ms`).
 
 ### 3.3. Filesystem Persistence & Text File Exports
 - **Configuration Backups**: JSON files (`.json`) containing complete flight controller dumps parsed by `backup_restore.js`.

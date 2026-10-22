@@ -227,7 +227,7 @@ setup.initialize = function (callback) {
 
         // DISARM FLAGS
         // We add all the arming/disarming flags available, and show/hide them if needed.
-        // align with betaflight runtime_config.h armingDisableFlags_e
+        // align with Scarflight runtime_config.h armingDisableFlags_e
         const prepareDisarmFlags = function() {
 
             let disarmFlagElements = [
@@ -464,7 +464,7 @@ setup.initialize = function (callback) {
                 }
 
                 if (FC.CONFIG.buildKey.length === 32) {
-                    const buildRoot   = `https://build.betaflight.com/api/builds/${FC.CONFIG.buildKey}`;
+                    const buildRoot   = `https://build.Scarflight.com/api/builds/${FC.CONFIG.buildKey}`;
                     const buildConfig = `<span class="buildInfoBtn" title="${i18n.getMessage('initialSetupInfoBuildConfig')}: ${buildRoot}/json">
                                          <a href="${buildRoot}/json" target="_blank"><strong>${i18n.getMessage('initialSetupInfoBuildConfig')}</strong></a></span>`;
 

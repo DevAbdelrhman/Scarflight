@@ -145,7 +145,7 @@ export default class PresetTitlePanel
         this._domStatusOfficial = this._domWrapperDiv.find('.preset_title_panel_status_official');
         this._domStatusCommunity = this._domWrapperDiv.find('.preset_title_panel_status_community');
         this._domStatusExperimental = this._domWrapperDiv.find('.preset_title_panel_status_experimental');
-        this._domOfficialSourceIcon = this._domWrapperDiv.find('.preset_title_panel_betaflight_official');
+        this._domOfficialSourceIcon = this._domWrapperDiv.find('.preset_title_panel_Scarflight_official');
     }
 
     _setupStar() {

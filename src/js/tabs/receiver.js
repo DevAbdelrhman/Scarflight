@@ -568,7 +568,7 @@ receiver.initialize = function (callback) {
             showBindButton = bit_check(FC.CONFIG.targetCapabilities, FC.TARGET_CAPABILITIES_FLAGS.SUPPORTS_RX_BIND);
 
             $("a.bind").click(function() {
-                MSP.send_message(MSPCodes.MSP2_BETAFLIGHT_BIND);
+                MSP.send_message(MSPCodes.MSP2_Scarflight_BIND);
 
                 gui_log(i18n.getMessage('receiverButtonBindMessage'));
             });

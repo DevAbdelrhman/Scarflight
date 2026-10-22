@@ -16,7 +16,7 @@
       "title": "The Description Schema",
       "default": "",
       "examples": [
-        "Betaflight VTX Config file for SmartAudio 2.0 (US version)"
+        "Scarflight VTX Config file for SmartAudio 2.0 (US version)"
       ],
       "pattern": "^(.*)$"
     },

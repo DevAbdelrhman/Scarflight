@@ -73,13 +73,13 @@ export default class PresetsSourcesDialog {
     }
 
     _createOfficialSource() {
-        const officialSource = new PresetSource("Betaflight Official Presets", "https://api.betaflight.com/firmware-presets/", "");
+        const officialSource = new PresetSource("Scarflight Official Presets", "https://api.Scarflight.com/firmware-presets/", "");
         officialSource.official = true;
         return officialSource;
     }
 
     _createSecondaryOfficialSource() {
-        const officialSource = new PresetSource("Betaflight Presets - GitHub BACKUP", "https://github.com/betaflight/firmware-presets", "backup");
+        const officialSource = new PresetSource("Scarflight Presets - GitHub BACKUP", "https://github.com/Scarflight/firmware-presets", "backup");
         officialSource.official = false;
         return officialSource;
     }

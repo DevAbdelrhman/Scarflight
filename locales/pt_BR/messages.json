@@ -184,10 +184,10 @@
         "message": "Exibir notificações de atualizações para versões instáveis do configurador"
     },
     "configuratorUpdateNotice": {
-        "message": "Você está utilizando uma versão antiga do <b>Betaflight Configurator<\/b>.<br>$t(configuratorUpdateHelp.message)"
+        "message": "Você está utilizando uma versão antiga do <b>Scarflight Configurator<\/b>.<br>$t(configuratorUpdateHelp.message)"
     },
     "configuratorUpdateHelp": {
-        "message": "Utilizando uma versão do firmware recente com uma versão antiga do configurador fará com que, ao alterar algumas configurações, a <strong>configuração do firmware ficará corrompida e sua aeronave não irá funcionar<\/strong>.<br \/>Além disso, só será possível configurar alguns recursos do firmware através da Linha de Comandos.<br><strong>O Betaflight Configurator versão <b>$1<\/b> está disponível para download online<\/strong>, visite <a href=\"$2\" target=\"_blank\" rel=\"noopener noreferrer\">esta página<\/a> para fazer o download e instalar a nova versão do configurador com correções e melhorias.<br>Por favor feche a janela do configurador antes de atualizar."
+        "message": "Utilizando uma versão do firmware recente com uma versão antiga do configurador fará com que, ao alterar algumas configurações, a <strong>configuração do firmware ficará corrompida e sua aeronave não irá funcionar<\/strong>.<br \/>Além disso, só será possível configurar alguns recursos do firmware através da Linha de Comandos.<br><strong>O Scarflight Configurator versão <b>$1<\/b> está disponível para download online<\/strong>, visite <a href=\"$2\" target=\"_blank\" rel=\"noopener noreferrer\">esta página<\/a> para fazer o download e instalar a nova versão do configurador com correções e melhorias.<br>Por favor feche a janela do configurador antes de atualizar."
     },
     "configuratorUpdateWebsite": {
         "message": "Ir para a Página Web do lançamento"
@@ -418,7 +418,7 @@
         "message": "Esta versão do firmware <span class=\"message-negative\">não é suportada<\/span>. Por favor atualize para um firmware que suporte a versão <strong>$1<\/strong> ou superior da API. Use a Linha de comandos (CLI) para fazer um backup antes de atualizar. O procedimento para fazer uma cópia de segurança\/restaurar encontra-se na documentação.<br \/>Como alternativa baixe e use uma versão antiga do configurador caso não esteja preparado para efetuar a atualização."
     },
     "firmwareTypeNotSupported": {
-        "message": "Firmware Não-Betaflight <span class=\"message-negative\">não é suportado<\/span>, exceto no modo Linha de Comandos (CLI)."
+        "message": "Firmware Não-Scarflight <span class=\"message-negative\">não é suportado<\/span>, exceto no modo Linha de Comandos (CLI)."
     },
     "firmwareUpgradeRequired": {
         "message": "O firmware deste dispositivo precisa ser atualizado para uma versão mais recente. Use a Linha de comandos (CLI) para realizar uma cópia de segurança antes da atualização. O procedimento para fazer uma cópia de segurança\/restaurar encontra-se na documentação.<br \/>Como alternativa baixe e use uma versão antiga do configurador, caso não esteja preparado para efetuar a atualização."
@@ -462,7 +462,7 @@
         "message": "Utilizando informações de compilação em cache para $1."
     },
     "buildServerSupportRequestSubmission": {
-        "message": "<br>*** Dados de suporte enviados *** <br>Id: $1<br><br><br># copie o ID e envie para a equipe do betaflight."
+        "message": "<br>*** Dados de suporte enviados *** <br>Id: $1<br><br><br># copie o ID e envie para a equipe do Scarflight."
     },
     "buildKey": {
         "message": "Chave de build: <strong>$1<\/strong>"
@@ -471,7 +471,7 @@
         "message": "Confirmar envio de dados"
     },
     "supportWarningDialogText": {
-        "message": "Por favor, confirme a submissão dos dados à equipe do Betaflight<br><br>Este processo executará alguns comandos e enviará a saída para o servidor de compilação.<br><br>Você receberá um ID exclusivo para a seus de dados.<br><br>Por favor, envie este ID à equipe do Betaflight através do Discord ou como uma issue no Github."
+        "message": "Por favor, confirme a submissão dos dados à equipe do Scarflight<br><br>Este processo executará alguns comandos e enviará a saída para o servidor de compilação.<br><br>Você receberá um ID exclusivo para a seus de dados.<br><br>Por favor, envie este ID à equipe do Scarflight através do Discord ou como uma issue no Github."
     },
     "supportWarningDialogInputPlaceHolder": {
         "message": "Descreva o problema"
@@ -495,7 +495,7 @@
         "message": "Você <span class=\"message-negative\">não pode<\/span> realizar esta operação neste momento, por favor aguarde o fim da operação em execução..."
     },
     "tabSwitchUpgradeRequired": {
-        "message": "Você precisa <strong>atualizar<\/strong> o firmware para a última versão do Betaflight antes de poder usar a aba $1."
+        "message": "Você precisa <strong>atualizar<\/strong> o firmware para a última versão do Scarflight antes de poder usar a aba $1."
     },
     "firmwareVersion": {
         "message": "Versão do firmware: <strong>$1<\/strong>"
@@ -592,28 +592,28 @@
         "message": "EEPROM <span class=\"message-positive\">salvo<\/span>"
     },
     "defaultWelcomeIntro": {
-        "message": "Bem-vindo ao <strong>Configurador Betaflight<\/strong>, um utilitário feito para simplificar a atualização, configuração e otimização do seu controlador de voo."
+        "message": "Bem-vindo ao <strong>Configurador Scarflight<\/strong>, um utilitário feito para simplificar a atualização, configuração e otimização do seu controlador de voo."
     },
     "defaultWelcomeHead": {
         "message": "Hardware"
     },
     "defaultWelcomeText": {
-        "message": "A aplicação suporta todo o hardware que possa executar o Betaflight. Verifique a aba Atualizar para obter uma lista completa de hardware.<br \/><br \/> <a href=\"https:\/\/github.com\/betaflight\/blackbox-log-viewer\/releases\" target=\"_blank\" rel=\"noopener noreferrer\">Download Betaflight Blackbox Viewer<\/a><br \/><br \/><a href=\"https:\/\/github.com\/betaflight\/betaflight-tx-lua-scripts\/releases\" target=\"_blank\" rel=\"noopener noreferrer\">Download Betaflight TX Lua Scripts<\/a><br \/><br \/>O download do código fonte do firmware pode ser feito <a href=\"https:\/\/github.com\/betaflight\/betaflight\" target=\"_blank\" rel=\"noopener noreferrer\">aqui<\/a><br \/><br \/>Para hardware antigo que utilize o USB CP210x para comunicação serial:<br \/>Faça o download dos <b>drivers do CP210x<\/b> mais recentes <a href=\"https:\/\/www.silabs.com\/products\/development-tools\/software\/usb-to-uart-bridge-vcp-drivers\" target=\"_blank\" rel=\"noopener noreferrer\">aqui<\/a><br \/>Faça o download do mais recente driver USB <b>Zadig<\/b> para Windows <a href=\"http:\/\/zadig.akeo.ie\/\" target=\"_blank\" rel=\"noopener noreferrer\">aqui<\/a><br \/>Faça o download do <b>ImpulseRC Driver Fixer<\/b> <a href=\"https:\/\/impulserc.com\/pages\/downloads\" target=\"blank\" rel=\"noopener noreferrer\">aqui<\/a>"
+        "message": "A aplicação suporta todo o hardware que possa executar o Scarflight. Verifique a aba Atualizar para obter uma lista completa de hardware.<br \/><br \/> <a href=\"https:\/\/github.com\/Scarflight\/blackbox-log-viewer\/releases\" target=\"_blank\" rel=\"noopener noreferrer\">Download Scarflight Blackbox Viewer<\/a><br \/><br \/><a href=\"https:\/\/github.com\/Scarflight\/Scarflight-tx-lua-scripts\/releases\" target=\"_blank\" rel=\"noopener noreferrer\">Download Scarflight TX Lua Scripts<\/a><br \/><br \/>O download do código fonte do firmware pode ser feito <a href=\"https:\/\/github.com\/Scarflight\/Scarflight\" target=\"_blank\" rel=\"noopener noreferrer\">aqui<\/a><br \/><br \/>Para hardware antigo que utilize o USB CP210x para comunicação serial:<br \/>Faça o download dos <b>drivers do CP210x<\/b> mais recentes <a href=\"https:\/\/www.silabs.com\/products\/development-tools\/software\/usb-to-uart-bridge-vcp-drivers\" target=\"_blank\" rel=\"noopener noreferrer\">aqui<\/a><br \/>Faça o download do mais recente driver USB <b>Zadig<\/b> para Windows <a href=\"http:\/\/zadig.akeo.ie\/\" target=\"_blank\" rel=\"noopener noreferrer\">aqui<\/a><br \/>Faça o download do <b>ImpulseRC Driver Fixer<\/b> <a href=\"https:\/\/impulserc.com\/pages\/downloads\" target=\"blank\" rel=\"noopener noreferrer\">aqui<\/a>"
     },
     "defaultContributingHead": {
         "message": "Contribuir"
     },
     "defaultContributingText": {
-        "message": "Se deseja ajudar o Betaflight a ser ainda melhor, você pode ajudar de diversas formas:<br \/><ul><li>Use seu conhecimento sobre o Betaflight para criar ou atualizar o conteúdo do <a href=\"https:\/\/github.com\/betaflight\/betaflight\/wiki\" target=\"_blank\" rel=\"noopener noreferrer\">nosso Wiki<\/a>, ou respondendo as dúvidas de outros usuários nos fóruns online.<\/li><li><a href=\"https:\/\/github.com\/betaflight\/betaflight\/blob\/master\/docs\/development\/Development.md\" target=\"_blank\" rel=\"noopener noreferrer\">Contribua com o código<\/a> do Betaflight Firmware e Configurator - Novas funções, correções e melhorias.<\/li><li>Testando <a href=\"https:\/\/github.com\/Betaflight\/betaflight\/pulls\" target=\"_blank\" rel=\"noopener noreferrer\">novas funções e correções<\/a> e reportando de volta aos desenvolvedores.<\/li><li>Ajudando a resolver os problemas que outros usuários relatam em nosso <a href=\"https:\/\/github.com\/betaflight\/betaflight\/issues\" target=\"_blank\" rel=\"noopener noreferrer\">Issue Tracker<\/a> e participando em discussões de novas funcionalidades.<\/li><li><a href=\"https:\/\/github.com\/betaflight\/betaflight\/tree\/master\/README.md#Translators\" target=\"_blank\" rel=\"noopener noreferrer\">Traduzindo<\/a> o Betaflight Configurator para um novo idioma ou ajudando a manter as traduções atuais.<\/li><\/ul>"
+        "message": "Se deseja ajudar o Scarflight a ser ainda melhor, você pode ajudar de diversas formas:<br \/><ul><li>Use seu conhecimento sobre o Scarflight para criar ou atualizar o conteúdo do <a href=\"https:\/\/github.com\/Scarflight\/Scarflight\/wiki\" target=\"_blank\" rel=\"noopener noreferrer\">nosso Wiki<\/a>, ou respondendo as dúvidas de outros usuários nos fóruns online.<\/li><li><a href=\"https:\/\/github.com\/Scarflight\/Scarflight\/blob\/master\/docs\/development\/Development.md\" target=\"_blank\" rel=\"noopener noreferrer\">Contribua com o código<\/a> do Scarflight Firmware e Configurator - Novas funções, correções e melhorias.<\/li><li>Testando <a href=\"https:\/\/github.com\/Scarflight\/Scarflight\/pulls\" target=\"_blank\" rel=\"noopener noreferrer\">novas funções e correções<\/a> e reportando de volta aos desenvolvedores.<\/li><li>Ajudando a resolver os problemas que outros usuários relatam em nosso <a href=\"https:\/\/github.com\/Scarflight\/Scarflight\/issues\" target=\"_blank\" rel=\"noopener noreferrer\">Issue Tracker<\/a> e participando em discussões de novas funcionalidades.<\/li><li><a href=\"https:\/\/github.com\/Scarflight\/Scarflight\/tree\/master\/README.md#Translators\" target=\"_blank\" rel=\"noopener noreferrer\">Traduzindo<\/a> o Scarflight Configurator para um novo idioma ou ajudando a manter as traduções atuais.<\/li><\/ul>"
     },
     "defaultFacebookText": {
-        "message": "Nós também temos um <a href=\"https:\/\/www.facebook.com\/groups\/betaflightgroup\/\" target=\"_blank\" rel=\"noopener noreferrer\">grupo no Facebook<\/a>.<br \/> Participe dele para ter um lugar para falar sobre o Betaflight, fazer perguntas sobre configurações ou encontrar outros pilotos."
+        "message": "Nós também temos um <a href=\"https:\/\/www.facebook.com\/groups\/Scarflightgroup\/\" target=\"_blank\" rel=\"noopener noreferrer\">grupo no Facebook<\/a>.<br \/> Participe dele para ter um lugar para falar sobre o Scarflight, fazer perguntas sobre configurações ou encontrar outros pilotos."
     },
     "defaultDiscordText": {
-        "message": "<a href=\"https:\/\/discord.betaflight.com\/invite\" target=\"_blank\" rel=\"noopener noreferrer\">Discord do Betaflight<\/a>.<br \/>Compartilhe sua experiência de voo, fale sobre Betaflight, ajude outras pessoas ou obtenha ajuda da comunidade."
+        "message": "<a href=\"https:\/\/discord.Scarflight.com\/invite\" target=\"_blank\" rel=\"noopener noreferrer\">Discord do Scarflight<\/a>.<br \/>Compartilhe sua experiência de voo, fale sobre Scarflight, ajude outras pessoas ou obtenha ajuda da comunidade."
     },
     "statisticsDisclaimer": {
-        "message": "O Configurador Betaflight coleta estatísticas de uso anônimas. Por exemplo, estes dados incluem (mas não estão limitados a) a quantidade de aberturas, região geográfica dos usuários, tipos de controladores de voo, versões de firmware, uso de elementos e guias de interface do usuário, etc. O resumo destes dados é aberto e compartilhado <a href=\"https:\/\/datastudio.google.com\/u\/0\/reporting\/1pK1PFw0eWmsgl2npvuzwAqscVzlhJvuF\" target=\"_blank\" rel=\"noopener noreferrer\">aqui<\/a>. A coleta é feita para entender melhor como o Configurador Betaflight está sendo usado, para entender as tendências da comunidade e para possíveis melhorias na interface. Os usuários podem optar por não enviar os dados coletados na aba Opções."
+        "message": "O Configurador Scarflight coleta estatísticas de uso anônimas. Por exemplo, estes dados incluem (mas não estão limitados a) a quantidade de aberturas, região geográfica dos usuários, tipos de controladores de voo, versões de firmware, uso de elementos e guias de interface do usuário, etc. O resumo destes dados é aberto e compartilhado <a href=\"https:\/\/datastudio.google.com\/u\/0\/reporting\/1pK1PFw0eWmsgl2npvuzwAqscVzlhJvuF\" target=\"_blank\" rel=\"noopener noreferrer\">aqui<\/a>. A coleta é feita para entender melhor como o Configurador Scarflight está sendo usado, para entender as tendências da comunidade e para possíveis melhorias na interface. Os usuários podem optar por não enviar os dados coletados na aba Opções."
     },
     "defaultButtonFirmwareFlasher": {
         "message": "Atualizador de firmware"
@@ -622,13 +622,13 @@
         "message": "Código Fonte \/ Nota de Doação"
     },
     "defaultDonateText": {
-        "message": "<p><strong>Betaflight<\/strong> é um software para controladores de voo feito com <strong>código aberto<\/strong> e disponível gratuitamente <strong>sem nenhuma garantia<\/strong> para todos os usuários.<\/p><p> Se você achou o Betaflight ou o Betaflight Configurator útil, considere <strong>ajudar<\/strong> seu desenvolvimento com uma doação.<\/p>"
+        "message": "<p><strong>Scarflight<\/strong> é um software para controladores de voo feito com <strong>código aberto<\/strong> e disponível gratuitamente <strong>sem nenhuma garantia<\/strong> para todos os usuários.<\/p><p> Se você achou o Scarflight ou o Scarflight Configurator útil, considere <strong>ajudar<\/strong> seu desenvolvimento com uma doação.<\/p>"
     },
     "defaultDonateBottom": {
         "message": "<p>Se deseja ajudar este projeto financeiramente de forma continua, considere tornar-se nosso benfeitor através do site $t(patreonLink.message).<\/p>"
     },
     "patreonLink": {
-        "message": "<a href=\"https:\/\/www.patreon.com\/betaflight\" target=\"_blank\" rel=\"noopener noreferrer\">Patreon<\/a>",
+        "message": "<a href=\"https:\/\/www.patreon.com\/Scarflight\" target=\"_blank\" rel=\"noopener noreferrer\">Patreon<\/a>",
         "description": "Patreon is name, and should not require translation"
     },
     "defaultDonate": {
@@ -641,13 +641,13 @@
         "message": "Documentação \/ Manual"
     },
     "defaultDocumentation": {
-        "message": "A documentação do Betaflight está disponível nas notas de lançamento e no wiki.<br \/><br \/>"
+        "message": "A documentação do Scarflight está disponível nas notas de lançamento e no wiki.<br \/><br \/>"
     },
     "defaultDocumentation1": {
-        "message": "O wiki do Betaflight é um grande recurso para obter informações, ele pode ser encontrado <a href=\"https:\/\/betaflight.com\/docs\/wiki\" target=\"_blank\" rel=\"noopener noreferrer\"> aqui<\/a>."
+        "message": "O wiki do Scarflight é um grande recurso para obter informações, ele pode ser encontrado <a href=\"https:\/\/Scarflight.com\/docs\/wiki\" target=\"_blank\" rel=\"noopener noreferrer\"> aqui<\/a>."
     },
     "defaultDocumentation2": {
-        "message": "As notas de lançamento para o firmware podem ser lidas na página de versões do Github, <a href=\"https:\/\/github.com\/Betaflight\/Betaflight\/releases\" target=\"_blank\" rel=\"noopener noreferrer\">aqui<\/a>."
+        "message": "As notas de lançamento para o firmware podem ser lidas na página de versões do Github, <a href=\"https:\/\/github.com\/Scarflight\/Scarflight\/releases\" target=\"_blank\" rel=\"noopener noreferrer\">aqui<\/a>."
     },
     "defaultSupportHead": {
         "message": "Suporte"
@@ -665,16 +665,16 @@
         "message": "<a href=\"http:\/\/www.rcgroups.com\/forums\/showthread.php?t=2464844&page=1\" target=\"_blank\" rel=\"noopener noreferrer\">Tópico no RC Groups<\/a>"
     },
     "defaultSupport2": {
-        "message": "<a href=\"https:\/\/betaflight.com\/docs\/wiki\" target=\"_blank\" rel=\"noopener noreferrer\">Betaflight Wiki<\/a>"
+        "message": "<a href=\"https:\/\/Scarflight.com\/docs\/wiki\" target=\"_blank\" rel=\"noopener noreferrer\">Scarflight Wiki<\/a>"
     },
     "defaultSupport3": {
-        "message": "<a href=\"https:\/\/www.youtube.com\/playlist?list=PLwoDb7WF6c8nT4jjsE4VENEmwu9x8zDiE\" target=\"_blank\" rel=\"noopener noreferrer\">Vídeos do Betaflight 4.3 por Joshua Bardwell<\/a>"
+        "message": "<a href=\"https:\/\/www.youtube.com\/playlist?list=PLwoDb7WF6c8nT4jjsE4VENEmwu9x8zDiE\" target=\"_blank\" rel=\"noopener noreferrer\">Vídeos do Scarflight 4.3 por Joshua Bardwell<\/a>"
     },
     "defaultSupport4": {
-        "message": "<a href=\"https:\/\/github.com\/Betaflight\" target=\"_blank\" rel=\"noopener noreferrer\">GitHub<\/a>"
+        "message": "<a href=\"https:\/\/github.com\/Scarflight\" target=\"_blank\" rel=\"noopener noreferrer\">GitHub<\/a>"
     },
     "defaultSupport5": {
-        "message": "<a href=\"https:\/\/discord.betaflight.com\/invite\" target=\"_blank\" rel=\"noopener noreferrer\">Desenvolvedores do Betaflight no Discord<\/a>"
+        "message": "<a href=\"https:\/\/discord.Scarflight.com\/invite\" target=\"_blank\" rel=\"noopener noreferrer\">Desenvolvedores do Scarflight no Discord<\/a>"
     },
     "initialSetupButtonCalibrateAccel": {
         "message": "Calibrar Acelerômetro"
@@ -934,7 +934,7 @@
         "description": "Message that pops up to describe the BST arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipMSP": {
-        "message": "A conexão MSP está ativa, provavelmente com este configurador Betaflight",
+        "message": "A conexão MSP está ativa, provavelmente com este configurador Scarflight",
         "description": "Message that pops up to describe the MSP arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipPARALYZE": {
@@ -1349,7 +1349,7 @@
         "message": "Tom do sinalizador"
     },
     "configurationDshotBeaconHelp": {
-        "message": "O sinalizador do Dshot usa os ESCs e motores para emitir som. Isso significa que o sinalizador do Dshot não pode ser usado enquanto os motores estiverem rodando. A partir do Betaflight 3.4, quando tentar armar com o sinalizador do Dshot ativo, haverá um atraso de 2 segundos para que a aeronave seja armada após um tom do sinalizador do Dshot. Isto evita que o sinalizador interfira com os comando Dshot enviados durante o processo de armar.<br\/><strong>Atenção:<\/strong> O sinalizador do Dshot envia uma corrente elétrica para os motores quando ativo, isso pode gerar calor excessivo e danificar seus motores e\/ou ESCs se a potência do sinalizador estiver muito alta. Use o configurador BLHeli ou o BLHeli Suite para ajustar e testar a potência do sinalizador."
+        "message": "O sinalizador do Dshot usa os ESCs e motores para emitir som. Isso significa que o sinalizador do Dshot não pode ser usado enquanto os motores estiverem rodando. A partir do Scarflight 3.4, quando tentar armar com o sinalizador do Dshot ativo, haverá um atraso de 2 segundos para que a aeronave seja armada após um tom do sinalizador do Dshot. Isto evita que o sinalizador interfira com os comando Dshot enviados durante o processo de armar.<br\/><strong>Atenção:<\/strong> O sinalizador do Dshot envia uma corrente elétrica para os motores quando ativo, isso pode gerar calor excessivo e danificar seus motores e\/ou ESCs se a potência do sinalizador estiver muito alta. Use o configurador BLHeli ou o BLHeli Suite para ajustar e testar a potência do sinalizador."
     },
     "configurationBeeper": {
         "message": "Configuração dos Sinais Sonoros"
@@ -1486,7 +1486,7 @@
         "description": "Option to use Galileo in the GPS configuration"
     },
     "configurationGPSGalileoHelp": {
-        "message": "Quando ativado, o módulo GPS também irá rastrear o sistema de satélites Galileo, o que normalmente resulta em mais satélites localizados. No Betaflight 4.2.x ou versões anteriores, ele também desabilita o sistema de QZSS.",
+        "message": "Quando ativado, o módulo GPS também irá rastrear o sistema de satélites Galileo, o que normalmente resulta em mais satélites localizados. No Scarflight 4.2.x ou versões anteriores, ele também desabilita o sistema de QZSS.",
         "description": "Help text for the option to use Galileo in the GPS configuration"
     },
     "configurationGPSHomeOnce": {
@@ -2206,7 +2206,7 @@
         "message": "Pré-visualizar"
     },
     "receiverMspWarningText": {
-        "message": "Estes sticks permitem o Betaflight ser armado e testado sem um transmissor ou receptor disponíveis. Porém, <strong>esta funcionalidade não foi feita para voos e as hélices não devem estar montadas.<\/strong><br \/><br \/>Esta função não garante um controle viável da sua aeronave. <strong>Ferimentos graves podem ocorrer se as hélices estiverem montadas.<\/strong>"
+        "message": "Estes sticks permitem o Scarflight ser armado e testado sem um transmissor ou receptor disponíveis. Porém, <strong>esta funcionalidade não foi feita para voos e as hélices não devem estar montadas.<\/strong><br \/><br \/>Esta função não garante um controle viável da sua aeronave. <strong>Ferimentos graves podem ocorrer se as hélices estiverem montadas.<\/strong>"
     },
     "receiverMspEnableButton": {
         "message": "Habilitar controles"
@@ -2940,7 +2940,7 @@
         "message": "<strong>Aviso de segurança<\/strong><br \/><strong class=\"message-negative\">Remova todas as hélices para evitar ferimentos!<\/strong><br \/>Os motores irão <strong>girar!<\/strong>"
     },
     "motorsRemapDialogExplanations": {
-        "message": "<strong>Aviso<\/strong><br \/>Os motores irão girar um a um e você poderá selecionar qual o motor que está girando. A bateria deve estar conectada, o protocolo ESC correto deve estar selecionado. Este utilitário só pode reordenar os motores atualmente ativos. Um mapeamento mais complexo requer configurações pela Linha de Comandos (CLI). Consulte esta <a href=\"https:\/\/betaflight.com\/docs\/wiki\/guides\/current\/Remapping-Motors-with-Resource-Command\" target=\"_blank\" rel=\"noopener noreferrer\">página Wiki<\/a>."
+        "message": "<strong>Aviso<\/strong><br \/>Os motores irão girar um a um e você poderá selecionar qual o motor que está girando. A bateria deve estar conectada, o protocolo ESC correto deve estar selecionado. Este utilitário só pode reordenar os motores atualmente ativos. Um mapeamento mais complexo requer configurações pela Linha de Comandos (CLI). Consulte esta <a href=\"https:\/\/Scarflight.com\/docs\/wiki\/guides\/current\/Remapping-Motors-with-Resource-Command\" target=\"_blank\" rel=\"noopener noreferrer\">página Wiki<\/a>."
     },
     "motorsRemapDialogSave": {
         "message": "Salvar"
@@ -3012,10 +3012,10 @@
         "message": "Isto somente funciona com ESCs com DSHOT.<br \/>Verifique que seu ESC (controlador eletrônico de velocidade) têm suporte ao protocolo DSHOT e então selecione esse protocolo na aba $t(tabMotorTesting.message)."
     },
     "escDshotDirectionDialog-WrongMixerText": {
-        "message": "Número de motores é 0.<br \/>Verifique o Mixer atual na aba $t(tabMotorTesting.message) ou configure um personalizado através do CLI. Consulte <a href=\"https:\/\/betaflight.com\/docs\/development\/Mixer\" target=\"_blank\" rel=\"noopener noreferrer\">esta página Wiki<\/a>."
+        "message": "Número de motores é 0.<br \/>Verifique o Mixer atual na aba $t(tabMotorTesting.message) ou configure um personalizado através do CLI. Consulte <a href=\"https:\/\/Scarflight.com\/docs\/development\/Mixer\" target=\"_blank\" rel=\"noopener noreferrer\">esta página Wiki<\/a>."
     },
     "escDshotDirectionDialog-WrongFirmwareText": {
-        "message": "Atualize o firmware.<br \/> Certifique-se de que você está utilizando o firmware Betaflight 4.3 ou mais recente."
+        "message": "Atualize o firmware.<br \/> Certifique-se de que você está utilizando o firmware Scarflight 4.3 ou mais recente."
     },
     "escDshotDirectionDialog-WizardActionHint": {
         "message": "Clique nos números dos motores individualmente para mudar a direção do giro"
@@ -3294,8 +3294,8 @@
         "message": "Destino:"
     },
     "firmwareFlasherTargetWikiUrlInfo": {
-        "message": "Obtenha mais informações sobre o dispositivo na Wiki Betaflight",
-        "description": "Link to Betaflight support for target"
+        "message": "Obtenha mais informações sobre o dispositivo na Wiki Scarflight",
+        "description": "Link to Scarflight support for target"
     },
     "firmwareFlasherReleaseMCU": {
         "message": "MCU:"
@@ -3367,7 +3367,7 @@
         "message": "Selecione a sua placa ou use o Auto-detectar para ver os Firmwares disponíveis online - Selecione o firmware apropriado para a sua placa."
     },
     "firmwareFlasherOnlineSelectBoardHint": {
-        "message": "O Configurador Betaflight tem suporte para instalar destinos unificados com as respectivas configurações da placa em um único passo.<br><br>O conceito de destinos unificados significa que o mesmo arquivo de firmware pode ser utilizados em todas as placas com o mesmo MCU.<br><br>O Betaflight 4.4 introduziou a <strong>compilação em nuvem<\/strong><br><br>Com a <strong>compilação em nuvem<\/strong> é necessário definir as opções de hardware presentes em sua aeronave.<br><br>Para fazer diferentes placas funcionarem com o mesmo firmware, um arquivo de configuração específico é enviado juntamente com o firmware quando ele é instalado.<br><br>Com a compilação local, é possivel definir um arquivo de configuração de destino unificado ou escolher uma placa antes de carregar o arquivo .hex do firmware.<br><br>Se encontrar problemas com o firmware, por favor considere entrar em nosso servidor do Discord ou abrir uma <a href=\"https:\/\/github.com\/betaflight\/betaflight\/issues\" target=\"_blank\" rel=\"noopener noreferrer\">issue no GitHub<\/a>."
+        "message": "O Configurador Scarflight tem suporte para instalar destinos unificados com as respectivas configurações da placa em um único passo.<br><br>O conceito de destinos unificados significa que o mesmo arquivo de firmware pode ser utilizados em todas as placas com o mesmo MCU.<br><br>O Scarflight 4.4 introduziou a <strong>compilação em nuvem<\/strong><br><br>Com a <strong>compilação em nuvem<\/strong> é necessário definir as opções de hardware presentes em sua aeronave.<br><br>Para fazer diferentes placas funcionarem com o mesmo firmware, um arquivo de configuração específico é enviado juntamente com o firmware quando ele é instalado.<br><br>Com a compilação local, é possivel definir um arquivo de configuração de destino unificado ou escolher uma placa antes de carregar o arquivo .hex do firmware.<br><br>Se encontrar problemas com o firmware, por favor considere entrar em nosso servidor do Discord ou abrir uma <a href=\"https:\/\/github.com\/Scarflight\/Scarflight\/issues\" target=\"_blank\" rel=\"noopener noreferrer\">issue no GitHub<\/a>."
     },
     "firmwareFlasherOnlineSelectFirmwareVersionDescription": {
         "message": "Selecione a versão do firmware para sua placa."
@@ -3472,13 +3472,13 @@
         "message": "Mensagem:"
     },
     "firmwareFlasherWarningText": {
-        "message": "Por favor <span class=\"message-negative\">não<\/span> tente atualizar hardware <strong>não-betaflight<\/strong> utilizando este atualizador de firmware.<br \/><span class=\"message-negative\">Não<\/span><strong> desconecte<\/strong> a placa ou <strong>desligue<\/strong> seu computador durante a atualização<br \/><br \/><strong>Nota: <\/strong>o bootloader do STM32 é salvo na ROM, não é possível danificá-lo.<br \/><strong>Nota: <\/strong><span class=\"message-negative\">Auto-Conectar<\/span> está sempre desativado enquanto você está na tela de atualização.<br \/><strong>Nota: <\/strong>Tenha a certeza de que você tem um backup; algumas atualizações podem limpar as suas configurações.<br \/><strong>Nota:<\/strong> Se não conseguir atualizar, <strong> tente primeiro desconectar todos os cabos do seu controlador de voo<\/strong>, tente reiniciar o dispositivo ou atualizar seus drivers.<br \/><strong>Nota:<\/strong> Quando for atualizar placas com uma conexão USB direta (como a maioria das placas recentes) tenha a certeza de que você leu a seção de atualização por USB (USB Flashing) do manual do Betaflight e que também os drivers e softwares corretos estão instalados"
+        "message": "Por favor <span class=\"message-negative\">não<\/span> tente atualizar hardware <strong>não-Scarflight<\/strong> utilizando este atualizador de firmware.<br \/><span class=\"message-negative\">Não<\/span><strong> desconecte<\/strong> a placa ou <strong>desligue<\/strong> seu computador durante a atualização<br \/><br \/><strong>Nota: <\/strong>o bootloader do STM32 é salvo na ROM, não é possível danificá-lo.<br \/><strong>Nota: <\/strong><span class=\"message-negative\">Auto-Conectar<\/span> está sempre desativado enquanto você está na tela de atualização.<br \/><strong>Nota: <\/strong>Tenha a certeza de que você tem um backup; algumas atualizações podem limpar as suas configurações.<br \/><strong>Nota:<\/strong> Se não conseguir atualizar, <strong> tente primeiro desconectar todos os cabos do seu controlador de voo<\/strong>, tente reiniciar o dispositivo ou atualizar seus drivers.<br \/><strong>Nota:<\/strong> Quando for atualizar placas com uma conexão USB direta (como a maioria das placas recentes) tenha a certeza de que você leu a seção de atualização por USB (USB Flashing) do manual do Scarflight e que também os drivers e softwares corretos estão instalados"
     },
     "firmwareFlasherRecoveryHead": {
         "message": "<strong>Recuperação \/ Comunicação perdida<\/strong>"
     },
     "firmwareFlasherRecoveryText": {
-        "message": "Se você perdeu a comunicação com sua placa, siga estas etapas para restaurá-la: \n<ul>\n<li>Desligue a placa<\/li>\n<li>Selecione as opções 'Sem sequencia de reinicialização' e 'Formatar chip'.<\/li>\n<li>Na sua placa, conecte os pinos BOOT ou segure o botão BOOT.<\/li>\n<li>Ligue a placa (se tudo foi feito corretamente, o LED de atividade NÃO piscará).<\/li>\n<li>Instale todos os drivers STM32 e Zadig, se necessário (consulte a seção <a href=\"https:\/\/betaflight.com\/docs\/wiki\/guides\/current\/Installing-Betaflight\" target=\"_blank\" rel=\"noopener noreferrer\">USB Flashing<\/a> do manual do Betaflight).<\/li>\n<li>Reinicie o app do configurador.<\/li>\n<li>se sua placa tiver o botao BOOT, solte agora.<\/li>\n<li>Faça a atualização com o firmware correto (usando a taxa de transmissão manual se especificado no manual do usuário da sua placa).<\/li>\n<li>Desligue a placa.<\/li>\n<li>Se sua placa tiver pinos BOOT, remova a conexão deles agora.<\/li>\n<li>Ligue a placa (o LED de atividade deve piscar).<\/li>\n<li>Conecte normalmente.<\/li>\n<\/ul>"
+        "message": "Se você perdeu a comunicação com sua placa, siga estas etapas para restaurá-la: \n<ul>\n<li>Desligue a placa<\/li>\n<li>Selecione as opções 'Sem sequencia de reinicialização' e 'Formatar chip'.<\/li>\n<li>Na sua placa, conecte os pinos BOOT ou segure o botão BOOT.<\/li>\n<li>Ligue a placa (se tudo foi feito corretamente, o LED de atividade NÃO piscará).<\/li>\n<li>Instale todos os drivers STM32 e Zadig, se necessário (consulte a seção <a href=\"https:\/\/Scarflight.com\/docs\/wiki\/guides\/current\/Installing-Scarflight\" target=\"_blank\" rel=\"noopener noreferrer\">USB Flashing<\/a> do manual do Scarflight).<\/li>\n<li>Reinicie o app do configurador.<\/li>\n<li>se sua placa tiver o botao BOOT, solte agora.<\/li>\n<li>Faça a atualização com o firmware correto (usando a taxa de transmissão manual se especificado no manual do usuário da sua placa).<\/li>\n<li>Desligue a placa.<\/li>\n<li>Se sua placa tiver pinos BOOT, remova a conexão deles agora.<\/li>\n<li>Ligue a placa (o LED de atividade deve piscar).<\/li>\n<li>Conecte normalmente.<\/li>\n<\/ul>"
     },
     "firmwareFlasherButtonLeave": {
         "message": "Sair do atualizador de Firmware"
@@ -3537,8 +3537,8 @@
         "description": "Board verification has succeeded."
     },
     "firmwareFlasherBoardVerficationTargetNotAvailable": {
-        "message": "O configurador detectou a placa: <strong>{{boardName}}<\/strong> mas nenhum destino oficial do Betaflight foi encontrado",
-        "description": "Board verification has succeeded, but the target is not available as offical Betaflight target."
+        "message": "O configurador detectou a placa: <strong>{{boardName}}<\/strong> mas nenhum destino oficial do Scarflight foi encontrado",
+        "description": "Board verification has succeeded, but the target is not available as offical Scarflight target."
     },
     "firmwareFlasherBoardVerificationFail": {
         "message": "O Configurador <span class=\"message-negative\">não conseguiu<\/span> verificar a placa conectada, se isto não funcionar, tente trocar de aba lentamente para tentar novamente, reconecte o cabo USB ou faça uma primeira conexão se esqueceu de aplicar os padrões customizados",
@@ -3930,7 +3930,7 @@
         "message": "Potencia do Expo do RC"
     },
     "pidTuningRcExpoPowerHelp": {
-        "message": "O expoente que é usado ao calcular o Expo do RC. nas versões do Betaflight anteriores a 3.0, o valor é fixo em 3."
+        "message": "O expoente que é usado ao calcular o Expo do RC. nas versões do Scarflight anteriores a 3.0, o valor é fixo em 3."
     },
     "pidTuningLevel": {
         "message": "Angulo\/Horizonte"
@@ -4240,7 +4240,7 @@
         "message": "Lowpass 2 do Giroscópio"
     },
     "pidTuningGyroLowpass2Help": {
-        "message": "O segundo de dois filtros Gyro lowpass.<br \/><br \/>Este filtro é executado no loop do gyro, filtrando o sinal antes de entrar no loop do PID. Está sempre no modo estático (corte fixo).<br \/><br \/>Se a frequência do loop do PID é menor que a frequência do loop do gyro, por exemplo, um loop do PID de 4k com um loop de gyro de 8k, este filtro deve ser mantido para evitar problemas de aliasing devido a redução de amostragem 8k->4k.<br \/><br \/>Uma configuração com um único gyro lowpass 2, definido entre 500 e 1000Hz, funciona bem no Betaflight 4.3 ou superior, para builds limpas com filtragem RPM ativa e com pelo menos a filtragem padrão do termo D.",
+        "message": "O segundo de dois filtros Gyro lowpass.<br \/><br \/>Este filtro é executado no loop do gyro, filtrando o sinal antes de entrar no loop do PID. Está sempre no modo estático (corte fixo).<br \/><br \/>Se a frequência do loop do PID é menor que a frequência do loop do gyro, por exemplo, um loop do PID de 4k com um loop de gyro de 8k, este filtro deve ser mantido para evitar problemas de aliasing devido a redução de amostragem 8k->4k.<br \/><br \/>Uma configuração com um único gyro lowpass 2, definido entre 500 e 1000Hz, funciona bem no Scarflight 4.3 ou superior, para builds limpas com filtragem RPM ativa e com pelo menos a filtragem padrão do termo D.",
         "description": "Gyro lowpass filter helpicon message"
     },
     "pidTuningGyroLowpassFilterHelp": {
@@ -4414,7 +4414,7 @@
         "message": "Compensar Bateria Fraca"
     },
     "pidTuningVbatSagCompensationHelp": {
-        "message": "Proporciona uma aceleração e desempenho do PID consistente enquanto estiver com a voltagem da bateria acima do valor minimo, aumentando o potência de saída do motor de conforme a voltagem da bateria diminui.<br \/><br \/>O valor de compensação pode variar entre 0% a 100% - É recomendada a compensação total de 100%.<br \/><br \/>Visite <a href=\"https:\/\/betaflight.com\/docs\/tuning\/4.2-Tuning-Notes#dynamic-battery-sag-compensation\" target=\"_blank\" rel=\"noopener noreferrer\">esta pagina do wiki<\/a> para mais informações."
+        "message": "Proporciona uma aceleração e desempenho do PID consistente enquanto estiver com a voltagem da bateria acima do valor minimo, aumentando o potência de saída do motor de conforme a voltagem da bateria diminui.<br \/><br \/>O valor de compensação pode variar entre 0% a 100% - É recomendada a compensação total de 100%.<br \/><br \/>Visite <a href=\"https:\/\/Scarflight.com\/docs\/tuning\/4.2-Tuning-Notes#dynamic-battery-sag-compensation\" target=\"_blank\" rel=\"noopener noreferrer\">esta pagina do wiki<\/a> para mais informações."
     },
     "pidTuningVbatSagValue": {
         "message": "%"
@@ -4495,7 +4495,7 @@
         "message": "Valor Ocioso Dinâmico [* 100 RPM]"
     },
     "pidTuningIdleMinRpmHelp": {
-        "message": "O Modo Ocioso Dinâmico melhora o controle em rpm baixos e reduz o risco de dessincronização dos motores. <br \/><br \/> Melhora a autoridade do PID, a estabilidade com acelerador em zero, o tempo invertido no ar, e a frenagem do motor.<br \/><br \/>Recomendamos que min rpm do modo Ocioso Dinâmico seja definido entre 3000 a 3500 rpm. <br \/><br \/>Visite <a href=\"https:\/\/betaflight.com\/docs\/wiki\/guides\/current\/Dynamic-Idle\" target=\"_blank\" rel=\"noopener noreferrer\">esta pagina do wiki<\/a> para mais informações."
+        "message": "O Modo Ocioso Dinâmico melhora o controle em rpm baixos e reduz o risco de dessincronização dos motores. <br \/><br \/> Melhora a autoridade do PID, a estabilidade com acelerador em zero, o tempo invertido no ar, e a frenagem do motor.<br \/><br \/>Recomendamos que min rpm do modo Ocioso Dinâmico seja definido entre 3000 a 3500 rpm. <br \/><br \/>Visite <a href=\"https:\/\/Scarflight.com\/docs\/wiki\/guides\/current\/Dynamic-Idle\" target=\"_blank\" rel=\"noopener noreferrer\">esta pagina do wiki<\/a> para mais informações."
     },
     "pidTuningIdleMinRpmDisabled": {
         "message": "O Modo Ocioso Dinâmico está DESATIVADO porque a Telemetria Dshot está DESLIGADA"
@@ -4510,7 +4510,7 @@
         "message": "Yaw Integrado"
     },
     "pidTuningIntegratedYawCaution": {
-        "message": "<span class=\"message-negative\">CUIDADO<\/span>: Ao habilitar esta função, você deve ajustar o PID do Yaw de acordo. Mais informações <a href=\"https:\/\/betaflight.com\/docs\/wiki\/guides\/current\/Integrated-Yaw\" target=\"_blank\" rel=\"noopener noreferrer\">aqui<\/a>"
+        "message": "<span class=\"message-negative\">CUIDADO<\/span>: Ao habilitar esta função, você deve ajustar o PID do Yaw de acordo. Mais informações <a href=\"https:\/\/Scarflight.com\/docs\/wiki\/guides\/current\/Integrated-Yaw\" target=\"_blank\" rel=\"noopener noreferrer\">aqui<\/a>"
     },
     "pidTuningIntegratedYawHelp": {
         "message": "Yaw Integrado integra os valores dos termos P, I e D do yaw, permitindo que sejam configurados da mesma maneira de como se configura o PID do pitch e roll.<br><br>É necessário muito pouco I, porque o P integrado atua como I, e o D integrado atua como P.<br><br>NOTA: O Yaw Integrado requer o uso de Controle Absoluto, uma vez que nenhum I é necessário com Yaw Integrado."
@@ -4519,7 +4519,7 @@
         "message": "Rotação da placa em graus, permite que a placa seja montada de lado, de cabeça para baixo, rotacionada, etc. Quando estiver utilizando sensores externos, use o alinhamento dos sensores (Gyro, Accel, Mag) para definir a posição do sensor independente da orientação da placa. "
     },
     "failsafeFeaturesHelpOld": {
-        "message": "As configurações do Failsafe mudaram consideravelmente. Use o Betaflight <strong>v1.12.0+<\/strong> para ativar o painel de configuração aprimorado."
+        "message": "As configurações do Failsafe mudaram consideravelmente. Use o Scarflight <strong>v1.12.0+<\/strong> para ativar o painel de configuração aprimorado."
     },
     "failsafePaneTitleOld": {
         "message": "Failsafe do receptor"
@@ -4715,7 +4715,7 @@
         "message": "Salvar"
     },
     "powerFirmwareUpgradeRequired": {
-        "message": "Atualização de Firmware <span class=\"message-negative\">necessária<\/span>. As configurações de Bateria\/Corrente\/Voltagem utilizando a API &lt; 1.33.0 (Lançamento Betaflight &lt;=3.17) não é suportado."
+        "message": "Atualização de Firmware <span class=\"message-negative\">necessária<\/span>. As configurações de Bateria\/Corrente\/Voltagem utilizando a API &lt; 1.33.0 (Lançamento Scarflight &lt;=3.17) não é suportado."
     },
     "powerBatteryVoltageMeterSource": {
         "message": "Origem do medidor de voltagem"
@@ -4988,10 +4988,10 @@
         "message": "<span class=\"message-negative\"><b>AVISO:<\/b><\/span> Nenhum chip OSD foi detectado. Alguns controladores de voo não fornecem energia adequada ao chip OSD a menos que a bateria esteja conectada. Por favor conecte uma bateria antes de conectar o cabo USB (REMOVA AS HÉLICES!)."
     },
     "osdSetupPreviewHelp": {
-        "message": "<strong>Nota:<\/strong> A fonte da pré-visualização do OSD pode não ser a mesma da fonte instalada no controlador de voo. O layout de alguns elementos podem ser diferentes em versões mais antigas do Betaflight. Sempre verifique o visual em seus óculos antes de voar."
+        "message": "<strong>Nota:<\/strong> A fonte da pré-visualização do OSD pode não ser a mesma da fonte instalada no controlador de voo. O layout de alguns elementos podem ser diferentes em versões mais antigas do Scarflight. Sempre verifique o visual em seus óculos antes de voar."
     },
     "osdSetupUnsupportedNote1": {
-        "message": "Seu controlador de voo não está respondendo aos comandos OSD. Isso provavelmente significa que ele não contém um OSD BetaFlight integrado."
+        "message": "Seu controlador de voo não está respondendo aos comandos OSD. Isso provavelmente significa que ele não contém um OSD Scarflight integrado."
     },
     "osdSetupUnsupportedNote2": {
         "message": "Nota: Alguns controladores de voo contém um chip <a href=\"https:\/\/www.youtube.com\/watch?v=ikKH_6SQ-Tk\" target=\"_blank\" rel=\"noopener noreferrer\">MinimOSD<\/a> a bordo que pode ser atualizado e configurado com a ferramenta <a href=\"https:\/\/github.com\/ShikOfTheRa\/scarab-osd\/releases\/latest\" target='_blank'>scarab-osd<\/a>. O MinimOSD não pode ser configurado por aqui."
@@ -5047,9 +5047,9 @@
         "message": "Extra grande",
         "description": "Font Large Extra"
     },
-    "osdSetupFontTypeBetaflight": {
-        "message": "Betaflight",
-        "description": "Font Betaflight"
+    "osdSetupFontTypeScarflight": {
+        "message": "Scarflight",
+        "description": "Font Scarflight"
     },
     "osdSetupFontTypeDigital": {
         "message": "Digital",
@@ -6118,10 +6118,10 @@
         "message": "Estatística desconhecida (detalhes serão adicionados em uma versão futura)"
     },
     "osdDescribeFontVersion1": {
-        "message": "Versão da fonte: 1 (Betaflight 4.0 ou mais antigo)"
+        "message": "Versão da fonte: 1 (Scarflight 4.0 ou mais antigo)"
     },
     "osdDescribeFontVersion2": {
-        "message": "Versão da fonte: 2 (Betaflight 4.1 ou mais recente)"
+        "message": "Versão da fonte: 2 (Scarflight 4.1 ou mais recente)"
     },
     "osdDescribeFontVersionCUSTOM": {
         "message": "Versão da Fonte: Providenciada pelo usuário"
@@ -6351,7 +6351,7 @@
         "message": "Salvo"
     },
     "vtxHelp": {
-        "message": "Aqui é possível configurar os valores para o seu transmissor de vídeo (VTX). É possível visualizar e alterar os valores de transmissão, incluindo as tabelas do VTX, se o controlador e o VTX tiverem suporte.<br>Para configurar seu VTX, siga os seguintes passos:<br>1. Vá até <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https:\/\/github.com\/betaflight\/betaflight\/wiki\/VTX-tables\">esta página<\/a><br>2. Encontre o arquivo de configuração apropriado para o seu país e modelo de VTX e faça o download.<br>3. Clique no botão '$t(vtxButtonLoadFile.message)' abaixo, selecione o arquivo de configuração do VTX e carregue<br>4. Verifique que as configurações estão corretas<br>5. Clique no botão '$t(vtxButtonSave.message)' para salvar as configurações do VTX em sua controladora de voo (FC).<br>6. Opcional: Clique em '$t(vtxButtonSaveLua.message)' para salvar as configurações em um arquivo lua que você pode utilizar com os scripts lua do betaflight (Veja mais informações <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https:\/\/github.com\/betaflight\/betaflight-tx-lua-scripts\/\">aqui<\/a>.)",
+        "message": "Aqui é possível configurar os valores para o seu transmissor de vídeo (VTX). É possível visualizar e alterar os valores de transmissão, incluindo as tabelas do VTX, se o controlador e o VTX tiverem suporte.<br>Para configurar seu VTX, siga os seguintes passos:<br>1. Vá até <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https:\/\/github.com\/Scarflight\/Scarflight\/wiki\/VTX-tables\">esta página<\/a><br>2. Encontre o arquivo de configuração apropriado para o seu país e modelo de VTX e faça o download.<br>3. Clique no botão '$t(vtxButtonLoadFile.message)' abaixo, selecione o arquivo de configuração do VTX e carregue<br>4. Verifique que as configurações estão corretas<br>5. Clique no botão '$t(vtxButtonSave.message)' para salvar as configurações do VTX em sua controladora de voo (FC).<br>6. Opcional: Clique em '$t(vtxButtonSaveLua.message)' para salvar as configurações em um arquivo lua que você pode utilizar com os scripts lua do Scarflight (Veja mais informações <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https:\/\/github.com\/Scarflight\/Scarflight-tx-lua-scripts\/\">aqui<\/a>.)",
         "description": "Introduction message in the VTX tab"
     },
     "vtxMessageNotSupported": {
@@ -6531,7 +6531,7 @@
         "description": "Help for the number of power levels field of the VTX Table element in the VTX tab"
     },
     "vtxTablePowerLevelsTableHelp": {
-        "message": "Esta tabela representa os diferentes valores de potência que podem ser utilizados com o VTX. São divididos em dois: <br><b>- $t(vtxTablePowerLevelsValue.message):<\/b> cada nível de potência requer um valor que é definido pelo fabricante do hardware. Pergunte ao fabricante qual os valores corretos ou consulte o wiki do Betaflight para tabelas VTX de exemplo.<br><b>-$t(vtxTablePowerLevelsLabel.message):<\/b> aqui é possível especificar o título desejado para cada nível de potência. Podem ser números (25, 200, 600, 1.2), letras (DESLIGADO, MIN, MAX) ou uma mistura dos dois.<br \/><br \/>Configure <b>somente<\/b> os níveis de potência que são legalmente permitidos em seu país.",
+        "message": "Esta tabela representa os diferentes valores de potência que podem ser utilizados com o VTX. São divididos em dois: <br><b>- $t(vtxTablePowerLevelsValue.message):<\/b> cada nível de potência requer um valor que é definido pelo fabricante do hardware. Pergunte ao fabricante qual os valores corretos ou consulte o wiki do Scarflight para tabelas VTX de exemplo.<br><b>-$t(vtxTablePowerLevelsLabel.message):<\/b> aqui é possível especificar o título desejado para cada nível de potência. Podem ser números (25, 200, 600, 1.2), letras (DESLIGADO, MIN, MAX) ou uma mistura dos dois.<br \/><br \/>Configure <b>somente<\/b> os níveis de potência que são legalmente permitidos em seu país.",
         "description": "Help for the table of power levels (value-label) that appears in the VTX tab"
     },
     "vtxTablePowerLevelsValue": {
@@ -6567,7 +6567,7 @@
         "description": "Text of one of the titles of the VTX Table element in the VTX tab"
     },
     "vtxTableBandsChannelsTableHelp": {
-        "message": "Esta tabela representa todas as frequências que podem ser utilizadas no VTX. É possível ter várias bandas, e para cada banda deve ser configurada com:<br><b>- $t(vtxTableBandTitleName.message):<\/b> Nome desejado para a banda, como BOSCAM_A, FATSHARK ou RACEBAND.<br><b>- $t(vtxTableBandTitleLetter.message):<\/b> Letra curta referente à banda.<br><b>- $t(vtxTableBandTitleFactory.message):<\/b> indica se é uma banda padrão de fábrica. Se ativo, o Betaflight envia ao VTX a banda e o numero do canal. O VTX então passará a utilizar sua tabela interna de frequências de fábrica e os valores configurados aqui são somente para a exibição no OSD e outros lugares. Se não estiver ativo, então o Betaflight ira enviar a frequência real configurada aqui.<br><b>- Frequências:<\/b> são as frequências para esta banda.<br \/><br \/>Lembre-se de que nem todas as frequências são legalizadas em seu país. Defina o valor <b>0<\/b> para cada frequência ilegal, isto irá desativa-la.",
+        "message": "Esta tabela representa todas as frequências que podem ser utilizadas no VTX. É possível ter várias bandas, e para cada banda deve ser configurada com:<br><b>- $t(vtxTableBandTitleName.message):<\/b> Nome desejado para a banda, como BOSCAM_A, FATSHARK ou RACEBAND.<br><b>- $t(vtxTableBandTitleLetter.message):<\/b> Letra curta referente à banda.<br><b>- $t(vtxTableBandTitleFactory.message):<\/b> indica se é uma banda padrão de fábrica. Se ativo, o Scarflight envia ao VTX a banda e o numero do canal. O VTX então passará a utilizar sua tabela interna de frequências de fábrica e os valores configurados aqui são somente para a exibição no OSD e outros lugares. Se não estiver ativo, então o Scarflight ira enviar a frequência real configurada aqui.<br><b>- Frequências:<\/b> são as frequências para esta banda.<br \/><br \/>Lembre-se de que nem todas as frequências são legalizadas em seu país. Defina o valor <b>0<\/b> para cada frequência ilegal, isto irá desativa-la.",
         "description": "Help for the table of bands-channels that appears in the VTX tab"
     },
     "vtxSavedFileOk": {
@@ -6611,7 +6611,7 @@
         "description": "Save Lua script button in the VTX tab"
     },
     "vtxLuaFileHelp": {
-        "message": "O botão '$t(vtxButtonSaveLua.message)' gera um arquivo <i>mcuid<\/i>.lua contendo a configuração da tabela vtx que pode ser utilizado com os <a href=\"https:\/\/github.com\/betaflight\/betaflight-tx-lua-scripts\/\" target=\"_blank\" rel=\"noopener noreferrer\">scripts lua do betaflight<\/a>. <br><br> Versões 1.6.0 ou mais recente podem usar o arquivo como está, mas para versões mais antigas dos scripts, o arquivo deve ser renomeado para corresponder ao nome do modelo no TX.",
+        "message": "O botão '$t(vtxButtonSaveLua.message)' gera um arquivo <i>mcuid<\/i>.lua contendo a configuração da tabela vtx que pode ser utilizado com os <a href=\"https:\/\/github.com\/Scarflight\/Scarflight-tx-lua-scripts\/\" target=\"_blank\" rel=\"noopener noreferrer\">scripts lua do Scarflight<\/a>. <br><br> Versões 1.6.0 ou mais recente podem usar o arquivo como está, mas para versões mais antigas dos scripts, o arquivo deve ser renomeado para corresponder ao nome do modelo no TX.",
         "description": "Tooltip message for the Save Lua script button in the VTX tab"
     },
     "vtxButtonLoadFile": {
@@ -6768,7 +6768,7 @@
         "message": "<b>Derivativo a partir do Erro<\/b> gera uma resposta mais direta ao stick e é melhor para corridas.<br \/><br \/><b>Derivativo a partir da Medição<\/b> gera uma resposta mais suave ao stick e é melhor para freestyle"
     },
     "pidTuningPidControllerTip": {
-        "message": "<b>Legado vs Betaflight (flutuante):<\/b> A lógica e a escala do PID é exatamente a mesma. Não é necessário reajustar. O modo Legado é o antigo Betaflight Evolved Rewrite, que é um controlador PID básico baseado em matemática de números inteiros. o controlador PID Betaflight usa matemática de números com ponto flutuante e tem várias novas funcionalidades especificamente desenhadas para multirotores<br><b>Inteiro vs Flutuante:<\/b> A lógica e a escala do PID é exatamente a mesma. Não é necessário reajustar. placas F1 não tem um FPU a bordo e a matemática com ponto flutuante aumenta a carga do CPU; Matemática com inteiros melhora a performance, mas a matemática com ponto flutuante é mais precisa."
+        "message": "<b>Legado vs Scarflight (flutuante):<\/b> A lógica e a escala do PID é exatamente a mesma. Não é necessário reajustar. O modo Legado é o antigo Scarflight Evolved Rewrite, que é um controlador PID básico baseado em matemática de números inteiros. o controlador PID Scarflight usa matemática de números com ponto flutuante e tem várias novas funcionalidades especificamente desenhadas para multirotores<br><b>Inteiro vs Flutuante:<\/b> A lógica e a escala do PID é exatamente a mesma. Não é necessário reajustar. placas F1 não tem um FPU a bordo e a matemática com ponto flutuante aumenta a carga do CPU; Matemática com inteiros melhora a performance, mas a matemática com ponto flutuante é mais precisa."
     },
     "pidTuningFilterTip": {
         "message": "<b>Filtro Soft para o Giroscópio:<\/b> Um filtro Lowpass para o Giroscópio. Use valores mais baixos para filtrar mais.<br><b>Filtro do Termo D:<\/b> Filtro Lowpass para o termo D. Pode afetar a afinação do D. Use valores mais baixos para filtrar mais.<br><b>Filtro Yaw:<\/b> Filtra a saída do Yaw. Pode ajudar nas aeronaves com ruídos no eixo Yaw."
@@ -6927,7 +6927,7 @@
         "message": "Nome do arquivo"
     },
     "dialogFileNameDescription": {
-        "message": "O arquivo será salvo na pasta 'Android\/data\/betaflight-configurator\/{{folder}}' no seu armazenamento interno."
+        "message": "O arquivo será salvo na pasta 'Android\/data\/Scarflight-configurator\/{{folder}}' no seu armazenamento interno."
     },
     "dialogFileAlreadyExistsTitle": {
         "message": "Este arquivo já existe!"
@@ -7272,7 +7272,7 @@
         "message": "Abrir automaticamente o DevTools no modo de desenvolvimento",
         "description": "Text for the option to enable automatic opening of DevTools in debug mode"
     },
-    "betaflightSupportButton": {
+    "ScarflightSupportButton": {
         "message": "Wiki",
         "description": "Text for the button to open the support URL"
     }

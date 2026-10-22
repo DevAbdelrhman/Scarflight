@@ -1,5 +1,5 @@
 ; ------------------------------------------
-; Installer for Betaflight Configurator
+; Installer for Scarflight Configurator
 ; ------------------------------------------
 ; It receives from the command line with /D the parameters: 
 ; version
@@ -9,18 +9,18 @@
 ; sourceFolder
 ; targetFolder
 
-#define ApplicationName "Betaflight Configurator"
-#define CompanyName "The Betaflight open source project"
-#define CompanyUrl "https://betaflight.com/"
-#define ExecutableFileName "betaflight-configurator.exe"
-#define GroupName "Betaflight"
-#define InstallerFileName "betaflight-configurator_" + version + "_" + archName + "-installer"
-#define SourcePath "..\..\" + sourceFolder + "\betaflight-configurator\" + archName
-#define TargetFolderName "Betaflight-Configurator"
-#define UpdatesUrl "https://github.com/betaflight/betaflight-configurator/releases"
+#define ApplicationName "Scarflight Configurator"
+#define CompanyName "The Scarflight open source project"
+#define CompanyUrl "https://Scarflight.com/"
+#define ExecutableFileName "Scarflight-configurator.exe"
+#define GroupName "Scarflight"
+#define InstallerFileName "Scarflight-configurator_" + version + "_" + archName + "-installer"
+#define SourcePath "..\..\" + sourceFolder + "\Scarflight-configurator\" + archName
+#define TargetFolderName "Scarflight-Configurator"
+#define UpdatesUrl "https://github.com/Scarflight/Scarflight-configurator/releases"
 
 [CustomMessages]
-AppName=betaflight-configurator
+AppName=Scarflight-configurator
 LaunchProgram=Start {#ApplicationName}
 
 [Files]
@@ -69,7 +69,7 @@ Name: "zh_TW"; MessagesFile: "unofficial_inno_languages\ChineseTraditional.isl"
 Filename: {app}\{cm:AppName}.exe; Description: {cm:LaunchProgram,{cm:AppName}}; Flags: nowait postinstall skipifsilent
 
 [Setup]
-AppId=e72c90bb-45eb-48dc-9cf3-ac2e8ec52f8c
+AppId=5faeb2c1-43f5-4807-9306-aab519f9439a
 AppName={#ApplicationName}
 AppPublisher={#CompanyName}
 AppPublisherURL={#CompanyUrl}
@@ -101,11 +101,11 @@ var
 begin
     Result := '';
     // Look into the different registry entries: win32, win64 and without user rights
-    if not RegQueryStringValue(HKLM, 'SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Betaflight Configurator', 'UninstallString', Result) then
+    if not RegQueryStringValue(HKLM, 'SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Scarflight Configurator', 'UninstallString', Result) then
     begin
-        if not RegQueryStringValue(HKLM, 'SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Betaflight Configurator', 'UninstallString', Result) then
+        if not RegQueryStringValue(HKLM, 'SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Scarflight Configurator', 'UninstallString', Result) then
         begin
-            RegQueryStringValue(HKCU, 'SOFTWARE\Betaflight\Betaflight Configurator', 'UninstallString', Result)
+            RegQueryStringValue(HKCU, 'SOFTWARE\Scarflight\Scarflight Configurator', 'UninstallString', Result)
         end;
     end;
 end;

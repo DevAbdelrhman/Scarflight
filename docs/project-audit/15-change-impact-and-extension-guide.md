@@ -1,6 +1,6 @@
 # 15 — Developer Change Impact & Extension Guide
 
-This guide provides concrete, source-verified instructions for future software engineers and AI coding agents on how to safely modify existing features, add new capabilities, and avoid regressions in Betaflight Configurator.
+This guide provides concrete, source-verified instructions for future software engineers and AI coding agents on how to safely modify existing features, add new capabilities, and avoid regressions in Scarflight Configurator.
 
 ---
 
@@ -66,7 +66,7 @@ When introducing a new command to communicate with flight controller firmware:
   - Formulas mapping master sliders to P/I/D/Feedforward gains are isolated in [`src/js/TuningSliders.js`](file:///c:/Users/DELL/Drone/src/js/TuningSliders.js).
   - Modify `applyMasterMultiplier`, `applyDampening`, or `applyTracking` methods.
 - **Rates Visualizer Curves**:
-  - Stick deflection curve equations for Betaflight, QuickRates, Actual, and KISS rates reside in [`src/js/RateCurve.js`](file:///c:/Users/DELL/Drone/src/js/RateCurve.js).
+  - Stick deflection curve equations for Scarflight, QuickRates, Actual, and KISS rates reside in [`src/js/RateCurve.js`](file:///c:/Users/DELL/Drone/src/js/RateCurve.js).
   - Uses D3 scale functions (`d3.scaleLinear`) to redraw the SVG canvas in `pid_tuning.html`.
 
 ---

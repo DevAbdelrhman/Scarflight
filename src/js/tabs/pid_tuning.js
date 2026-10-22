@@ -459,7 +459,7 @@ pid_tuning.initialize = function (callback) {
         if (semver.gte(FC.CONFIG.apiVersion, API_VERSION_1_43)) {
             const ratesTypeListElement = $('select[id="ratesType"]'); // generates list
             const ratesList = [
-                {name: "Betaflight"},
+                {name: "Scarflight"},
                 {name: "Raceflight"},
                 {name: "KISS"},
                 {name: "Actual"},
@@ -1097,7 +1097,7 @@ pid_tuning.initialize = function (callback) {
                     break;
 
                 // add future rates types here
-                default: // BetaFlight
+                default: // Scarflight
 
                     break;
             }
@@ -1805,7 +1805,7 @@ pid_tuning.initialize = function (callback) {
                 context.quadraticCurveTo(midXr, midYr, canvasWidth, topY);
             }
             context.lineWidth = 2;
-            context.strokeStyle = '#ffbb00';
+            context.strokeStyle = '#22C55E';
             context.stroke();
             context.beginPath();
             context.arc(thrpos.x, thrpos.y, 4, 0, 2 * Math.PI);
@@ -2729,7 +2729,7 @@ pid_tuning.updateRatesLabels = function() {
                 );
             }
 
-            if (self.currentRatesType === FC.RATES_TYPE.BETAFLIGHT) {
+            if (self.currentRatesType === FC.RATES_TYPE.Scarflight) {
                 drawAxisLabel(stickContext, angleModeText, (curveWidth - 10) / textScale, curveHeight - 250, 'right');
 
                 const RC_RATE_INCREMENTAL = 14.54;
@@ -2895,7 +2895,7 @@ pid_tuning.changeRatesSystem = function(sameType) {
     const rateLabel = $('#pid-tuning .pid_titlebar .rate');
     const rcExpoLabel = $('#pid-tuning .pid_titlebar .rc_expo');
 
-    // default values for betaflight curve. all the default values produce the same betaflight default curve (or at least near enough)
+    // default values for Scarflight curve. all the default values produce the same Scarflight default curve (or at least near enough)
     let rcRateDefault = (1).toFixed(2), rateDefault = (0.7).toFixed(2), expoDefault = (0).toFixed(2);
 
     if (sameType) { // if selected rates type is different from the saved one, set values to default instead of reading
@@ -3002,7 +3002,7 @@ pid_tuning.changeRatesSystem = function(sameType) {
             break;
 
         // add future rates types here
-        default: // BetaFlight
+        default: // Scarflight
             rcRateLabel.text(i18n.getMessage("pidTuningRcRate"));
             rateLabel.text(i18n.getMessage("pidTuningRate"));
             rcExpoLabel.text(i18n.getMessage("pidTuningRcExpo"));
@@ -3056,8 +3056,8 @@ pid_tuning.changeRatesTypeLogo = function() {
             break;
 
         // add future rates types here
-        default: // BetaFlight
-            ratesLogoElement.attr("src", "./images/rate_logos/betaflight.svg");
+        default: // Scarflight
+            ratesLogoElement.attr("src", "./images/rate_logos/Scarflight.svg");
 
             break;
     }

@@ -8,7 +8,7 @@ import i18next from 'i18next';
 import Vue from "vue";
 import vueI18n from "./vueI18n.js";
 import BatteryLegend from "./quad-status/BatteryLegend.vue";
-import BetaflightLogo from "./betaflight-logo/BetaflightLogo.vue";
+import ScarflightLogo from "./Scarflight-logo/ScarflightLogo.vue";
 import StatusBar from "./status-bar/StatusBar.vue";
 import BatteryIcon from "./quad-status/BatteryIcon.vue";
 import FC from '../js/fc.js';
@@ -20,7 +20,7 @@ import CONFIGURATOR from '../js/data_storage.js';
 // It's a bit of overkill for simple components,
 // but these instance would eventually have more children
 // which would find the use for those extra properties.
-const betaflightModel = {
+const ScarflightModel = {
     CONFIGURATOR,
     FC,
     MSP,
@@ -41,11 +41,11 @@ i18next.on('initialized', function() {
         el: '#main-wrapper',
         components: {
             BatteryLegend,
-            BetaflightLogo,
+            ScarflightLogo,
             StatusBar,
             BatteryIcon,
         },
-        data: betaflightModel,
+        data: ScarflightModel,
     });
 });
 
@@ -53,4 +53,4 @@ i18next.on('initialized', function() {
 // Not strictly necessary here, but if needed
 // it's always possible to modify this model in
 // jquery land to trigger updates in vue
-window.vm = betaflightModel;
+window.vm = ScarflightModel;

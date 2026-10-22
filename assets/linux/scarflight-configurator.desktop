@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Scarflight Configurator
+Comment=Crossplatform configuration tool for the Scarflight flight control system
+Exec=/opt/Scarflight/Scarflight-configurator/Scarflight-configurator
+Icon=/opt/Scarflight/Scarflight-configurator/icon/bf_icon_128.png
+Terminal=false
+Type=Application
+Categories=Utility

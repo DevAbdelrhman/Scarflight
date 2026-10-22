@@ -1,6 +1,6 @@
 # 05 — Interactions, Controls & External Links Inventory
 
-This document catalogs the interactive elements, click handlers, form inputs, toggles, keyboard shortcuts, and external hyperlinks discovered across Betaflight Configurator.
+This document catalogs the interactive elements, click handlers, form inputs, toggles, keyboard shortcuts, and external hyperlinks discovered across Scarflight Configurator.
 
 ---
 
@@ -13,7 +13,7 @@ This document catalogs the interactive elements, click handlers, form inputs, to
 | **Show/Hide Log Button** | `#showlog` | `click` | [`main.js:536–559`](file:///c:/Users/DELL/Drone/src/js/main.js#L536-L559) | Toggles `$(this).data('state')`. Writes `ConfigStorage.set({'logopen': state})`. | Expands/collapses `#log` drawer and scrolls to bottom. | **Verified** |
 | **Expert Mode Toggle** | `input[name="expertModeCheckbox"]` | `change` | [`main.js:571–587`](file:///c:/Users/DELL/Drone/src/js/main.js#L571-L587) | Reads checked state. Writes `ConfigStorage.set({'expertMode': checked})`. | Invokes `updateTabList(FC.FEATURE_CONFIG.features)` and notifies active tab's `expertModeChanged(checked)`. | **Verified** |
 | **Numeric Inputs Sanitizer** | `#content input[type="number"]` | `keydown`, `change` | [`main.js:479–534`](file:///c:/Users/DELL/Drone/src/js/main.js#L479-L534) | Reads `min`, `max`, `step`, and `data('previousValue')`. | Whitelists numeric keycodes (0–9, minus, dot, backspace). Restricts value within min/max bounds. | **Verified** |
-| **Documentation Button** | `#button-documentation` | `click` | [`gui.js:315–317`](file:///c:/Users/DELL/Drone/src/js/gui.js#L315-L317) | Reads `GUI.active_tab`. | Opens external URL `https://betaflight.com/docs/wiki/configurator/<tab>-tab` in default browser. | **Verified** |
+| **Documentation Button** | `#button-documentation` | `click` | [`gui.js:315–317`](file:///c:/Users/DELL/Drone/src/js/gui.js#L315-L317) | Reads `GUI.active_tab`. | Opens external URL `https://Scarflight.com/docs/wiki/configurator/<tab>-tab` in default browser. | **Verified** |
 
 ---
 
@@ -63,17 +63,17 @@ All external hyperlinks have been inspected in source templates. Target behavior
 
 | Link Display Text | File Reference | Destination URL | Purpose |
 | :--- | :--- | :--- | :--- |
-| **Betaflight Blackbox Log Viewer** | [`src/tabs/landing.html:13`](file:///c:/Users/DELL/Drone/src/tabs/landing.html#L13) | `https://github.com/betaflight/blackbox-log-viewer/releases` | Downloader for standalone flight log analysis tool. |
-| **Betaflight TX Lua Scripts** | [`src/tabs/landing.html:17`](file:///c:/Users/DELL/Drone/src/tabs/landing.html#L17) | `https://github.com/betaflight/betaflight-tx-lua-scripts/releases` | OpenTX / EdgeTX transmitter Lua scripts. |
-| **Betaflight Firmware Source Code** | [`src/tabs/landing.html:24`](file:///c:/Users/DELL/Drone/src/tabs/landing.html#L24) | `https://github.com/betaflight/betaflight` | Core C firmware GitHub repository. |
+| **Scarflight Blackbox Log Viewer** | [`src/tabs/landing.html:13`](file:///c:/Users/DELL/Drone/src/tabs/landing.html#L13) | `https://github.com/Scarflight/blackbox-log-viewer/releases` | Downloader for standalone flight log analysis tool. |
+| **Scarflight TX Lua Scripts** | [`src/tabs/landing.html:17`](file:///c:/Users/DELL/Drone/src/tabs/landing.html#L17) | `https://github.com/Scarflight/Scarflight-tx-lua-scripts/releases` | OpenTX / EdgeTX transmitter Lua scripts. |
+| **Scarflight Firmware Source Code** | [`src/tabs/landing.html:24`](file:///c:/Users/DELL/Drone/src/tabs/landing.html#L24) | `https://github.com/Scarflight/Scarflight` | Core C firmware GitHub repository. |
 | **CP210x Drivers** | [`src/tabs/landing.html:36`](file:///c:/Users/DELL/Drone/src/tabs/landing.html#L36) | `https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers` | Silicon Labs USB-to-UART VCP driver download. |
 | **STM USB VCP Drivers** | [`src/tabs/landing.html:42`](file:///c:/Users/DELL/Drone/src/tabs/landing.html#L42) | `https://www.st.com/en/development-tools/stsw-stm32102.html` | STMicroelectronics Virtual COM Port driver download. |
 | **Zadig Driver Installer** | [`src/tabs/landing.html:48`](file:///c:/Users/DELL/Drone/src/tabs/landing.html#L48) | `https://zadig.akeo.ie/` | USB driver replacer for STM32 DFU WinUSB installation. |
 | **ImpulseRC Driver Fixer** | [`src/tabs/landing.html:54`](file:///c:/Users/DELL/Drone/src/tabs/landing.html#L54) | `https://impulserc.blob.core.windows.net/utilities/ImpulseRC_Driver_Fixer.exe` | Automated Windows DFU driver repair tool. |
-| **Betaflight Wiki** | [`src/tabs/landing.html:64`](file:///c:/Users/DELL/Drone/src/tabs/landing.html#L64) | `https://betaflight.com/docs/wiki` | Official documentation and setup tutorials. |
-| **Betaflight Support Discord** | [`src/tabs/help.html:20`](file:///c:/Users/DELL/Drone/src/tabs/help.html#L20) | `https://discord.betaflight.com/` | Real-time community assistance server. |
-| **Donate (PayPal)** | [`src/tabs/landing.html:84`](file:///c:/Users/DELL/Drone/src/tabs/landing.html#L84) | `https://paypal.me/betaflight` | Open-source developer fund donation link. |
-| **Patreon** | [`src/tabs/landing.html:88`](file:///c:/Users/DELL/Drone/src/tabs/landing.html#L88) | `https://www.patreon.com/betaflight` | Monthly recurring contribution page. |
+| **Scarflight Wiki** | [`src/tabs/landing.html:64`](file:///c:/Users/DELL/Drone/src/tabs/landing.html#L64) | `https://Scarflight.com/docs/wiki` | Official documentation and setup tutorials. |
+| **Scarflight Support Discord** | [`src/tabs/help.html:20`](file:///c:/Users/DELL/Drone/src/tabs/help.html#L20) | `https://discord.Scarflight.com/` | Real-time community assistance server. |
+| **Donate (PayPal)** | [`src/tabs/landing.html:84`](file:///c:/Users/DELL/Drone/src/tabs/landing.html#L84) | `https://paypal.me/Scarflight` | Open-source developer fund donation link. |
+| **Patreon** | [`src/tabs/landing.html:88`](file:///c:/Users/DELL/Drone/src/tabs/landing.html#L88) | `https://www.patreon.com/Scarflight` | Monthly recurring contribution page. |
 | **Sponsor: NewBeeDrone** | [`src/tabs/landing.html:95`](file:///c:/Users/DELL/Drone/src/tabs/landing.html#L95) | `https://newbeedrone.com` | Official manufacturer sponsor. |
 | **Sponsor: SpeedyBee** | [`src/tabs/landing.html:98`](file:///c:/Users/DELL/Drone/src/tabs/landing.html#L98) | `https://www.speedybee.com` | Official manufacturer sponsor. |
 | **Sponsor: RadioLink** | [`src/tabs/landing.html:101`](file:///c:/Users/DELL/Drone/src/tabs/landing.html#L101) | `https://www.radiolink.com` | Official manufacturer sponsor. |

@@ -174,7 +174,7 @@
         "message": "显示测试版本的配置程序更新提示"
     },
     "configuratorUpdateNotice": {
-        "message": "您正在使用旧版本的 <b>Betaflight配置程序<\/b>。<br>$t(configuratorUpdateHelp.message)"
+        "message": "您正在使用旧版本的 <b>Scarflight配置程序<\/b>。<br>$t(configuratorUpdateHelp.message)"
     },
     "configuratorUpdateWebsite": {
         "message": "打开版本发布网站"
@@ -402,13 +402,13 @@
         "message": "<span class=\"message-negative\">10秒<\/span>内没有接收到配置信息，飞控通信 <span class=\"message-negative\"> 失败<\/span>"
     },
     "firmwareVersionNotSupported": {
-        "message": "Betaflight 配置程序<span class=\"message-negative\">不支持<\/span>该固件版本。请更新固件以确保其API版本为 <strong>$1<\/strong> 或者更高。更新固件之前，使用 CLI 来备份设置。使用 CLI 进行备份\/恢复的具体操作流程请参考Betaflight文档。<br \/>如果不想将固件更新到最新版本，可以下载使用支持该固件的旧版配置程序。"
+        "message": "Scarflight 配置程序<span class=\"message-negative\">不支持<\/span>该固件版本。请更新固件以确保其API版本为 <strong>$1<\/strong> 或者更高。更新固件之前，使用 CLI 来备份设置。使用 CLI 进行备份\/恢复的具体操作流程请参考Scarflight文档。<br \/>如果不想将固件更新到最新版本，可以下载使用支持该固件的旧版配置程序。"
     },
     "firmwareTypeNotSupported": {
-        "message": "<span class=\"message-negative\">不支持<\/span>非 Betaflight 固件，只能使用 CLI 模式"
+        "message": "<span class=\"message-negative\">不支持<\/span>非 Scarflight 固件，只能使用 CLI 模式"
     },
     "firmwareUpgradeRequired": {
-        "message": "需要将此设备上的固件更新到新版本，更新固件之前，使用 CLI 来备份设置。用 CLI 进行备份\/恢复的具体操作流程请参考 Betaflight 文档。<br \/>如果不想将固件更新到最新版本，可以下载使用支持该固件的旧版配置程序。"
+        "message": "需要将此设备上的固件更新到新版本，更新固件之前，使用 CLI 来备份设置。用 CLI 进行备份\/恢复的具体操作流程请参考 Scarflight 文档。<br \/>如果不想将固件更新到最新版本，可以下载使用支持该固件的旧版配置程序。"
     },
     "resetToCustomDefaultsDialog": {
         "message": "有适用于此飞控板的自定义默认设置。通常来说，只有在应用了自定义默认设置之后飞控板才能正常工作。<br \/>您是否要为此飞控板应用自定义默认设置？"
@@ -455,7 +455,7 @@
         "message": "<span class=\"message-negative\">不能<\/span> 执行当前操作，请等待上一个操作完成…"
     },
     "tabSwitchUpgradeRequired": {
-        "message": "需要<strong>更新<\/strong>到最新版本的 Betaflight 固件才能使用 $1 页面"
+        "message": "需要<strong>更新<\/strong>到最新版本的 Scarflight 固件才能使用 $1 页面"
     },
     "firmwareVersion": {
         "message": "固件版本：<strong>$1<\/strong>"
@@ -552,7 +552,7 @@
         "message": "EEPROM <span class=\"message-positive\">已保存<\/span>"
     },
     "defaultWelcomeIntro": {
-        "message": "欢迎使用 <strong>Betaflight - 配置程序<\/strong>，为简化固件升级，设置和调校飞控而生的工具。"
+        "message": "欢迎使用 <strong>Scarflight - 配置程序<\/strong>，为简化固件升级，设置和调校飞控而生的工具。"
     },
     "defaultWelcomeHead": {
         "message": "硬件"
@@ -561,10 +561,10 @@
         "message": "参与开发"
     },
     "defaultFacebookText": {
-        "message": "我们还有一个 <a href=\"https:\/\/www.facebook.com\/groups\/betaflightgroup\/\" target=\"_blank\" rel=\"noopener noreferrer\">Facebook 小组<\/a>。<br \/>加入我们来一起讨论 Betaflight，询问配置问题，或者只是和小伙伴们闲聊。"
+        "message": "我们还有一个 <a href=\"https:\/\/www.facebook.com\/groups\/Scarflightgroup\/\" target=\"_blank\" rel=\"noopener noreferrer\">Facebook 小组<\/a>。<br \/>加入我们来一起讨论 Scarflight，询问配置问题，或者只是和小伙伴们闲聊。"
     },
     "defaultDiscordText": {
-        "message": "Betaflight <a href=\"https:\/\/discord.betaflight.com\/invite\" target=\"_blank\" rel=\"noopener noreferrer\">Discord 服务器<\/a>。<br \/>分享您的飞行经验，讨论 Betaflight，帮助其他人或从社区中为自己获得一些帮助。"
+        "message": "Scarflight <a href=\"https:\/\/discord.Scarflight.com\/invite\" target=\"_blank\" rel=\"noopener noreferrer\">Discord 服务器<\/a>。<br \/>分享您的飞行经验，讨论 Scarflight，帮助其他人或从社区中为自己获得一些帮助。"
     },
     "defaultButtonFirmwareFlasher": {
         "message": "固件烧写器"
@@ -573,13 +573,13 @@
         "message": "开源\/捐赠说明"
     },
     "defaultDonateText": {
-        "message": "<p><strong>Betaflight<\/strong>是一个<strong>开放源码<\/strong>的飞行控制软件，它可供所有用户免费使用，但 <strong>不提供担保<\/strong>。<\/p><p>如果你觉得 Betaflight 或 Betaflight 配置程序对你有用，请考虑捐赠以 <strong>支持<\/strong> 它的开发工作<\/p>"
+        "message": "<p><strong>Scarflight<\/strong>是一个<strong>开放源码<\/strong>的飞行控制软件，它可供所有用户免费使用，但 <strong>不提供担保<\/strong>。<\/p><p>如果你觉得 Scarflight 或 Scarflight 配置程序对你有用，请考虑捐赠以 <strong>支持<\/strong> 它的开发工作<\/p>"
     },
     "defaultDonateBottom": {
         "message": "<p>如果你想持续捐助资金，请考虑在$t(patreonLink.message)上赞助我们。<\/p>"
     },
     "patreonLink": {
-        "message": "<a href=\"https:\/\/www.patreon.com\/betaflight\" target=\"_blank\" rel=\"noopener noreferrer\">Patreon<\/a>",
+        "message": "<a href=\"https:\/\/www.patreon.com\/Scarflight\" target=\"_blank\" rel=\"noopener noreferrer\">Patreon<\/a>",
         "description": "Patreon is name, and should not require translation"
     },
     "defaultDonate": {
@@ -592,10 +592,10 @@
         "message": "文档\/手册"
     },
     "defaultDocumentation": {
-        "message": "Betaflight 的文档和发布说明可以在 wiki 里面找到。<br \/><br \/>"
+        "message": "Scarflight 的文档和发布说明可以在 wiki 里面找到。<br \/><br \/>"
     },
     "defaultDocumentation2": {
-        "message": "最新发布版本的信息可以在 <a href=\"https:\/\/github.com\/Betaflight\/Betaflight\/releases\" target=\"_blank\" rel=\"noopener noreferrer\">这里<\/a> 找到。"
+        "message": "最新发布版本的信息可以在 <a href=\"https:\/\/github.com\/Scarflight\/Scarflight\/releases\" target=\"_blank\" rel=\"noopener noreferrer\">这里<\/a> 找到。"
     },
     "defaultSupportHead": {
         "message": "支持"
@@ -613,10 +613,10 @@
         "message": "<a href=\"http:\/\/www.rcgroups.com\/forums\/showthread.php?t=2464844&page=1\" target=\"_blank\" rel=\"noopener noreferrer\">RC Groups thread<\/a>"
     },
     "defaultSupport3": {
-        "message": "<a href=\"https:\/\/www.youtube.com\/playlist?list=PLwoDb7WF6c8nT4jjsE4VENEmwu9x8zDiE\" target=\"_blank\" rel=\"noopener noreferrer\">Joshua Bardwell Betaflight 4.3 视频<\/a>"
+        "message": "<a href=\"https:\/\/www.youtube.com\/playlist?list=PLwoDb7WF6c8nT4jjsE4VENEmwu9x8zDiE\" target=\"_blank\" rel=\"noopener noreferrer\">Joshua Bardwell Scarflight 4.3 视频<\/a>"
     },
     "defaultSupport4": {
-        "message": "<a href=\"https:\/\/github.com\/Betaflight\" target=\"_blank\" rel=\"noopener noreferrer\">GitHub<\/a>"
+        "message": "<a href=\"https:\/\/github.com\/Scarflight\" target=\"_blank\" rel=\"noopener noreferrer\">GitHub<\/a>"
     },
     "initialSetupButtonCalibrateAccel": {
         "message": "校准加速度计"
@@ -1096,7 +1096,7 @@
         "message": "信标音调"
     },
     "configurationDshotBeaconHelp": {
-        "message": "Dshot 信标使用电调和电机产生声音。这意味着当电机旋转时，Dshot 信标无法工作。在 Betaflight 3.4 和以后的版本中，若在 Dshot 信标激活时尝试解锁，飞控会在发出最后一声信标音后延迟2秒再解锁。这是为了防止 Dshot 信标功能干扰在解锁时发送的 Dshot 命令。<br\/><strong>警告：<\/strong> 由于 Dshot 信标会有电流通过，如果信标鸣叫强度设置得太高，可能会造成电机\/电调过热甚至损毁。建议使用 BLHeli 配置程序或 BLHeliSuite 来调整和测试信标的鸣叫强度。"
+        "message": "Dshot 信标使用电调和电机产生声音。这意味着当电机旋转时，Dshot 信标无法工作。在 Scarflight 3.4 和以后的版本中，若在 Dshot 信标激活时尝试解锁，飞控会在发出最后一声信标音后延迟2秒再解锁。这是为了防止 Dshot 信标功能干扰在解锁时发送的 Dshot 命令。<br\/><strong>警告：<\/strong> 由于 Dshot 信标会有电流通过，如果信标鸣叫强度设置得太高，可能会造成电机\/电调过热甚至损毁。建议使用 BLHeli 配置程序或 BLHeliSuite 来调整和测试信标的鸣叫强度。"
     },
     "configurationBeeper": {
         "message": "蜂鸣器配置"
@@ -1226,7 +1226,7 @@
         "description": "Option to use Galileo in the GPS configuration"
     },
     "configurationGPSGalileoHelp": {
-        "message": "启用后，GPS 模块还将跟踪伽利略卫星系统，以锁定更多卫星。 在 Betaflight 4.2.x 或更早版本中，它也禁用了QZSS 扩充系统。",
+        "message": "启用后，GPS 模块还将跟踪伽利略卫星系统，以锁定更多卫星。 在 Scarflight 4.2.x 或更早版本中，它也禁用了QZSS 扩充系统。",
         "description": "Help text for the option to use Galileo in the GPS configuration"
     },
     "configurationGPSHomeOnce": {
@@ -1895,7 +1895,7 @@
         "message": "预览"
     },
     "receiverMspWarningText": {
-        "message": "这些摇杆使 Betaflight 可以无需遥控器和接收机就可以解锁飞控进行测试。然而，<strong> 这项功能并非是为实际飞行而设，且螺旋桨必须被拆除。\n <\/strong><br \/><br \/>此功能并不保证可以可靠地控制你的飞机。 <strong>如果不拆除螺旋桨可能会造成严重的伤害。<\/strong>"
+        "message": "这些摇杆使 Scarflight 可以无需遥控器和接收机就可以解锁飞控进行测试。然而，<strong> 这项功能并非是为实际飞行而设，且螺旋桨必须被拆除。\n <\/strong><br \/><br \/>此功能并不保证可以可靠地控制你的飞机。 <strong>如果不拆除螺旋桨可能会造成严重的伤害。<\/strong>"
     },
     "receiverMspEnableButton": {
         "message": "启用控制"
@@ -2455,7 +2455,7 @@
         "message": "该功能只适用于DSHOT电调。<br \/>验证您的电调是否支持DSHOT 协议，并在 $t(tabMotorTesting.message) 页内更改。"
     },
     "escDshotDirectionDialog-WrongFirmwareText": {
-        "message": "更新固件。<br \/> 请确保您正在使用最新的固件：Betaflight 4.3或更高版本。"
+        "message": "更新固件。<br \/> 请确保您正在使用最新的固件：Scarflight 4.3或更高版本。"
     },
     "escDshotDirectionDialog-WizardActionHint": {
         "message": "单独点击电机标号以改变旋转方向"
@@ -2848,7 +2848,7 @@
         "message": "信息："
     },
     "firmwareFlasherWarningText": {
-        "message": "请<span class=\"message-negative\">不要<\/span>尝试烧写<strong>Betaflight 不支持的飞控板<\/strong>。烧写固件过程中千万<br \/><span class=\"message-negative\">不要<\/span> <strong>断开飞控连接<\/strong> <strong>或关闭电脑<\/strong><br \/><br \/><strong>注意：<\/strong>STM32 的bootloader 储存在 ROM 中，所以不会有变砖可能。<br \/><strong>注意：在固件烧写页面<\/strong><span class=\"message-negative\">自动连接<\/span>会被自动禁用。<br \/><strong>注意：<\/strong>烧写固件可能会清空设置，请务必先备份好你的数据。<br \/><strong>注意：<\/strong>如果烧写遇到问题，<strong>尝试拔掉连接到飞控的所有连线<\/strong> 然后尝试重启，更新 Chrome 浏览器，升级驱动。<br \/><strong>注意：<\/strong>当使用虚拟USB（VCP）的飞控（大多数新的飞控都是），请仔细阅读 Betaflight 手册 USB flashing 部分章节，并确保驱动和软件已正确安装。"
+        "message": "请<span class=\"message-negative\">不要<\/span>尝试烧写<strong>Scarflight 不支持的飞控板<\/strong>。烧写固件过程中千万<br \/><span class=\"message-negative\">不要<\/span> <strong>断开飞控连接<\/strong> <strong>或关闭电脑<\/strong><br \/><br \/><strong>注意：<\/strong>STM32 的bootloader 储存在 ROM 中，所以不会有变砖可能。<br \/><strong>注意：在固件烧写页面<\/strong><span class=\"message-negative\">自动连接<\/span>会被自动禁用。<br \/><strong>注意：<\/strong>烧写固件可能会清空设置，请务必先备份好你的数据。<br \/><strong>注意：<\/strong>如果烧写遇到问题，<strong>尝试拔掉连接到飞控的所有连线<\/strong> 然后尝试重启，更新 Chrome 浏览器，升级驱动。<br \/><strong>注意：<\/strong>当使用虚拟USB（VCP）的飞控（大多数新的飞控都是），请仔细阅读 Scarflight 手册 USB flashing 部分章节，并确保驱动和软件已正确安装。"
     },
     "firmwareFlasherRecoveryHead": {
         "message": "<strong> 恢复\/丢失通信 <\/strong>"
@@ -2910,8 +2910,8 @@
         "description": "Board verification has succeeded."
     },
     "firmwareFlasherBoardVerficationTargetNotAvailable": {
-        "message": "配置程序检测到电路板： <strong>{{boardName}}<\/strong> 但找不到与之对应的官方 Betaflight 目标",
-        "description": "Board verification has succeeded, but the target is not available as offical Betaflight target."
+        "message": "配置程序检测到电路板： <strong>{{boardName}}<\/strong> 但找不到与之对应的官方 Scarflight 目标",
+        "description": "Board verification has succeeded, but the target is not available as offical Scarflight target."
     },
     "firmwareFlasherBoardVerificationFail": {
         "message": "配置程序验证飞控板 <span class=\"message-negative\">失败<\/span> ，如果无法通过缓慢切换标签页使其工作，请先连接并应用自定义默认设置或重新连接 USB",
@@ -3247,7 +3247,7 @@
         "message": "RC Expo 权重"
     },
     "pidTuningRcExpoPowerHelp": {
-        "message": "该指数用以计算RC Expo。在 Betaflight 3.0版本之前，该值固定为3。"
+        "message": "该指数用以计算RC Expo。在 Scarflight 3.0版本之前，该值固定为3。"
     },
     "pidTuningLevel": {
         "message": "自稳\/半自稳"
@@ -3514,7 +3514,7 @@
         "message": "陀螺仪低通滤波器 2"
     },
     "pidTuningGyroLowpass2Help": {
-        "message": "两个陀螺仪低通滤波器中的第二个。<br \/><br \/>该滤波器运行在陀螺仪循环链路中，会在信号进入 PID 循环之前对其进行滤波。它总是运行在静态 (固定截止频率) 模式下。<br \/><br \/>如果 PID 循环频率低于陀螺仪循环频率，例如 PID 4kHz\/陀螺仪 8kHz，此滤波器应当保留，以防止由于 8k->4k 降采样引起的混叠问题。<br \/><br \/>对于 Betaflight 4.3 及更高版本，单个陀螺仪低通滤波器 2 的设置可在干净的、开启RPM滤波器、并将 D Term 滤波保持默认的飞机上工作良好。",
+        "message": "两个陀螺仪低通滤波器中的第二个。<br \/><br \/>该滤波器运行在陀螺仪循环链路中，会在信号进入 PID 循环之前对其进行滤波。它总是运行在静态 (固定截止频率) 模式下。<br \/><br \/>如果 PID 循环频率低于陀螺仪循环频率，例如 PID 4kHz\/陀螺仪 8kHz，此滤波器应当保留，以防止由于 8k->4k 降采样引起的混叠问题。<br \/><br \/>对于 Scarflight 4.3 及更高版本，单个陀螺仪低通滤波器 2 的设置可在干净的、开启RPM滤波器、并将 D Term 滤波保持默认的飞机上工作良好。",
         "description": "Gyro lowpass filter helpicon message"
     },
     "pidTuningGyroLowpassFilterHelp": {
@@ -3778,7 +3778,7 @@
         "message": "任意角度（直立，反转，旋转等）安装飞控板。当使用外部传感器时，请使用传感器校正设置(陀螺，加速度计，磁场计)来决定独立于飞控板的传感器位置。"
     },
     "failsafeFeaturesHelpOld": {
-        "message": "失控保护功能被大量重做。请使用Betaflight <strong>v1.12.0+<\/strong> 来启用增强的失控保护设置页。"
+        "message": "失控保护功能被大量重做。请使用Scarflight <strong>v1.12.0+<\/strong> 来启用增强的失控保护设置页。"
     },
     "failsafePaneTitleOld": {
         "message": "接收机失控保护"
@@ -3913,7 +3913,7 @@
         "message": "保存"
     },
     "powerFirmwareUpgradeRequired": {
-        "message": "固件更新 <span class=\"message-negative\">要求<\/span>。 电池\/电流\/电压通过API &lt; 1.33.0 设置。 (Betaflight 版本&lt;= 3.17) 不支持。"
+        "message": "固件更新 <span class=\"message-negative\">要求<\/span>。 电池\/电流\/电压通过API &lt; 1.33.0 设置。 (Scarflight 版本&lt;= 3.17) 不支持。"
     },
     "powerBatteryVoltageMeterSource": {
         "message": "电压计选择"
@@ -5055,10 +5055,10 @@
         "message": "未知统计 (会在将来的版本中添加详细信息)"
     },
     "osdDescribeFontVersion1": {
-        "message": "字体版本: 1 (Betaflight 4.0或更旧版本)"
+        "message": "字体版本: 1 (Scarflight 4.0或更旧版本)"
     },
     "osdDescribeFontVersion2": {
-        "message": "字体版本: 2 (Betaflight 4.1或更新版本)"
+        "message": "字体版本: 2 (Scarflight 4.1或更新版本)"
     },
     "osdDescribeFontVersionCUSTOM": {
         "message": "字库版本: 用户提供"
@@ -5441,7 +5441,7 @@
         "description": "Help for the number of power levels field of the VTX Table element in the VTX tab"
     },
     "vtxTablePowerLevelsTableHelp": {
-        "message": "该表展示了可用于图传的不同功率。它分为两部分: <br><b>- $t(vtxTablePowerLevelsValue.message):<\/b>每个功率级别都需要有一个由硬件制造商定义的值。请您联系制造商以获取正确的值，或使用Betaflight的wiki说明 VTX Table 的内容来取得一些使用样例。<br><b>-$t(vtxTablePowerLevelsLabel.message):<\/b>您可以在此为您的图传的每个功率级别都设置标签。可以是数字(25, 200, 600, 1.2), 字母(OFF, MIN, MAX) 或者是数字与字母混用。<br \/><br \/>你必须<b>仅<\/b>配置符合当地法律法规的功率级别。",
+        "message": "该表展示了可用于图传的不同功率。它分为两部分: <br><b>- $t(vtxTablePowerLevelsValue.message):<\/b>每个功率级别都需要有一个由硬件制造商定义的值。请您联系制造商以获取正确的值，或使用Scarflight的wiki说明 VTX Table 的内容来取得一些使用样例。<br><b>-$t(vtxTablePowerLevelsLabel.message):<\/b>您可以在此为您的图传的每个功率级别都设置标签。可以是数字(25, 200, 600, 1.2), 字母(OFF, MIN, MAX) 或者是数字与字母混用。<br \/><br \/>你必须<b>仅<\/b>配置符合当地法律法规的功率级别。",
         "description": "Help for the table of power levels (value-label) that appears in the VTX tab"
     },
     "vtxTablePowerLevelsValue": {
@@ -5477,7 +5477,7 @@
         "description": "Text of one of the titles of the VTX Table element in the VTX tab"
     },
     "vtxTableBandsChannelsTableHelp": {
-        "message": "该表表示可用于图传的所有频率。 您可以拥有多个频段并且您必须配置每个频段的：<br><b>- $t(vtxTableBandTitleName.message)：<\/b> 您需要为此频段分配名称，例如BOSCAM_A、FATSHARK 或 RACEDAND。<br><b>- $t(vtxTableBandTitleLetter.message):<\/b> 该频段的缩写。<br><b>- $t(vtxTableBandTitleFactory.message):<\/b> 这指示它是否是工厂模式频段。 如果启用，Betaflight会将频段及频道号码发送到图传。 图传将使用内置频率表，在此配置的频率值仅在OSD 内和其他地方显示。 如果不启用，Betaflight将向图传发送在此配置的真正的频率值。<br><b>- 频率：<\/b> 此波段频率。<br \/><br \/>记住，并非所有频率在您的国家都是合法的。 您必须将不使用的频率上的值设置为 <b>0<\/b>。",
+        "message": "该表表示可用于图传的所有频率。 您可以拥有多个频段并且您必须配置每个频段的：<br><b>- $t(vtxTableBandTitleName.message)：<\/b> 您需要为此频段分配名称，例如BOSCAM_A、FATSHARK 或 RACEDAND。<br><b>- $t(vtxTableBandTitleLetter.message):<\/b> 该频段的缩写。<br><b>- $t(vtxTableBandTitleFactory.message):<\/b> 这指示它是否是工厂模式频段。 如果启用，Scarflight会将频段及频道号码发送到图传。 图传将使用内置频率表，在此配置的频率值仅在OSD 内和其他地方显示。 如果不启用，Scarflight将向图传发送在此配置的真正的频率值。<br><b>- 频率：<\/b> 此波段频率。<br \/><br \/>记住，并非所有频率在您的国家都是合法的。 您必须将不使用的频率上的值设置为 <b>0<\/b>。",
         "description": "Help for the table of bands-channels that appears in the VTX tab"
     },
     "vtxSavedFileOk": {
@@ -5513,7 +5513,7 @@
         "description": "Save Lua script button in the VTX tab"
     },
     "vtxLuaFileHelp": {
-        "message": "'$t(vtxButtonSaveLua.message)' 按钮将允许您保存一个 <i>mcuid<\/i>.lua ，该文件将包括可用于<a href=\"https:\/\/github.com\/betaflight\/betaflight-tx-lua-scripts\/\" target=\"_blank\" rel=\"noopener noreferrer\">Betaflight TX Lua脚本<\/a> 的图传配置文件表。<br><br>版本1.6.0 及更新版本可像现在一样使用该文件。但对于旧版本的脚本，应该对其重命名以匹配 TX 上的模型名称。",
+        "message": "'$t(vtxButtonSaveLua.message)' 按钮将允许您保存一个 <i>mcuid<\/i>.lua ，该文件将包括可用于<a href=\"https:\/\/github.com\/Scarflight\/Scarflight-tx-lua-scripts\/\" target=\"_blank\" rel=\"noopener noreferrer\">Scarflight TX Lua脚本<\/a> 的图传配置文件表。<br><br>版本1.6.0 及更新版本可像现在一样使用该文件。但对于旧版本的脚本，应该对其重命名以匹配 TX 上的模型名称。",
         "description": "Tooltip message for the Save Lua script button in the VTX tab"
     },
     "vtxButtonLoadFile": {
@@ -5662,7 +5662,7 @@
         "message": "<b>误差导数模式<\/b>提供更加直接的摇杆反应，适合竞速比赛。<br \/><br \/><b>测量导数模式<\/b> 提供更平滑摇杆的反应，适合花式飞行。"
     },
     "pidTuningPidControllerTip": {
-        "message": "<b>传统 vs Betaflight (浮点数):<\/b> PID 比例和 PID 逻辑是完全一样的。理论上，在两者之间进行切换不需要重新调参。传统的也是betaflight参与的重写算法，使用整数进行计算。Betaflight PID 控制器使用浮点数进行计算，并专门为多轴飞行器设计了许多新功能<br> <b>浮点 vs 整数:<\/b> PID 比例和PID逻辑完全一样的. 理论上，在两者之间进行切换不需要重新调参。F1芯片缺乏FPU，使用浮点运算将会增加CPU负荷，使用整数运算会得到更加好的运行效果。但是浮点运算会获得稍高的精准度。"
+        "message": "<b>传统 vs Scarflight (浮点数):<\/b> PID 比例和 PID 逻辑是完全一样的。理论上，在两者之间进行切换不需要重新调参。传统的也是Scarflight参与的重写算法，使用整数进行计算。Scarflight PID 控制器使用浮点数进行计算，并专门为多轴飞行器设计了许多新功能<br> <b>浮点 vs 整数:<\/b> PID 比例和PID逻辑完全一样的. 理论上，在两者之间进行切换不需要重新调参。F1芯片缺乏FPU，使用浮点运算将会增加CPU负荷，使用整数运算会得到更加好的运行效果。但是浮点运算会获得稍高的精准度。"
     },
     "pidTuningFilterTip": {
         "message": "<b>陀螺仪软件滤波器：<\/b> 陀螺仪的低通滤波。更低的数字会提供更多的过滤效果。<br><b>D Term 滤波器：<\/b>Dterm 低通滤波器。会影响D值的调参，更低的数字会提供更多的过滤效果。 <br><b>方向滤波器：<\/b> 对偏航输出进行滤波。对偏航轴震动或者噪声很严重的情况会有帮助。"
@@ -5806,7 +5806,7 @@
         "message": "文件名"
     },
     "dialogFileNameDescription": {
-        "message": "该文件将存储在内部存储中位于 'Android\/data\/betaflight-configurator\/{{folder}}' 的文件夹中"
+        "message": "该文件将存储在内部存储中位于 'Android\/data\/Scarflight-configurator\/{{folder}}' 的文件夹中"
     },
     "dialogFileAlreadyExistsTitle": {
         "message": "该文件已经存在。"

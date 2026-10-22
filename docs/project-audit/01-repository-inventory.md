@@ -12,7 +12,7 @@ c:\Users\DELL\Drone
 ├── .git/                   # Git source control repository (branch: main, commit: a37a892)
 ├── CODE_OF_CONDUCT.md      # Contributor Covenant Code of Conduct v1.4.0
 ├── CONTRIBUTING.md         # Developer contribution rules and PR guidelines
-├── README.md               # Upstream project overview, building guides, and badges
+├── README.md               # Scarflight project overview and build guide
 ├── assets/                 # Graphics assets (branding, icons, screenshots)
 ├── cache/                  # Build & runtime cache directory (untracked)
 ├── cordova/                # Apache Cordova mobile build templates and configs
@@ -66,7 +66,7 @@ The `src/` directory represents the main execution codebase.
 #### `src/components/` (Vue 2 Components)
 - [`init.js`](file:///c:/Users/DELL/Drone/src/components/init.js): Mounts the root Vue instance to `#main-wrapper` once `i18next` triggers `'initialized'`.
 - [`vueI18n.js`](file:///c:/Users/DELL/Drone/src/components/vueI18n.js): Bridges Vue components with `@panter/vue-i18next`.
-- `betaflight-logo/`: Vue component displaying the animated bee logo, Configurator version, firmware version, and target board ID.
+- `Scarflight-logo/`: Vue component displaying the project logo, Configurator version, firmware version, and target board ID.
 - `status-bar/`: Vue component for the bottom status bar displaying cycle time, CPU load, I2C errors, packet errors, and port utilization.
 - `quad-status/`: Vue components `BatteryIcon.vue` and `BatteryLegend.vue` rendering live battery voltage and cell state.
 - `port-picker/`: Vue components `PortsInput.vue`, `FirmwareVirtualOption.vue`, and `PortOverrideOption.vue`.
@@ -88,12 +88,12 @@ The `src/` directory represents the main execution codebase.
 - [`VirtualFC.js`](file:///c:/Users/DELL/Drone/src/js/VirtualFC.js) (274 lines / 229 SLOC): Complete simulated Flight Controller generating realistic mock MSP data for browser preview without hardware.
 - [`ConfigStorage.js`](file:///c:/Users/DELL/Drone/src/js/ConfigStorage.js) (82 lines / 70 SLOC): Local storage abstraction for persistent user preferences.
 - [`SessionStorage.js`](file:///c:/Users/DELL/Drone/src/js/SessionStorage.js) (66 lines / 55 SLOC): Session storage wrapper for caching cloud build responses.
-- [`BuildApi.js`](file:///c:/Users/DELL/Drone/src/js/BuildApi.js) (204 lines / 172 SLOC): REST client for `https://build.betaflight.com` target manifests and cloud builds.
+- [`BuildApi.js`](file:///c:/Users/DELL/Drone/src/js/BuildApi.js) (204 lines / 172 SLOC): REST client for `https://build.Scarflight.com` target manifests and cloud builds.
 - [`port_handler.js`](file:///c:/Users/DELL/Drone/src/js/port_handler.js) (456 lines / 375 SLOC): Port detection polling, USB device filtering, and mDNS network receiver matching.
 - [`mdns_discovery.js`](file:///c:/Users/DELL/Drone/src/js/mdns_discovery.js) (141 lines / 126 SLOC): Zero-configuration mDNS discovery for ExpressLRS WiFi receivers.
 - [`DarkTheme.js`](file:///c:/Users/DELL/Drone/src/js/DarkTheme.js) (82 lines / 69 SLOC): Theme switching engine (Light, Dark, OS Auto).
 - [`TuningSliders.js`](file:///c:/Users/DELL/Drone/src/js/TuningSliders.js) (837 lines / 693 SLOC): Math engine calculating PID master sliders, damping, tracking, and filter frequencies.
-- [`RateCurve.js`](file:///c:/Users/DELL/Drone/src/js/RateCurve.js) (284 lines / 217 SLOC): Math curves generator for Betaflight, QuickRates, Actual, and KISS rates models.
+- [`RateCurve.js`](file:///c:/Users/DELL/Drone/src/js/RateCurve.js) (284 lines / 217 SLOC): Math curves generator for Scarflight, QuickRates, Actual, and KISS rates models.
 - [`backup_restore.js`](file:///c:/Users/DELL/Drone/src/js/backup_restore.js) (923 lines / 775 SLOC): Backup and restore parser reading/writing JSON configuration files.
 - [`CliAutoComplete.js`](file:///c:/Users/DELL/Drone/src/js/CliAutoComplete.js) (586 lines / 523 SLOC): Trie and dictionary autocompleter for CLI tab commands.
 

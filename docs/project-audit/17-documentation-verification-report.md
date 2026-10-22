@@ -1,4 +1,4 @@
-# 17 — Final Documentation Verification Report
+# 17 ï¿½ Final Documentation Verification Report
 
 **Prepared by**: Independent re-audit pass (static inspection + command execution)
 **Date**: 2026-10-19
@@ -9,7 +9,7 @@
 
 ---
 
-## 1. File Inventory — Confirmed Present
+## 1. File Inventory ï¿½ Confirmed Present
 
 The following 17 files existed before this verification pass. `17-documentation-verification-report.md` **did not exist** prior to this pass.
 
@@ -49,10 +49,10 @@ docs/project-audit/
 
 | Code | Method |
 |:----:|:--------|
-| SC   | Static Code Inspection — file content read directly |
-| CMD  | Executed Shell Command — PowerShell output captured |
-| BR   | Browser Runtime — live app observed in prior browser session |
-| HW   | Real Hardware Testing — requires physical STM32 flight controller (NOT performed) |
+| SC   | Static Code Inspection ï¿½ file content read directly |
+| CMD  | Executed Shell Command ï¿½ PowerShell output captured |
+| BR   | Browser Runtime ï¿½ live app observed in prior browser session |
+| HW   | Real Hardware Testing ï¿½ requires physical STM32 flight controller (NOT performed) |
 
 ---
 
@@ -62,8 +62,8 @@ docs/project-audit/
 
 | Claim | Doc(s) | Evidence | Method | Result |
 |:------|:-------|:---------|:------:|:------:|
-| Package name: `betaflight-configurator` | 00, 01 | `package.json` line 2 | SC | CORRECT |
-| Product name: `Betaflight Configurator` | 00, 01 | `package.json` line 3 | SC | CORRECT |
+| Package name: `Scarflight-configurator` | 00, 01 | `package.json` line 2 | SC | CORRECT |
+| Product name: `Scarflight Configurator` | 00, 01 | `package.json` line 3 | SC | CORRECT |
 | Version: `10.10.0` | 00, 01 | PowerShell `ConvertFrom-Json` returns `10.10.0` | CMD | CORRECT |
 | License: GPL-3.0 | 00, 01 | `package.json` line 38 | SC | CORRECT |
 | Node.js target: `20.x` | 00, 01, 16 | `package.json` engines field | SC | CORRECT |
@@ -136,8 +136,8 @@ The filesystem contains **29 HTML files** in `src/tabs/` (`Get-ChildItem src\tab
 
 | File | Content | Has JS Controller? | Impact |
 |:-----|:--------|:------------------:|:------:|
-| `src/tabs/blank.html` | Single `<div class="tab-adjustments">` with black background — loading placeholder | No `blank.js` exists | Low |
-| `src/tabs/review.html` | Complete "rate this app" dialog with i18n keys `reviewhead`, `reviewInitial`, `reviewStore`, `reviewBug`, `reviewYes`, `reviewNo` | No — "review" is absent from `main.js` switch and `gui.js` allowedTabs | **Medium** |
+| `src/tabs/blank.html` | Single `<div class="tab-adjustments">` with black background ï¿½ loading placeholder | No `blank.js` exists | Low |
+| `src/tabs/review.html` | Complete "rate this app" dialog with i18n keys `reviewhead`, `reviewInitial`, `reviewStore`, `reviewBug`, `reviewYes`, `reviewNo` | No ï¿½ "review" is absent from `main.js` switch and `gui.js` allowedTabs | **Medium** |
 
 Two JS tab-directory files also not mapped in documentation:
 
@@ -150,7 +150,7 @@ Two JS tab-directory files also not mapped in documentation:
 
 `14-audit-coverage-and-open-items.md` declares "100%" for "Pages, Routes and Views (28 views)":
 - Actual HTML count in `src/tabs/` is **29**, not 28.
-- `review.html` is a real UI template — absent from all 16 documents.
+- `review.html` is a real UI template ï¿½ absent from all 16 documents.
 - `map.js` is an undocumented GPS map sub-module.
 - The "100% file coverage across 68 source files" denominator was never listed by filename, making it unverifiable.
 
@@ -197,7 +197,7 @@ Two JS tab-directory files also not mapped in documentation:
 | `01-repository-inventory.md` | `src/js/tabs/` section | Add `map.js` |
 | `13-file-level-reference.md` | File list | Add `map.js`; add notes for `blank.html` and `review.html` |
 | `14-audit-coverage-and-open-items.md` | Coverage table | Replace "100%" with honest figures; list `review.html`, `blank.html`, `map.js` as missed |
-| `03-pages-routes-and-navigation.md` | Master tab inventory | Add `review.html` row with status "disabled / legacy — not routed" |
+| `03-pages-routes-and-navigation.md` | Master tab inventory | Add `review.html` row with status "disabled / legacy ï¿½ not routed" |
 
 ### 7.2. New Actions Recommended
 
@@ -214,29 +214,29 @@ Two JS tab-directory files also not mapped in documentation:
 
 | Area | Static Code | CMD Executed | Browser Runtime | Real Hardware |
 |:-----|:-----------:|:------------:|:---------------:|:-------------:|
-| Project metadata | Full | Full | — | — |
-| Tab routing logic | Full | Partial | Partial (prior) | — |
-| File line counts | — | Full (corrected) | — | — |
-| ESLint defect | Full | Confirmed | — | — |
-| Circular dependency | Full | — | — | — |
-| Dead code (GitHubApi) | Full | Confirmed | — | — |
-| Unit test suite | — | Confirmed | — | — |
-| Browser UI rendering | — | — | Prior session | — |
-| Web Serial API | Code-level | — | Partial | Blocked |
-| USB DFU firmware flash | Code-level | — | — | Blocked |
-| mDNS discovery | Code-level | — | — | Blocked |
-| Motor bench / DShot | Code-level | — | — | Blocked |
-| OSD drag-and-drop | Code-level | — | Not tested | Blocked |
-| Backup/restore round-trip | Code-level | — | Not tested | — |
-| Presets network fetch | Code-level | — | Not tested | — |
-| NW.js desktop packaging | Code-level | Not executed | — | — |
-| Cordova Android APK | Code-level | Not executed | — | Blocked |
+| Project metadata | Full | Full | ï¿½ | ï¿½ |
+| Tab routing logic | Full | Partial | Partial (prior) | ï¿½ |
+| File line counts | ï¿½ | Full (corrected) | ï¿½ | ï¿½ |
+| ESLint defect | Full | Confirmed | ï¿½ | ï¿½ |
+| Circular dependency | Full | ï¿½ | ï¿½ | ï¿½ |
+| Dead code (GitHubApi) | Full | Confirmed | ï¿½ | ï¿½ |
+| Unit test suite | ï¿½ | Confirmed | ï¿½ | ï¿½ |
+| Browser UI rendering | ï¿½ | ï¿½ | Prior session | ï¿½ |
+| Web Serial API | Code-level | ï¿½ | Partial | Blocked |
+| USB DFU firmware flash | Code-level | ï¿½ | ï¿½ | Blocked |
+| mDNS discovery | Code-level | ï¿½ | ï¿½ | Blocked |
+| Motor bench / DShot | Code-level | ï¿½ | ï¿½ | Blocked |
+| OSD drag-and-drop | Code-level | ï¿½ | Not tested | Blocked |
+| Backup/restore round-trip | Code-level | ï¿½ | Not tested | ï¿½ |
+| Presets network fetch | Code-level | ï¿½ | Not tested | ï¿½ |
+| NW.js desktop packaging | Code-level | Not executed | ï¿½ | ï¿½ |
+| Cordova Android APK | Code-level | Not executed | ï¿½ | Blocked |
 
 ---
 
 ## 9. Final Reliability Assessment
 
-### Verdict: RELIABLE FOR ARCHITECTURAL REFERENCE — WITH NOTED CORRECTIONS
+### Verdict: RELIABLE FOR ARCHITECTURAL REFERENCE ï¿½ WITH NOTED CORRECTIONS
 
 **Fully Reliable Sections:**
 - Project identity, metadata, dependency inventory (00, 01, 02)
@@ -248,7 +248,7 @@ Two JS tab-directory files also not mapped in documentation:
 
 **Reliable But Needs Correction:**
 - Documents 01 and 13: All file line counts are systematically inflated 10-40%. Use corrected values from Section 4.1.
-- Documents 03 and 14: Claim of "28 tabs" is ambiguous — 29 HTML files exist; `review.html` is real but unrouted.
+- Documents 03 and 14: Claim of "28 tabs" is ambiguous ï¿½ 29 HTML files exist; `review.html` is real but unrouted.
 - Document 14: "100% coverage" is an overclaim. `map.js`, `review.html`, `blank.html` were not inventoried.
 
 **Blockers for Production Reliability:**

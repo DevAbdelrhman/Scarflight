@@ -1,7 +1,7 @@
 {
-  "name": "betaflight-configurator",
-  "productName": "Betaflight Configurator",
-  "description": "Crossplatform configuration tool for Betaflight flight control system.",
+  "name": "Scarflight-configurator",
+  "productName": "Scarflight Configurator",
+  "description": "Crossplatform configuration tool for Scarflight flight control system.",
   "version": "10.10.0",
   "main": "main.html",
   "chromium-args": "--disable-features=nw2",
@@ -28,13 +28,13 @@
     "id": "main-window",
     "min_width": 1024,
     "min_height": 550,
-    "title": "Betaflight Configurator"
+    "title": "Scarflight Configurator"
   },
   "repository": {
     "type": "git",
-    "url": "github.com/betaflight/betaflight-configurator"
+    "url": "github.com/Scarflight/Scarflight-configurator"
   },
-  "author": "The Betaflight open source project.",
+  "author": "The Scarflight open source project.",
   "license": "GPL-3.0",
   "engines": {
     "node": "20.x"

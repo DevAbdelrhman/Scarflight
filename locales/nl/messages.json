@@ -173,7 +173,7 @@
         "message": "Update meldingen voor onstabiele versies van de configurator weergeven"
     },
     "configuratorUpdateNotice": {
-        "message": "U gebruikt een verouderde versie van de <b>Betaflight Configurator<\/b>.<br>$t(configuratorUpdateHelp.message)"
+        "message": "U gebruikt een verouderde versie van de <b>Scarflight Configurator<\/b>.<br>$t(configuratorUpdateHelp.message)"
     },
     "configuratorUpdateWebsite": {
         "message": "Ga naar de Release Pagina"
@@ -404,7 +404,7 @@
         "message": "Dit besturingssysteem is <span class=\"message-negative\">niet ondersteund<\/span>. Upgrade alstublieft naar een besturingssysteem die wel API versie <strong>$1<\/strong> of hoger ondersteunt. Gebruik CLI om een backup te maken vóór het flashen. CLI backup\/herstel procedure is terug te vinden in de documentatie.<br \/>Als alternatief kunt u een oudere versie van de configurator gebruiken als je nog niet wil upgraden."
     },
     "firmwareTypeNotSupported": {
-        "message": "Firmware anders dan Betaflight is <span class=\"message-negative\">niet ondersteund<\/span>, behalve CLI modus."
+        "message": "Firmware anders dan Scarflight is <span class=\"message-negative\">niet ondersteund<\/span>, behalve CLI modus."
     },
     "firmwareUpgradeRequired": {
         "message": "Het besturingssysteem op dit apparaat moet worden geupgrade naar een nieuwere versie. Gebruik CLI om een backup te maken voor dat je begint met flashen. Hoe je dit moet doen staat in de documentatie.<br \/>Als alternatief kunt u een oudere versie van de configurator gebruiken als je nog niet wilt upgraden."
@@ -454,7 +454,7 @@
         "message": "U kunt dit nu <span class=\"message-negative\">niet<\/span> doen, wacht tot de huidige bewerking is voltooid ..."
     },
     "tabSwitchUpgradeRequired": {
-        "message": "U moet uw firmware <strong>upgraden<\/strong> naar de nieuwste versie van Betaflight voordat u het tabblad $1 kunt gebruiken."
+        "message": "U moet uw firmware <strong>upgraden<\/strong> naar de nieuwste versie van Scarflight voordat u het tabblad $1 kunt gebruiken."
     },
     "firmwareVersion": {
         "message": "Besturingssysteem Versie: <strong>$1<\/strong>"
@@ -548,7 +548,7 @@
         "message": "EEPROM <span class=\"message-positive\">opgeslagen<\/span>"
     },
     "defaultWelcomeIntro": {
-        "message": "Welkom bij <strong>Betaflight - Configurator<\/strong>, een hulpmiddel dat ontworpen is om het bijwerken, configureren en tunen van uw vlucht controller te vereenvoudigen."
+        "message": "Welkom bij <strong>Scarflight Configurator<\/strong>, een hulpmiddel dat ontworpen is om het bijwerken, configureren en tunen van uw vlucht controller te vereenvoudigen."
     },
     "defaultWelcomeHead": {
         "message": "Hardware"
@@ -557,7 +557,7 @@
         "message": "Bijdragen"
     },
     "defaultFacebookText": {
-        "message": "We hebben ook een <a href=\"https:\/\/www.facebook.com\/groups\/betaflightgroup\/\" target=\"_blank\" rel=\"noopener noreferrer\">Facebook Groep<\/a>.<br \/>Sluit je aan bij ons om een plek te krijgen waar je over Betaflight kunt praten, stel vragen over configuratie of hang rond met je mede piloten."
+        "message": "We hebben ook een <a href=\"https:\/\/www.facebook.com\/groups\/Scarflightgroup\/\" target=\"_blank\" rel=\"noopener noreferrer\">Facebook Groep<\/a>.<br \/>Sluit je aan bij ons om een plek te krijgen waar je over Scarflight kunt praten, stel vragen over configuratie of hang rond met je mede piloten."
     },
     "defaultButtonFirmwareFlasher": {
         "message": "Besturingssysteem Flasher"
@@ -566,13 +566,13 @@
         "message": "Open Source \/ Donatie Mededeling"
     },
     "defaultDonateText": {
-        "message": "<p><strong>Betaflight<\/strong> is een vluchtcontroller software die <strong>open source<\/strong> is en gratis beschikbaar is <strong>zonder garantie<\/strong> voor alle gebruikers.<\/p><p>Als u Betaflight of Betaflight Configurator nuttig vindt, overweeg dan <strong>om zijn ontwikkeling te ondersteunen<\/strong> door te doneren.<\/p>"
+        "message": "<p><strong>Scarflight<\/strong> is een vluchtcontroller software die <strong>open source<\/strong> is en gratis beschikbaar is <strong>zonder garantie<\/strong> voor alle gebruikers.<\/p><p>Als u Scarflight of Scarflight Configurator nuttig vindt, overweeg dan <strong>om zijn ontwikkeling te ondersteunen<\/strong> door te doneren.<\/p>"
     },
     "defaultDonateBottom": {
         "message": "<p>Als u regelmatig wilt doneren kunt u overwegen om zich aan te sluiten bij ons Patreon account. $t(patreonLink.message)<\/p>"
     },
     "patreonLink": {
-        "message": "<a href=\"https:\/\/www.patreon.com\/betaflight\" target=\"_blank\" rel=\"noopener noreferrer\">Patreon<\/a>",
+        "message": "<a href=\"https:\/\/www.patreon.com\/Scarflight\" target=\"_blank\" rel=\"noopener noreferrer\">Patreon<\/a>",
         "description": "Patreon is name, and should not require translation"
     },
     "defaultDonate": {
@@ -585,10 +585,10 @@
         "message": "Documentatie \/ Handleiding"
     },
     "defaultDocumentation": {
-        "message": "Betaflight documentatie is beschikbaar in de release notes en de wiki.<br \/><br \/>"
+        "message": "Scarflight documentatie is beschikbaar in de release notes en de wiki.<br \/><br \/>"
     },
     "defaultDocumentation2": {
-        "message": "De release opmerkingen voor het besturingssysteem kunnen gelezen worden op de pagina van GitHub, <a href=\"https:\/\/github.com\/Betaflight\/Betaflight\/releases\" target=\"_blank\" rel=\"noopener noreferrer\">Link<\/a>."
+        "message": "De release opmerkingen voor het besturingssysteem kunnen gelezen worden op de pagina van GitHub, <a href=\"https:\/\/github.com\/Scarflight\/Scarflight\/releases\" target=\"_blank\" rel=\"noopener noreferrer\">Link<\/a>."
     },
     "defaultSupportHead": {
         "message": "Ondersteuning"
@@ -606,7 +606,7 @@
         "message": "<a href=\"http:\/\/www.rcgroups.com\/forums\/showthread.php?t=2464844&page=1\" target=\"_blank\" rel=\"noopener noreferrer\">RC Groups discussie<\/a>"
     },
     "defaultSupport4": {
-        "message": "<a href=\"https:\/\/github.com\/Betaflight\" target=\"_blank\" rel=\"noopener noreferrer\">GitHub<\/a>"
+        "message": "<a href=\"https:\/\/github.com\/Scarflight\" target=\"_blank\" rel=\"noopener noreferrer\">GitHub<\/a>"
     },
     "initialSetupButtonCalibrateAccel": {
         "message": "Kalibreer Versnellingsmeter"
@@ -771,7 +771,7 @@
         "description": "Message that pops up to describe the BST arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipMSP": {
-        "message": "MSP-verbinding is actief, waarschijnlijk met deze Betaflight Configurator",
+        "message": "MSP-verbinding is actief, waarschijnlijk met deze Scarflight Configurator",
         "description": "Message that pops up to describe the MSP arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipPARALYZE": {
@@ -1056,7 +1056,7 @@
         "message": "Beacon Toon"
     },
     "configurationDshotBeaconHelp": {
-        "message": "De Dshot beacon gebruikt de ESC's en motoren om geluid te maken. Dit betekent dat de Dshot beacon niet gebruikt kan worden wanneer de motoren draaien. In betaflight 3.4 en later, wanneer er wordt geprobeerd te armen terwijl de Dshot beacon actief is, is er een 2 seconden vertraging na de laatste Dshot beacon toon voor de done is gearmt. Dit om te voorkomen dat de Dshot beacon functionaliteit de Dshot commands stoort bij armen.<br\/><strong>Waarschuwing:<\/strong> Dshot beacon laat stroom door je motoren lopen als het actief is. Dit kan overmatige hitte en mogelijk schade aan je motoren en of ESC's toedoen als de beacon sterkte te hoog is ingesteld. Gebruik de BLHeli Configurator of de BLHeli Suite om de beacon sterkte te testen en aan te passen."
+        "message": "De Dshot beacon gebruikt de ESC's en motoren om geluid te maken. Dit betekent dat de Dshot beacon niet gebruikt kan worden wanneer de motoren draaien. In Scarflight 3.4 en later, wanneer er wordt geprobeerd te armen terwijl de Dshot beacon actief is, is er een 2 seconden vertraging na de laatste Dshot beacon toon voor de done is gearmt. Dit om te voorkomen dat de Dshot beacon functionaliteit de Dshot commands stoort bij armen.<br\/><strong>Waarschuwing:<\/strong> Dshot beacon laat stroom door je motoren lopen als het actief is. Dit kan overmatige hitte en mogelijk schade aan je motoren en of ESC's toedoen als de beacon sterkte te hoog is ingesteld. Gebruik de BLHeli Configurator of de BLHeli Suite om de beacon sterkte te testen en aan te passen."
     },
     "configurationBeeper": {
         "message": "Bieper Configuratie"
@@ -2194,7 +2194,7 @@
         "message": "Deze functie werkt alleen met DSHOT ESC's.<br \/>Controleer of uw ESC (elektrische snelheidsregelaar) het DSHOT-protocol ondersteunt en wijzig het zo nodig op het tabblad $t(tabMotorTesting.message)."
     },
     "escDshotDirectionDialog-WrongFirmwareText": {
-        "message": "Update de firmware.<br \/>Zorg ervoor dat u de nieuwste firmware gebruikt: Betaflight 4.3 of nieuwer."
+        "message": "Update de firmware.<br \/>Zorg ervoor dat u de nieuwste firmware gebruikt: Scarflight 4.3 of nieuwer."
     },
     "escDshotDirectionDialog-WizardActionHint": {
         "message": "Klik afzonderlijk op motornummers om de draairichting te veranderen"
@@ -2584,7 +2584,7 @@
         "message": "Bericht:"
     },
     "firmwareFlasherWarningText": {
-        "message": "Probeer alsjeblieft <span class=\"message-negative\">niet<\/span> om <strong>niet-Betaflight-hardware<\/strong> te flashen met deze firmware-flasher.<br \/><span class=\"message-negative\">Ontkoppel<\/span><strong>niet<\/strong> het bord <strong> gedurende <\/strong> het flashen.<br \/> <br \/> <strong>Opmerking:<\/strong>STM32 bootloader wordt opgeslagen in ROM, deze kan niet worden gebricked.<br \/><strong>Opmerking:<\/strong><span class=\"message-negative\">Auto-Connect<\/span>is altijd uitgeschakeld als u zich in de firmware-flasher bevindt.<br \/><strong>Opmerking:<\/strong> zorg ervoor dat u een back-up heeft; sommige upgrades \/ downgrades zullen al uw configuratie wissen.<br \/><strong>Opmerking:<\/strong>Als u problemen heeft met flashen<strong> probeer dan eerst alle kabels van uw FC los te koppelen<\/strong>, probeer vervolgens opnieuw op te starten en upgrade uw stuurprogramma's.<br \/><strong>Opmerking: <\/strong> bij het flashen van kaarten die rechtstreeks aangesloten USB-aansluitingen hebben (de meeste nieuwere kaarten), zorg ervoor dat u de sectie USB Flashing van de Betaflight-handleiding heeft gelezen en dat de juiste software en stuurprogramma's zijn geïnstalleerd"
+        "message": "Probeer alsjeblieft <span class=\"message-negative\">niet<\/span> om <strong>niet-Scarflight-hardware<\/strong> te flashen met deze firmware-flasher.<br \/><span class=\"message-negative\">Ontkoppel<\/span><strong>niet<\/strong> het bord <strong> gedurende <\/strong> het flashen.<br \/> <br \/> <strong>Opmerking:<\/strong>STM32 bootloader wordt opgeslagen in ROM, deze kan niet worden gebricked.<br \/><strong>Opmerking:<\/strong><span class=\"message-negative\">Auto-Connect<\/span>is altijd uitgeschakeld als u zich in de firmware-flasher bevindt.<br \/><strong>Opmerking:<\/strong> zorg ervoor dat u een back-up heeft; sommige upgrades \/ downgrades zullen al uw configuratie wissen.<br \/><strong>Opmerking:<\/strong>Als u problemen heeft met flashen<strong> probeer dan eerst alle kabels van uw FC los te koppelen<\/strong>, probeer vervolgens opnieuw op te starten en upgrade uw stuurprogramma's.<br \/><strong>Opmerking: <\/strong> bij het flashen van kaarten die rechtstreeks aangesloten USB-aansluitingen hebben (de meeste nieuwere kaarten), zorg ervoor dat u de sectie USB Flashing van de Scarflight-handleiding heeft gelezen en dat de juiste software en stuurprogramma's zijn geïnstalleerd"
     },
     "firmwareFlasherRecoveryHead": {
         "message": "<strong>Herstellen \/ Communicatie verloren<\/strong>"
@@ -2970,7 +2970,7 @@
         "message": "RC Expo Power"
     },
     "pidTuningRcExpoPowerHelp": {
-        "message": "De exponent die wordt gebruikt bij het berekenen van RC Expo. In Betaflight versies vóór 3.0 is de waarde vastgezet op 3."
+        "message": "De exponent die wordt gebruikt bij het berekenen van RC Expo. In Scarflight versies vóór 3.0 is de waarde vastgezet op 3."
     },
     "pidTuningLevel": {
         "message": "Hoek\/horizon"
@@ -3219,7 +3219,7 @@
         "message": "Willekeurige rotatie van het bord in graden. Hiermee maak je het mogelijk de vluchtcontroller gedraaid, ondersteboven of in een andere dan gebruikelijke positie te monteren. Gebruik bij externe sensoren de sensoruitlijningen (Gyro, Acc, Mag) om de sensorpositie onafhankelijk van de oriëntatie van het bord te definiëren. "
     },
     "failsafeFeaturesHelpOld": {
-        "message": "Failsafe configuratie is aanzienlijk gewijzigd. Gebruik Betaflight <strong>v1.12.0+<\/strong> om het verbeterde configuratiescherm in te schakelen."
+        "message": "Failsafe configuratie is aanzienlijk gewijzigd. Gebruik Scarflight <strong>v1.12.0+<\/strong> om het verbeterde configuratiescherm in te schakelen."
     },
     "failsafePaneTitleOld": {
         "message": "Ontvanger failsafe"
@@ -3348,7 +3348,7 @@
         "message": "Opslaan"
     },
     "powerFirmwareUpgradeRequired": {
-        "message": "Firmware upgrade <span class=\"message-negative\">vereist<\/span>. Batterij\/Amperage\/Voltage configuraties met API &lt; 1.33.0 (Betaflight release &lt;= 3.17) wordt niet ondersteund."
+        "message": "Firmware upgrade <span class=\"message-negative\">vereist<\/span>. Batterij\/Amperage\/Voltage configuraties met API &lt; 1.33.0 (Scarflight release &lt;= 3.17) wordt niet ondersteund."
     },
     "powerBatteryVoltageMeterSource": {
         "message": "Bron Voltage Meter"
@@ -3624,7 +3624,7 @@
         "message": "<strong>Opmerking:<\/strong> het OSD voorbeeld kan mogelijk niet het werkelijke lettertype weergeven dat is geïnstalleerd op uw vlucht controller. De lay-out van afzonderlijke elementen kan er anders uitzien wanneer oudere versies van de firmware worden gebruikt. Bekijk de lay-out door uw bril voordat u gaat vliegen."
     },
     "osdSetupUnsupportedNote1": {
-        "message": "Uw vlucht controller reageert niet op OSD opdrachten. Dit betekent waarschijnlijk dat het niet de geïntegreerde BetaFlight OSD heeft."
+        "message": "Uw vlucht controller reageert niet op OSD opdrachten. Dit betekent waarschijnlijk dat het niet de geïntegreerde Scarflight OSD heeft."
     },
     "osdSetupUnsupportedNote2": {
         "message": "Merk op dat sommige vluchtcontrollers een onboard <a href=\"https:\/\/www.youtube.com\/watch?v=ikKH_6SQ-Tk\" target=\"_blank\" rel=\"noopener noreferrer\">MinimOSD<\/a> hebben die geflasht en geconfigureerd kan worden met <a href=\"https:\/\/github.com\/ShikOfTheRa\/scarab-osd\/releases\/latest\" target='_blank'>scarab-osd<\/a>. De MinimOSD kan echter niet via deze interface worden geconfigureerd."
@@ -4490,10 +4490,10 @@
         "message": "Onbekende statistiek (details worden toegevoegd in een toekomstige release)"
     },
     "osdDescribeFontVersion1": {
-        "message": "Lettertype versie: 1 (Betaflight 4.0 of ouder)"
+        "message": "Lettertype versie: 1 (Scarflight 4.0 of ouder)"
     },
     "osdDescribeFontVersion2": {
-        "message": "Lettertype versie: 2 (Betaflight 4.1 of nieuwer)"
+        "message": "Lettertype versie: 2 (Scarflight 4.1 of nieuwer)"
     },
     "osdDescribeFontVersionCUSTOM": {
         "message": "Lettertype versie: door gebruiker aangeleverd"
@@ -4940,7 +4940,7 @@
         "description": "Save Lua script button in the VTX tab"
     },
     "vtxLuaFileHelp": {
-        "message": "Met de knop '$t(vtxButtonSaveLua.message)' kunt u een <i>mcuid<\/i>.lua-bestand opslaan met daarin de VTX-tabelconfiguratie. Welke kan worden gebruikt met de <a href=\"https:\/\/github.com\/betaflight\/betaflight-tx-lua-scripts\/\" target=\"_blank\" rel=\"noopener noreferrer\">Betaflight TX Lua-scripts<\/a>.<br><br>Versie 1.6.0 en hoger kunnen het bestand gebruiken zoals het nu is, maar voor oudere versies van de scripts moet het bestand worden hernoemd zodat het overeenkomt met de modelnaam op de TX.",
+        "message": "Met de knop '$t(vtxButtonSaveLua.message)' kunt u een <i>mcuid<\/i>.lua-bestand opslaan met daarin de VTX-tabelconfiguratie. Welke kan worden gebruikt met de <a href=\"https:\/\/github.com\/Scarflight\/Scarflight-tx-lua-scripts\/\" target=\"_blank\" rel=\"noopener noreferrer\">Scarflight TX Lua-scripts<\/a>.<br><br>Versie 1.6.0 en hoger kunnen het bestand gebruiken zoals het nu is, maar voor oudere versies van de scripts moet het bestand worden hernoemd zodat het overeenkomt met de modelnaam op de TX.",
         "description": "Tooltip message for the Save Lua script button in the VTX tab"
     },
     "vtxButtonLoadFile": {
@@ -5089,7 +5089,7 @@
         "message": "<b>Afgeleide van Fout<\/b> zorgt voor een directere stick-respons en heeft vooral de voorkeur bij racen.<br \/><br \/><b>Afgeleide van Meting<\/b> zorgt voor een soepelere stick-respons, wat handiger is voor freestylen"
     },
     "pidTuningPidControllerTip": {
-        "message": "<b>Legacy vs Betaflight (float):<\/b> PID-schaling en PID-logica zijn bij beide precies hetzelfde. Het is daardoor niet noodzakelijk om opnieuw te PID-tunen. Legacy is de oude betaflight welke werkt met een PID-controller die op basis van integers werkt. De nieuwe Betaflight PID-controller maakt gebruik van floating point berekeningen. <br><b>Float vs Integer:<\/b> PID-schaalverdeling en PID-logica werken bij beide precies hetzelfde. Er is geen extra tuning benodigd. Integer berekeningen zijn eenvoudiger en is minder belastend voor de CPU. Bij F1 boards heeft dit de voorkeur. Berekeningen met behulp van Floats kost de CPU meer maar daar krijg je meer precisie voor terug."
+        "message": "<b>Legacy vs Scarflight (float):<\/b> PID-schaling en PID-logica zijn bij beide precies hetzelfde. Het is daardoor niet noodzakelijk om opnieuw te PID-tunen. Legacy is de oude Scarflight welke werkt met een PID-controller die op basis van integers werkt. De nieuwe Scarflight PID-controller maakt gebruik van floating point berekeningen. <br><b>Float vs Integer:<\/b> PID-schaalverdeling en PID-logica werken bij beide precies hetzelfde. Er is geen extra tuning benodigd. Integer berekeningen zijn eenvoudiger en is minder belastend voor de CPU. Bij F1 boards heeft dit de voorkeur. Berekeningen met behulp van Floats kost de CPU meer maar daar krijg je meer precisie voor terug."
     },
     "pidTuningFilterTip": {
         "message": "<b>Gyro Soft-filter:<\/b> Lowpass-filter voor de gyro. Gebruik een lagere waarde voor meer filtering.<br><b>D Term Filter:<\/b> Lowpass-filter voor D-term. Kan de tuning van de D-waarde beïnvloeden. Gebruik een lagere waarde voor meer filtering.<br><b>Yaw Filter:<\/b> Filtert yaw. Dit kan helpen bij quads die ruis op de yaw-as hebben."

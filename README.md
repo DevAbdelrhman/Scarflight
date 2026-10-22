@@ -1,23 +1,23 @@
-# Betaflight Configurator
+# Scarflight Configurator
 
-![Betaflight](http://static.rcgroups.net/forums/attachments/6/1/0/3/7/6/a9088900-228-bf_logo.jpg)
+![Scarflight](http://static.rcgroups.net/forums/attachments/6/1/0/3/7/6/a9088900-228-bf_logo.jpg)
 
-[![Latest version](https://img.shields.io/github/v/release/betaflight/betaflight-configurator)](https://github.com/betaflight/betaflight-configurator/releases) [![Build](https://img.shields.io/github/actions/workflow/status/betaflight/betaflight-configurator/nightly.yml?branch=master)](https://github.com/betaflight/betaflight-configurator/actions/workflows/nightly.yml) [![Crowdin](https://d322cqt584bo4o.cloudfront.net/betaflight-configurator/localized.svg)](https://crowdin.com/project/betaflight-configurator) [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=betaflight_betaflight-configurator&metric=alert_status)](https://sonarcloud.io/dashboard?id=betaflight_betaflight-configurator) [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) [![Join us on Discord!](https://img.shields.io/discord/868013470023548938)](https://discord.gg/n4E6ak4u3c)
+[![Latest version](https://img.shields.io/github/v/release/Scarflight/Scarflight-configurator)](https://github.com/Scarflight/Scarflight-configurator/releases) [![Build](https://img.shields.io/github/actions/workflow/status/Scarflight/Scarflight-configurator/nightly.yml?branch=master)](https://github.com/Scarflight/Scarflight-configurator/actions/workflows/nightly.yml) [![Crowdin](https://d322cqt584bo4o.cloudfront.net/Scarflight-configurator/localized.svg)](https://crowdin.com/project/Scarflight-configurator) [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Scarflight_Scarflight-configurator&metric=alert_status)](https://sonarcloud.io/dashboard?id=Scarflight_Scarflight-configurator) [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) [![Join us on Discord!](https://img.shields.io/discord/868013470023548938)](https://discord.gg/n4E6ak4u3c)
 
 
-Betaflight Configurator is a crossplatform configuration tool for the Betaflight flight control system.
+Scarflight Configurator is a cross-platform configuration tool for Scarflight flight controllers.
 
-It runs as an application under different operating systems and allows you to configure the Betaflight software running on any supported Betaflight target. [Downloads are available in Releases.](https://github.com/betaflight/betaflight-configurator/releases)
+It runs on multiple operating systems and configures Scarflight firmware on supported targets. The linked releases are for the upstream Scarflight Configurator.
 
-Various types of aircraft are supported by the tool and by Betaflight, e.g. quadcopters, hexacopters, octocopters and fixed-wing aircraft.
+Various types of aircraft are supported by the tool and by Scarflight, e.g. quadcopters, hexacopters, octocopters and fixed-wing aircraft.
 
 ## Authors
 
-Betaflight Configurator is a [fork](#credits) of the Cleanflight Configurator with support for Betaflight instead of Cleanflight.
+Scarflight Configurator is a fork of Scarflight Configurator, which itself originated as a fork of Cleanflight Configurator.
 
-This configurator is the only configurator with support for Betaflight specific features. It will likely require that you run the latest firmware on the flight controller.
+Scarflight Configurator supports Scarflight-specific features and may require the latest firmware on the flight controller.
 
-If you are experiencing any problems please make sure you are running the [latest firmware version](https://github.com/betaflight/betaflight/releases/).
+If you are experiencing any problems please make sure you are running the [latest firmware version](https://github.com/Scarflight/Scarflight/releases/).
 
 ## Installation
 
@@ -25,7 +25,7 @@ If you are experiencing any problems please make sure you are running the [lates
 
 We provide a standalone program for Windows, Linux, Mac and Android.
 
-Download the installer from [Releases.](https://github.com/betaflight/betaflight-configurator/releases)
+The upstream Scarflight Configurator installer is available from its [Releases page](https://github.com/Scarflight/Scarflight-configurator/releases).
 
 ### Notes
 
@@ -35,7 +35,7 @@ The minimum required version of windows is Windows 8.
 
 #### MacOS X users
 
-Changes to the security model used in the latest versions of MacOS X 10.14 (Mojave) and 10.15 (Catalina) mean that the operating system will show an error message ('"Betaflight Configurator.app" is damaged and can’t be opened. You should move it to the Trash.') when trying to install the application. To work around this, run the following command in a terminal after installing: `sudo xattr -rd com.apple.quarantine /Applications/Betaflight\ Configurator.app`.
+For the upstream Scarflight Configurator, changes to the security model used in MacOS X 10.14 (Mojave) and 10.15 (Catalina) can show an error that the app is damaged. To work around this, run the following command after installing it: `sudo xattr -rd com.apple.quarantine /Applications/Scarflight\ Configurator.app`.
 
 #### Linux users
 
@@ -51,7 +51,7 @@ Post-installation errors can be prevented by making sure the directory `/usr/sha
 sudo mkdir /usr/share/desktop-directories/
 ```
 
-The `libatomic` library must also be installed before installing Betaflight Configurator. (If the library is missing, the installation will succeed but Betaflight Configurator will not start.) Some Linux distributions (e.g. Fedora) will install it automatically. On Debian or Ubuntu you can install it as follows:
+The `libatomic` library must also be installed before installing Scarflight Configurator. (If the library is missing, the installation will succeed but Scarflight Configurator will not start.) Some Linux distributions (e.g. Fedora) will install it automatically. On Debian or Ubuntu you can install it as follows:
 
 ```
 sudo apt install libatomic1
@@ -62,19 +62,19 @@ On Ubuntu 23.10 please follow these alternative steps for installation:
 ```
 sudo echo "deb http://archive.ubuntu.com/ubuntu/ lunar universe" > /etc/apt/sources.list.d/lunar-repos-old.list
 sudo apt update
-sudo dpkg -i betaflight-configurator_10.10.0_amd64.deb
+sudo dpkg -i Scarflight-configurator_10.10.0_amd64.deb
 sudo apt-get -f install
 ```
 
 #### Graphics Issues
 
-If you experience graphics display problems or smudged/dithered fonts display issues in Betaflight Configurator, try invoking the `betaflight-configurator` executable file with the `--disable-gpu` command line switch. This will switch off hardware graphics acceleration. Likewise, setting your graphics card antialiasing option to OFF (e.g. FXAA parameter on NVidia graphics cards) might be a remedy as well.
+If you experience graphics display problems or smudged/dithered fonts display issues in the upstream Scarflight Configurator, try invoking the `Scarflight-configurator` executable with the `--disable-gpu` command line switch.
 
 ### Unstable Testing Versions
 
-Unstable testing versions of the latest builds of the configurator for most platforms can be downloaded from [here](https://github.com/betaflight/betaflight-configurator-nightlies/releases/).
+Unstable testing versions of the upstream Scarflight Configurator are available [here](https://github.com/Scarflight/Scarflight-configurator-nightlies/releases/).
 
-The future of the Configurator is moving to a PWA (Progressive Web Application). In this way it will be easier to maintain specially to support different devices like phones, tablets. etc. Is a work in progress but you can have access to the latest snapshot in PWA way without installing anything [here](https://configurator.betaflight.com/) (take into account that some things don't work and are in development).
+The upstream Scarflight Configurator is also developing a PWA (Progressive Web Application), with its latest snapshot available [here](https://configurator.Scarflight.com/) (some features are still in development).
 
 **Be aware that these versions are intended for testing / feedback only, and may be buggy or broken, and can cause flight controller settings to be corrupted. Caution is advised when using these versions.**
 
@@ -82,7 +82,7 @@ The future of the Configurator is moving to a PWA (Progressive Web Application).
 
 **Please do not submit pull requests for translation changes, but read and follow the instructions below!**
 
-Betaflight Configurator has been translated into several languages. The application will try to detect and use your system language if a translation into this language is available. You can help [translating the application into your language](https://github.com/betaflight/betaflight/tree/master/README.md#translators);
+Scarflight Configurator has been translated into several languages. The application will try to detect and use your system language if a translation into this language is available. You can help [translating the application into your language](https://github.com/Scarflight/Scarflight/tree/master/README.md#translators);
 
 If you prefer to have the application in English or any other language, you can select your desired language in the first screen of the application.
 
@@ -165,21 +165,21 @@ There's a dedicated Discord server here:
 
 https://discord.gg/n4E6ak4u3c
 
-We also have a Facebook Group. Join us to get a place to talk about Betaflight, ask configuration questions, or just hang out with fellow pilots.
+We also have a Facebook Group. Join us to get a place to talk about Scarflight, ask configuration questions, or just hang out with fellow pilots.
 
-https://www.facebook.com/groups/betaflightgroup/
+https://www.facebook.com/groups/Scarflightgroup/
 
 Etiquette: Don't ask to ask and please wait around long enough for a reply - sometimes people are out flying, asleep or at work and can't answer immediately.
 
 ### Issue trackers
 
-For Betaflight configurator issues raise them here
+For upstream Scarflight Configurator issues, raise them here
 
-https://github.com/betaflight/betaflight-configurator/issues
+https://github.com/Scarflight/Scarflight-configurator/issues
 
-For Betaflight firmware issues raise them here
+For Scarflight firmware issues raise them here
 
-https://github.com/betaflight/betaflight/issues
+https://github.com/Scarflight/Scarflight/issues
 
 ## Technical details
 
@@ -195,3 +195,4 @@ ctn - primary author and maintainer of Baseflight Configurator from which Cleanf
 
 Hydra -  author and maintainer of Cleanflight Configurator from which this project was forked.
 # Drone
+# Scarflight

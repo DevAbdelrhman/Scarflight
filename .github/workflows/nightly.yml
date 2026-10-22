@@ -1,11 +1,11 @@
 # You'll need to setup the follwing environment variables:
-#   env.repo_nightly - The repository to release nightly builds to e.g. betaflight-configurator-nightly
+#   env.repo_nightly - The repository to release nightly builds to e.g. Scarflight-configurator-nightly
 #   env.release_notes - The release notes to be published as part of the github release
 #   env.debug_release_notes - The release notes to be published as part of the github debug release
 #   secrets.REPO_TOKEN - A GitHub token with permissions to push and publish releases to the nightly repo
 
 env:
-  repo_nightly: betaflight/betaflight-configurator-nightlies
+  repo_nightly: Scarflight/Scarflight-configurator-nightlies
   debug_release_notes: >
     This is an automated development build.
     It may be unstable and result in corrupted configurations or data loss.
@@ -40,7 +40,7 @@ jobs:
       - name: Select release notes
         id: notes
         run: |
-          set -- release-assets/Betaflight-Configurator-Debug-*
+          set -- release-assets/Scarflight-Configurator-Debug-*
           echo "notes=$(test -e "$1" && echo '${{ env.debug_release_notes }}' || echo '${{ env.release_notes }}')" >> $GITHUB_OUTPUT
 
       - name: Get current date
@@ -53,7 +53,7 @@ jobs:
           token: ${{ secrets.REPO_TOKEN }}
           repository: ${{ env.repo_nightly }}
           tag_name: v${{ steps.date.outputs.today }}.${{ github.run_number }}
-          files: release-assets/Betaflight-Configurator-*/**
+          files: release-assets/Scarflight-Configurator-*/**
           draft: false
           prerelease: false
           fail_on_unmatched_files: true

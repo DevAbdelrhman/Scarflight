@@ -1,6 +1,6 @@
 # 13 — File-Level Source Reference & Symbol Index
 
-This document provides a searchable index of all major files, classes, components, functions, and exported symbols across the Betaflight Configurator codebase.
+This document provides a searchable index of all major files, classes, components, functions, and exported symbols across the Scarflight Configurator codebase.
 
 ---
 
@@ -35,7 +35,7 @@ This document provides a searchable index of all major files, classes, component
 | [`src/js/protocols/stm32.js`](file:///c:/Users/DELL/Drone/src/js/protocols/stm32.js) | `STM32` | Serial USART bootloader flashing protocol engine for COM-port flashing. | `firmware_flasher.js` |
 | [`src/js/port_handler.js`](file:///c:/Users/DELL/Drone/src/js/port_handler.js) | `PortHandler` | Background poller detecting USB device insertion, removal, and DFU bootloader state. | `serial_backend.js` |
 | [`src/js/mdns_discovery.js`](file:///c:/Users/DELL/Drone/src/js/mdns_discovery.js) | `MdnsDiscovery` | Zeroconf/mDNS network poller discovering wireless ExpressLRS receiver IP addresses. | `port_handler.js` |
-| [`src/js/BuildApi.js`](file:///c:/Users/DELL/Drone/src/js/BuildApi.js) | `BuildApi` | REST client querying targets, releases, and cloud builds from `build.betaflight.com`. | `firmware_flasher.js` |
+| [`src/js/BuildApi.js`](file:///c:/Users/DELL/Drone/src/js/BuildApi.js) | `BuildApi` | REST client querying targets, releases, and cloud builds from `build.Scarflight.com`. | `firmware_flasher.js` |
 
 ---
 
@@ -43,7 +43,7 @@ This document provides a searchable index of all major files, classes, component
 
 | Component Directory | Component Tag / File | Key Responsibilities | Primary Callers |
 | :--- | :--- | :--- | :--- |
-| `betaflight-logo/` | `<betaflight-logo>` | Displays brand graphic, version badge, target name, and firmware ID. | `index.html`, `main.html` |
+| `Scarflight-logo/` | `<Scarflight-logo>` | Displays brand graphic, version badge, target name, and firmware ID. | `index.html`, `main.html` |
 | `status-bar/` | `<status-bar>` | Displays cycle time, CPU load, I2C error count, packet errors, port usage. | `index.html`, `main.html` |
 | `quad-status/` | `<battery-icon>`, `<battery-legend>` | Renders live battery gauge, cell count detection, and voltage readouts. | `index.html`, `main.html` |
 | `sensor-status/` | `#sensor-status` | Renders color-coded status glyphs for Gyro, Accel, Mag, Baro, GPS, Sonar. | `index.html`, `main.html` |

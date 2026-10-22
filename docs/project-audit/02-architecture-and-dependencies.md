@@ -2,7 +2,7 @@
 
 ## 1. System Architecture Overview
 
-Betaflight Configurator operates on an **event-driven, hybrid component architecture**. It combines:
+Scarflight Configurator operates on an **event-driven, hybrid component architecture**. It combines:
 1. **A Vue 2 Reactive Shell**: Rendering global application headers, status icons, brand logo, battery gauges, and the bottom status bar.
 2. **A Dynamic Tab Controller System**: A jQuery-driven view-mounting engine that dynamically fetches and injects HTML templates into `#content`, initializing and disposing of specialized tab controllers.
 3. **A Serial & Network Protocol Pipeline**: An abstraction layer translating raw serial and USB streams into the MultiWii Serial Protocol (MSP v1 / MSP v2), feeding a central Flight Controller model (`FC`).
@@ -11,7 +11,7 @@ Betaflight Configurator operates on an **event-driven, hybrid component architec
 ```mermaid
 graph TD
     subgraph UI_Shell ["Vue 2 Reactive Shell (#main-wrapper)"]
-        Logo["BetaflightLogo.vue"]
+        Logo["ScarflightLogo.vue"]
         PortPicker["PortPicker (PortsInput.vue)"]
         QuadStatus["QuadStatus (BatteryIcon.vue & BatteryLegend.vue)"]
         SensorStatus["SensorStatus.vue (Gyro, Accel, Mag, Baro, GPS)"]
@@ -137,6 +137,6 @@ The project depends on a curated collection of libraries for UI rendering, 3D gr
 
 ### 4.3. Legacy Architectural Artifacts
 - **Global `window.vm` & `window.ConfigStorage`**:
-  - In [`src/components/init.js:56`](file:///c:/Users/DELL/Drone/src/components/init.js#L56), the model is attached directly to `window.vm = betaflightModel` so legacy jQuery code can trigger reactive Vue updates.
+  - In [`src/components/init.js:56`](file:///c:/Users/DELL/Drone/src/components/init.js#L56), the model is attached directly to `window.vm = ScarflightModel` so legacy jQuery code can trigger reactive Vue updates.
 - **Chrome App API Shims**:
   - The codebase originally ran as a Google Chrome App. References to `chrome.serial`, `chrome.usb`, `chrome.fileSystem`, and `chrome.sockets.tcp` persist throughout `serial.js`, `stm32usbdfu.js`, and `gui.js`. In NW.js desktop, these are provided by NW.js Chromium shims. In the browser preview, `webSerial.js` replaces `chrome.serial`.

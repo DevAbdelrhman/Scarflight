@@ -74,7 +74,7 @@ This document records the exact read-only inspection commands, unit test executi
 
   ESLint couldn't find a configuration file. To set up a configuration file for this project, please run:
       npm init @eslint/config
-  ESLint looked for configuration files in C:\Users\DELL\Drone\src\components\betaflight-logo and its ancestors.
+  ESLint looked for configuration files in C:\Users\DELL\Drone\src\components\Scarflight-logo and its ancestors.
   ```
 - **Conclusion**: Confirms **Defect 1** (missing `.eslintrc` file in repository root).
 

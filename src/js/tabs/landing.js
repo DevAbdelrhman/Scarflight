@@ -1,15 +1,10 @@
 import GUI, { TABS } from '../gui';
 import { i18n } from '../localization';
-import Sponsor from '../Sponsor';
 import $ from 'jquery';
 
-const landing = {
-    sponsor: new Sponsor(),
-};
+const landing = {};
 
 landing.initialize = function (callback) {
-    const self = this;
-
     if (GUI.active_tab != 'landing') {
         GUI.active_tab = 'landing';
     }
@@ -52,8 +47,6 @@ landing.initialize = function (callback) {
         showLang(i18n.selectedLanguage);
         // translate to user-selected language
         i18n.localizePage();
-
-        self.sponsor.loadSponsorTile('landing', $('div.tab_sponsor'));
 
         GUI.content_ready(callback);
     });

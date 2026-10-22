@@ -988,7 +988,7 @@ const FC = {
     },
 
     RATES_TYPE: {
-        BETAFLIGHT: 0,
+        Scarflight: 0,
         RACEFLIGHT: 1,
         KISS: 2,
         ACTUAL: 3,

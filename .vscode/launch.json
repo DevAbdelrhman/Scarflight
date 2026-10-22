@@ -7,7 +7,7 @@
         {
             "type": "nwjs",
             "request": "attach",
-            "name": "Attach to Betaflight",
+            "name": "Attach to Scarflight",
             "port": 9222,
             "webRoot": "${workspaceRoot}/dist",
             "sourceMaps": true,

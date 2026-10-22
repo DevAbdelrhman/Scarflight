@@ -67,7 +67,7 @@ const Model = function (wrapper, canvas) {
     this.camera.position.z = 125;
 
     // some light
-    const light = new THREE.AmbientLight(0x404040);
+    const light = new THREE.AmbientLight(0x171B18);
     const light2 = new THREE.DirectionalLight(new THREE.Color(1, 1, 1), 1.5);
     light2.position.set(0, 1, 0);
 

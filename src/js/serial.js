@@ -163,7 +163,7 @@ const serial = {
 
         chrome.sockets.tcp.create({
             persistent: false,
-            name: 'Betaflight',
+            name: 'Scarflight',
             bufferSize: 65535,
         }, function(createInfo) {
             if (createInfo && !self.openCanceled || !checkChromeRuntimeError()) {

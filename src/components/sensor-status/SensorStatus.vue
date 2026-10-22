@@ -170,12 +170,12 @@ li {
     padding-right: 5px;
     text-shadow: 0 1px rgba(0, 0, 0, 1);
     &:last-child {
-        border-right: 0 solid #c0c0c0;
+        border-right: 0 solid #B8C4BC;
         border-top-right-radius: 5px;
         border-bottom-right-radius: 5px;
     }
     &:first-child {
-        border-left: 0 solid #c0c0c0;
+        border-left: 0 solid #B8C4BC;
         border-top-left-radius: 5px;
         border-bottom-left-radius: 5px;
     }
