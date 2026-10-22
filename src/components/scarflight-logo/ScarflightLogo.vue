@@ -40,20 +40,20 @@ export default {
 
 <style>
 .logo {
-  height: 70px;
+  height: 100px;
   width: 240px;
   background-image: url(../../images/SCAR_wordmark.svg);
   background-repeat: no-repeat;
-  background-position: left center;
+  background-position: left top;
   background-size: contain;
   position: relative;
-  margin-top: -25px;
+  margin-top: 0;
 }
 
 .logo_text {
   position: absolute;
   left: 0;
-  top: 57px;
+  top: 45px;
   color: #949494;
   opacity: 0.5;
   font-size: 10px;
@@ -100,12 +100,12 @@ export default {
 
 @media all and (min-width: 1125px) {
   .logo {
-    width: 350px;
+    width: 250px;
   }
 
   .logo_text {
     font-size: inherit;
-    top: 66px;
+    top: 45px;
   }
 }
 </style>
