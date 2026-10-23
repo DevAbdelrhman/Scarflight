@@ -23,7 +23,7 @@ export const doctors = [
         image: './images/team/Photo11.jpg',
     },
     {
-        id: 'ُENG .Ahmed Shawqi',
+        id: 'ُENG. Ahmed Shawqi',
         name: 'ENG .Ahmed Shawqi',
         role: 'Teaching Assistant',
         specialty: 'Teaching Assistant',
