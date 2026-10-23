@@ -101,10 +101,104 @@
 			}
 		}
 	}
+	.doctors-section {
+		display: flex;
+		justify-content: center;
+		align-items: flex-start;
+		gap: 48px;
+		margin: 22px auto 26px auto;
+		max-width: 800px;
+		width: 100%;
+	}
+
+	.doctor-item {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: flex-start;
+		width: 160px;
+		user-select: none;
+	}
+
+	.doctor-avatar-slot {
+		position: relative;
+		width: 118px;
+		height: 118px;
+		border-radius: 50%;
+		overflow: hidden;
+		background-color: var(--alternativeBackground);
+		border: 2.5px solid var(--subtleAccent);
+		box-sizing: border-box;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-shrink: 0;
+	}
+
+	.doctor-avatar-placeholder {
+		width: 100%;
+		height: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		color: var(--subtleAccent);
+
+		.doctor-avatar-icon {
+			width: 52px;
+			height: 52px;
+			opacity: 0.85;
+		}
+	}
+
+	.doctor-avatar-img {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		border-radius: 50%;
+		object-fit: cover;
+		display: block;
+	}
+
+	.doctor-name {
+		margin-top: 10px;
+		font-size: 13.5px;
+		font-weight: 600;
+		letter-spacing: 0.3px;
+		color: var(--defaultText);
+		text-align: center;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		max-width: 100%;
+		line-height: 1.25;
+	}
+
+	.doctor-role {
+		margin-top: 5px;
+		font-size: 10.5px;
+		font-weight: 500;
+		line-height: 1.25;
+		color: var(--defaultText);
+		opacity: 0.72;
+		letter-spacing: 0.25px;
+		white-space: nowrap;
+		text-align: center;
+		padding: 2.5px 8px;
+		background-color: var(--alternativeBackground);
+		border: 1px solid var(--superSubtleAccent);
+		border-radius: 4px;
+		box-sizing: border-box;
+		max-width: 100%;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+
 	.team-marquee-wrapper {
 		width: 100%;
 		max-width: 1150px;
-		margin: 24px auto 0 auto;
+		margin: 0 auto;
 		overflow: hidden;
 		position: relative;
 		mask-image: linear-gradient(to right, transparent 0%, black 8%, black 92%, transparent 100%);
@@ -262,8 +356,32 @@
 
 @media all and (max-width: 900px) {
 	.tab-landing {
+		.doctors-section {
+			gap: 36px;
+			margin: 18px auto 22px auto;
+		}
+		.doctor-item {
+			width: 140px;
+		}
+		.doctor-avatar-slot {
+			width: 100px;
+			height: 100px;
+		}
+		.doctor-avatar-placeholder .doctor-avatar-icon {
+			width: 44px;
+			height: 44px;
+		}
+		.doctor-name {
+			font-size: 12.5px;
+			margin-top: 8px;
+		}
+		.doctor-role {
+			font-size: 10px;
+			margin-top: 4px;
+			padding: 2px 7px;
+		}
 		.team-marquee-wrapper {
-			margin-top: 20px;
+			margin-top: 0;
 		}
 		.team-marquee-group {
 			gap: 20px;
@@ -313,8 +431,32 @@
 		.content_top {
 			padding: 15px 10px 24px 10px;
 		}
+		.doctors-section {
+			gap: 20px;
+			margin: 16px auto 18px auto;
+		}
+		.doctor-item {
+			width: 120px;
+		}
+		.doctor-avatar-slot {
+			width: 82px;
+			height: 82px;
+		}
+		.doctor-avatar-placeholder .doctor-avatar-icon {
+			width: 36px;
+			height: 36px;
+		}
+		.doctor-name {
+			font-size: 11.5px;
+			margin-top: 7px;
+		}
+		.doctor-role {
+			font-size: 9px;
+			margin-top: 3px;
+			padding: 1.5px 6px;
+		}
 		.team-marquee-wrapper {
-			margin-top: 16px;
+			margin-top: 0;
 		}
 		.team-marquee-group {
 			gap: 16px;

@@ -76,7 +76,7 @@ export const teamMembers = [
         name: 'Samuel',
         role: 'Cybersecurity ',
         specialty: 'Cybersecurity ',
-        image: './images/team/qa.jpg'
+        image: './images/team/Photo10.jpg'
     },
     {
         id: 'ahmed',

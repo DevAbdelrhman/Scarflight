@@ -2,6 +2,7 @@ import GUI, { TABS } from '../gui';
 import { i18n } from '../localization';
 import $ from 'jquery';
 import teamMembers from '../../data/teamMembers';
+import doctors from '../../data/doctors';
 
 const landing = {};
 
@@ -57,6 +58,66 @@ function createMemberElement(member, isDuplicate = false) {
     return item;
 }
 
+function createDoctorElement(doctor) {
+    const item = document.createElement('div');
+    item.className = 'doctor-item';
+
+    const slot = document.createElement('div');
+    slot.className = 'doctor-avatar-slot';
+
+    const placeholder = document.createElement('div');
+    placeholder.className = 'doctor-avatar-placeholder';
+    placeholder.setAttribute('aria-hidden', 'true');
+    placeholder.innerHTML = `
+        <svg class="doctor-avatar-icon" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+        </svg>
+    `;
+    slot.appendChild(placeholder);
+
+    if (doctor.image) {
+        const probe = new Image();
+        probe.onload = () => {
+            const img = document.createElement('img');
+            img.className = 'doctor-avatar-img';
+            img.src = doctor.image;
+            img.alt = doctor.name;
+            slot.appendChild(img);
+        };
+        probe.onerror = () => {
+            // Gracefully ignore missing image: neutral placeholder remains displayed.
+        };
+        probe.src = doctor.image;
+    }
+
+    const name = document.createElement('span');
+    name.className = 'doctor-name';
+    name.textContent = doctor.name;
+
+    item.appendChild(slot);
+    item.appendChild(name);
+
+    const roleText = doctor.role || doctor.specialty || '';
+    if (roleText) {
+        const role = document.createElement('span');
+        role.className = 'doctor-role';
+        role.textContent = roleText;
+        item.appendChild(role);
+    }
+    return item;
+}
+
+function initDoctorsSection() {
+    const container = document.getElementById('doctors-section');
+    if (!container || !Array.isArray(doctors) || doctors.length === 0) {
+        return;
+    }
+    container.innerHTML = '';
+    doctors.forEach((doctor) => {
+        container.appendChild(createDoctorElement(doctor));
+    });
+}
+
 function initTeamMarquee() {
     const track = document.getElementById('team-marquee-track');
     if (!track || !Array.isArray(teamMembers) || teamMembers.length === 0) {
@@ -87,6 +148,7 @@ landing.initialize = function (callback) {
     }
 
     $('#content').load("./tabs/landing.html", () => {
+        initDoctorsSection();
         initTeamMarquee();
         function showLang(newLang) {
             bottomSection = $('.languageSwitcher');
