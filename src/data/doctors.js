@@ -24,7 +24,7 @@ export const doctors = [
     },
     {
         id: 'ُENG. Ahmed Shawqi',
-        name: 'ENG .Ahmed Shawqi',
+        name: 'ENG. Ahmed Shawqi',
         role: 'Teaching Assistant',
         specialty: 'Teaching Assistant',
         image: './images/team/Photo12.jpg',
