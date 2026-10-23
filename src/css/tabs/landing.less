@@ -12,7 +12,7 @@
 	.content_top {
 		min-height: 140px;
 		height: auto;
-		padding: 20px 20px 25px 20px;
+		padding: 20px 20px 30px 20px;
 		margin-bottom: 15px;
 	}
 	.content_mid {
@@ -103,8 +103,8 @@
 	}
 	.team-marquee-wrapper {
 		width: 100%;
-		max-width: 1100px;
-		margin: 20px auto 0 auto;
+		max-width: 1150px;
+		margin: 24px auto 0 auto;
 		overflow: hidden;
 		position: relative;
 		mask-image: linear-gradient(to right, transparent 0%, black 8%, black 92%, transparent 100%);
@@ -120,15 +120,15 @@
 		display: flex;
 		width: max-content;
 		will-change: transform;
-		animation: team-marquee-scroll 35s linear infinite;
+		animation: team-marquee-scroll 38s linear infinite;
 	}
 
 	.team-marquee-group {
 		display: flex;
 		flex-shrink: 0;
 		align-items: center;
-		gap: 32px;
-		padding: 0 16px;
+		gap: 36px;
+		padding: 0 18px;
 	}
 
 	.team-member-item {
@@ -136,18 +136,18 @@
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
-		width: 76px;
+		width: 96px;
 		user-select: none;
 	}
 
 	.team-avatar-slot {
 		position: relative;
-		width: 64px;
-		height: 64px;
+		width: 88px;
+		height: 88px;
 		border-radius: 50%;
 		overflow: hidden;
 		background-color: var(--alternativeBackground);
-		border: 1.5px solid var(--superSubtleAccent);
+		border: 2px solid var(--superSubtleAccent);
 		box-sizing: border-box;
 		display: flex;
 		align-items: center;
@@ -164,8 +164,8 @@
 		color: var(--subtleAccent);
 
 		.team-avatar-icon {
-			width: 28px;
-			height: 28px;
+			width: 38px;
+			height: 38px;
 			opacity: 0.85;
 		}
 	}
@@ -182,8 +182,8 @@
 	}
 
 	.team-member-name {
-		margin-top: 8px;
-		font-size: 11px;
+		margin-top: 10px;
+		font-size: 12px;
 		font-weight: 600;
 		letter-spacing: 0.5px;
 		color: var(--defaultText);
@@ -192,7 +192,7 @@
 		overflow: hidden;
 		text-overflow: ellipsis;
 		max-width: 100%;
-		line-height: 1.2;
+		line-height: 1.25;
 	}
 }
 
@@ -242,24 +242,27 @@
 
 @media all and (max-width: 900px) {
 	.tab-landing {
+		.team-marquee-wrapper {
+			margin-top: 20px;
+		}
 		.team-marquee-group {
-			gap: 24px;
-			padding: 0 12px;
+			gap: 28px;
+			padding: 0 14px;
 		}
 		.team-member-item {
-			width: 68px;
+			width: 84px;
 		}
 		.team-avatar-slot {
-			width: 56px;
-			height: 56px;
+			width: 76px;
+			height: 76px;
 		}
 		.team-avatar-placeholder .team-avatar-icon {
-			width: 24px;
-			height: 24px;
+			width: 32px;
+			height: 32px;
 		}
 		.team-member-name {
-			font-size: 10.5px;
-			margin-top: 6px;
+			font-size: 11.5px;
+			margin-top: 8px;
 		}
 	}
 }
@@ -282,29 +285,29 @@
 			width: auto;
 		}
 		.content_top {
-			padding: 15px 10px 20px 10px;
+			padding: 15px 10px 24px 10px;
 		}
 		.team-marquee-wrapper {
-			margin-top: 14px;
+			margin-top: 16px;
 		}
 		.team-marquee-group {
-			gap: 18px;
-			padding: 0 9px;
+			gap: 20px;
+			padding: 0 10px;
 		}
 		.team-member-item {
-			width: 58px;
+			width: 74px;
 		}
 		.team-avatar-slot {
-			width: 48px;
-			height: 48px;
+			width: 64px;
+			height: 64px;
 		}
 		.team-avatar-placeholder .team-avatar-icon {
-			width: 20px;
-			height: 20px;
+			width: 28px;
+			height: 28px;
 		}
 		.team-member-name {
-			font-size: 10px;
-			margin-top: 5px;
+			font-size: 11px;
+			margin-top: 7px;
 		}
 	}
 }
