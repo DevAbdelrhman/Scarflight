@@ -127,16 +127,16 @@
 		display: flex;
 		flex-shrink: 0;
 		align-items: center;
-		gap: 36px;
-		padding: 0 18px;
+		gap: 24px;
+		padding: 0 12px;
 	}
 
 	.team-member-item {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		justify-content: center;
-		width: 96px;
+		justify-content: flex-start;
+		width: 138px;
 		user-select: none;
 	}
 
@@ -182,10 +182,10 @@
 	}
 
 	.team-member-name {
-		margin-top: 10px;
-		font-size: 12px;
+		margin-top: 9px;
+		font-size: 11.5px;
 		font-weight: 600;
-		letter-spacing: 0.5px;
+		letter-spacing: 0.3px;
 		color: var(--defaultText);
 		text-align: center;
 		white-space: nowrap;
@@ -193,6 +193,26 @@
 		text-overflow: ellipsis;
 		max-width: 100%;
 		line-height: 1.25;
+	}
+
+	.team-member-role {
+		margin-top: 4px;
+		font-size: 10px;
+		font-weight: 500;
+		line-height: 1.25;
+		color: var(--defaultText);
+		opacity: 0.72;
+		letter-spacing: 0.25px;
+		white-space: nowrap;
+		text-align: center;
+		padding: 2px 7px;
+		background-color: var(--alternativeBackground);
+		border: 1px solid var(--superSubtleAccent);
+		border-radius: 4px;
+		box-sizing: border-box;
+		max-width: 100%;
+		overflow: hidden;
+		text-overflow: ellipsis;
 	}
 }
 
@@ -246,11 +266,11 @@
 			margin-top: 20px;
 		}
 		.team-marquee-group {
-			gap: 28px;
-			padding: 0 14px;
+			gap: 20px;
+			padding: 0 10px;
 		}
 		.team-member-item {
-			width: 84px;
+			width: 114px;
 		}
 		.team-avatar-slot {
 			width: 76px;
@@ -263,6 +283,12 @@
 		.team-member-name {
 			font-size: 11.5px;
 			margin-top: 8px;
+		}
+		.team-member-role {
+			font-size: 9.5px;
+			margin-top: 3px;
+			padding: 1.5px 6px;
+			letter-spacing: 0.15px;
 		}
 	}
 }
@@ -291,11 +317,11 @@
 			margin-top: 16px;
 		}
 		.team-marquee-group {
-			gap: 20px;
-			padding: 0 10px;
+			gap: 16px;
+			padding: 0 8px;
 		}
 		.team-member-item {
-			width: 74px;
+			width: 104px;
 		}
 		.team-avatar-slot {
 			width: 64px;
@@ -308,6 +334,12 @@
 		.team-member-name {
 			font-size: 11px;
 			margin-top: 7px;
+		}
+		.team-member-role {
+			font-size: 8.5px;
+			margin-top: 3px;
+			padding: 1.5px 5px;
+			letter-spacing: 0.1px;
 		}
 	}
 }

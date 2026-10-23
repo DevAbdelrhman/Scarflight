@@ -15,16 +15,75 @@
  */
 
 export const teamMembers = [
-    { id: 'eng', name: 'ENG', image: './images/team/eng.jpg' },
-    { id: 'mn',  name: 'MN',  image: './images/team/mn.jpg' },
-    { id: 'ux',  name: 'UX',  image: './images/team/ux.jpg' },
-    { id: 'ui',  name: 'UI',  image: './images/team/ui.jpg' },
-    { id: 'dev', name: 'DEV', image: './images/team/dev.jpg' },
-    { id: 'qa',  name: 'QA',  image: './images/team/qa.jpg' },
-    { id: 'hr',  name: 'HR',  image: './images/team/hr.jpg' },
-    { id: 'pm',  name: 'PM',  image: './images/team/pm.jpg' },
-    { id: 'fe',  name: 'FE',  image: './images/team/fe.jpg' },
-    { id: 'be',  name: 'BE',  image: './images/team/be.jpg' },
+    {
+        id: 'mohamed-wahid',
+        name: 'Mohamed Wahid',
+        role: 'Web Developer',
+        specialty: 'Web Developer',
+        image: './images/team/eng.jpg'
+    },
+    {
+        id: 'menna-ahmed',
+        name: 'Menna Ahmed',
+        role: 'Automation Engineer',
+        specialty: 'Automation Engineer',
+        image: './images/team/mn.jpg'
+    },
+    {
+        id: 'mohamed-mostafa',
+        name: 'Mohamed Mostafa',
+        role: 'Automation Engineer',
+        specialty: 'Automation Engineer',
+        image: './images/team/dev.jpg'
+    },
+    {
+        id: 'al-zahraa',
+        name: 'Al-Zahraa',
+        role: 'Python Developer',
+        specialty: 'Python Developer',
+        image: './images/team/ux.jpg'
+    },
+    {
+        id: 'abdelrahman-elshnawy',
+        name: 'Abdelrahman Elshnawy',
+        role: 'PM & Hardware ',
+        specialty: 'PM & Hardware Engineer',
+        image: './images/team/pm.jpg'
+    },
+    {
+        id: 'menna-emad',
+        name: 'Menna Emad',
+        role: 'CAD & 3D Design',
+        specialty: 'CAD & 3D Design',
+        image: './images/team/ui.jpg'
+    },
+    {
+        id: 'omar',
+        name: 'Omar',
+        role: 'Cloud Engineer',
+        specialty: 'Cloud Engineer',
+        image: './images/team/be.jpg'
+    },
+    {
+        id: 'manar-waheed',
+        name: 'Manar Waheed',
+        role: 'Docs & Design',
+        specialty: 'Docs & Design',
+        image: './images/team/hr.jpg'
+    },
+    {
+        id: 'samuel',
+        name: 'Samuel',
+        role: 'Cybersecurity ',
+        specialty: 'Cybersecurity ',
+        image: './images/team/qa.jpg'
+    },
+    {
+        id: 'ahmed',
+        name: 'Ahmed',
+        role: 'Python Developer',
+        specialty: 'Python Developer',
+        image: './images/team/fe.jpg'
+    },
 ];
-
 export default teamMembers;

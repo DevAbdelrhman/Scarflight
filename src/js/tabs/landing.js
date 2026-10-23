@@ -46,6 +46,14 @@ function createMemberElement(member, isDuplicate = false) {
 
     item.appendChild(slot);
     item.appendChild(name);
+
+    const roleText = member.role || member.specialty || '';
+    if (roleText) {
+        const role = document.createElement('span');
+        role.className = 'team-member-role';
+        role.textContent = roleText;
+        item.appendChild(role);
+    }
     return item;
 }
 
