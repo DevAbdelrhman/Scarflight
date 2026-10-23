@@ -20,56 +20,56 @@ export const teamMembers = [
         name: 'Mohamed Wahid',
         role: 'Web Developer',
         specialty: 'Web Developer',
-        image: './images/team/eng.jpg'
+        image: './images/team/Photo1.jpg'
     },
     {
         id: 'menna-ahmed',
         name: 'Menna Ahmed',
         role: 'Automation Engineer',
         specialty: 'Automation Engineer',
-        image: './images/team/mn.jpg'
+        image: './images/team/Photo2.jpg'
     },
     {
         id: 'mohamed-mostafa',
         name: 'Mohamed Mostafa',
         role: 'Automation Engineer',
         specialty: 'Automation Engineer',
-        image: './images/team/dev.jpg'
+        image: './images/team/Photo3.jpg'
     },
     {
         id: 'al-zahraa',
         name: 'Al-Zahraa',
         role: 'Python Developer',
         specialty: 'Python Developer',
-        image: './images/team/ux.jpg'
+        image: './images/team/Photo4.jpg'
     },
     {
         id: 'abdelrahman-elshnawy',
         name: 'Abdelrahman Elshnawy',
         role: 'PM & Hardware ',
         specialty: 'PM & Hardware Engineer',
-        image: './images/team/pm.jpg'
+        image: './images/team/Photo5.jpg'
     },
     {
         id: 'menna-emad',
         name: 'Menna Emad',
         role: 'CAD & 3D Design',
         specialty: 'CAD & 3D Design',
-        image: './images/team/ui.jpg'
+        image: './images/team/Photo6.jpg'
     },
     {
         id: 'omar',
         name: 'Omar',
         role: 'Cloud Engineer',
         specialty: 'Cloud Engineer',
-        image: './images/team/be.jpg'
+        image: './images/team/Photo7.jpg'
     },
     {
         id: 'manar-waheed',
         name: 'Manar Waheed',
         role: 'Docs & Design',
         specialty: 'Docs & Design',
-        image: './images/team/hr.jpg'
+        image: './images/team/Photo8.jpg'
     },
     {
         id: 'samuel',
@@ -83,7 +83,7 @@ export const teamMembers = [
         name: 'Ahmed',
         role: 'Python Developer',
         specialty: 'Python Developer',
-        image: './images/team/fe.jpg'
+        image: './images/team/Photo9.jpg'
     },
 ];
 export default teamMembers;
